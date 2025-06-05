@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+a.ytp-watermark.yt-uix-sessionlink {
+    display: none !important;
+}
+
+  @font-face {
+    font-family: "Manrope";
+    src: url("/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
+  }
+  .Manrope
+  {
+    font-family: Manrope;
+  }
