@@ -4,6 +4,7 @@ import Intro from "./components/Intro";
 import Loader from "./components/Loader";
 import Recorrido from "./components/Recorrido";
 import Amuleto from "./components/Amuleto";
+import { CanvaModel } from "./components/CanvaModel";
 
 function App() {
   const [loading, setLoading] = useState(true);
@@ -21,7 +22,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Intro loading={loading} />} />
-          <Route path="amuleto" element={<Amuleto />} />
+          <Route path="amuleto" element={<CanvaModel />} />
         </Routes>
       </Router>
     </>
