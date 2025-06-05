@@ -53,7 +53,11 @@ const AmuletoModel = forwardRef((_, ref) => {
   return (
     <group ref={group} dispose={null}>
       {/* Reducimos ligeramente la escala a 0.8 para que aparezca más pequeño */}
-      <primitive object={scene} scale={[0.8, 0.8, 0.8]} position={[0, -0.5, 0]} />
+      <primitive
+        object={scene}
+        scale={[0.5, 0.5, 0.5]}
+        position={[0, -0.5, 0]}
+      />
     </group>
   );
 });
@@ -103,11 +107,7 @@ export default function Amuleto() {
         0
       );
       // 2) +90° → 0 en Y
-      tl.to(
-        modelGroup.rotation,
-        { y: 0, duration: 1, ease: "none" },
-        1
-      );
+      tl.to(modelGroup.rotation, { y: 0, duration: 1, ease: "none" }, 1);
       // 3) 0 → -90° en Y
       tl.to(
         modelGroup.rotation,
@@ -115,11 +115,7 @@ export default function Amuleto() {
         2
       );
       // 4) -90° → 0 en Y
-      tl.to(
-        modelGroup.rotation,
-        { y: 0, duration: 1, ease: "none" },
-        3
-      );
+      tl.to(modelGroup.rotation, { y: 0, duration: 1, ease: "none" }, 3);
       // 5) Al llegar al final, disparar apertura de la tapa
       tl.add(() => {
         modelApi.playOpen();
@@ -179,7 +175,7 @@ export default function Amuleto() {
       </div>
 
       {/* Textos desplazables */}
-      <div className="absolute right-0 h-full w-1/2 flex flex-col px-8 py-16">
+      <div className="absolute  h-full w-1/2 flex flex-col px-8 py-16">
         {[
           "TODO MAGO,\nLLEVA CONSIGO\nUN AMULETO",
           "LO ACOMPAÑA\nSIEMPRE, LE DA\nPROTECCIÓN\nY FUERZA",
