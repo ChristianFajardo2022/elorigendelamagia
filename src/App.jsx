@@ -28,15 +28,15 @@ function App() {
   return (
     <>
       <>
-        <Loader loading={loading} />
-        {loading2 && (
+       {/*  <Loader loading={loading} /> */}
+       
           <Router>
             <Routes>
               <Route path="/" element={<Intro loading={loading} />} />
               <Route path="amuleto" element={<CanvaModel />} />
             </Routes>
           </Router>
-        )}
+    
       </>
     </>
   );

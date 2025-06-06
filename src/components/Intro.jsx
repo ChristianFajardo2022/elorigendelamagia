@@ -105,6 +105,10 @@ export default function Intro({ loading }) {
         </>
       ) : (
         <>
+          <div className="inline-block fixed left-0 top-0 w-96 h-96 bg-black z-[10000]">
+            <div className="w-16 h-16 absolute left-12 top-12 bg-white blur-md rounded-full"></div>
+            <div className="w-full h-26 absolute left-12 top-6 bg-white blur-2xl rounded-[50%] opacity-35"></div>
+          </div>
           {/* Video de fondo */}
           <video
             src="/video/Im-Home2.mp4"
