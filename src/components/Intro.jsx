@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import ReactPlayer from "react-player";
 import { motion } from "framer-motion";
 import Loader from "./Loader";
+import { Link } from "react-router-dom";
 
 export default function Intro({ loading }) {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -22,70 +23,59 @@ export default function Intro({ loading }) {
   }, [mousePosition]);
 
   const handleMouseMove = (e) => {
-    const { clientX, clientY } = e;
-    setMousePosition({ x: clientX, y: clientY });
+    setMousePosition({ x: e.clientX, y: e.clientY });
   };
 
   const handleClick = () => {
     if (!showVideo) {
       setVideoLoading(true);
       setShowVideo(true);
-
-      setTimeout(() => {
-        setVideoLoading(false);
-        setTimeout(() => {
-          setShowSkipButton(true);
-        }, 5000);
-      }, 3500);
     }
   };
 
-  const handleSkip = (e) => {
-    e.stopPropagation();
-    setShowVideo(false);
-    setShowSkipButton(false);
-  };
-
   const maskStyle = {
-    maskImage: `radial-gradient(circle 250px at ${lightPosition.x}px ${lightPosition.y}px, transparent 70%, black 100%)`,
-    WebkitMaskImage: `radial-gradient(circle 250px at ${lightPosition.x}px ${lightPosition.y}px, transparent 70%, black 100%)`,
+    maskImage: `radial-gradient(circle 300px at ${lightPosition.x}px ${lightPosition.y}px, transparent 70%, black 100%)`,
+    WebkitMaskImage: `radial-gradient(circle 300px at ${lightPosition.x}px ${lightPosition.y}px, transparent 70%, black 100%)`,
   };
 
   return (
     <div
       onMouseMove={handleMouseMove}
-      onClick={handleClick}
       className="relative w-screen h-screen overflow-hidden"
-      style={{
-        cursor: `url('/mouse-09.svg'), auto`,
-      }}
+      style={{ cursor: `url('/mouse-09.svg'), auto` }}
     >
+      {/* LOADER SIEMPRE ARRIBA DE TODO CUANDO showVideo Y videoLoading */}
+      {showVideo && videoLoading && (
+        <div className="fixed inset-0 z-[9999] flex items-center justify-center bg-black">
+          <Loader />
+        </div>
+      )}
+
       {showVideo ? (
         <>
-          {/* Loader mientras carga el iframe de Vimeo */}
-          {videoLoading && (
-            <div className="absolute top-0 left-0 w-full h-full z-50 flex items-center justify-center bg-black">
-              <Loader />
-            </div>
-          )}
-
-          {/* Contenedor del video */}
-          <div className="absolute top-0 left-0 w-screen h-full z-40 flex items-center justify-center bg-black">
+          {/* Contenedor del video (siempre debajo del loader, z-40) */}
+          <div className="fixed inset-0 z-40 flex items-center justify-center bg-black">
             {showSkipButton && (
-              <button
-                onClick={handleSkip}
-                className="absolute bottom-10  right-10 cursor-pointer Manrope hover:bg-[#e2e2e2] hover:opacity-100 hover:text-[#262626] border border-[#e2e2e2] opacity-70 text-[#e2e2e2] py-2 px-10 rounded-3xl text-[1.2rem] z-50"
+              <Link
+                to="amuleto"
+                className="absolute bottom-10 right-10 z-50 cursor-pointer Manrope
+                  hover:bg-[#e2e2e2] hover:opacity-100 hover:text-[#262626]
+                  border border-[#e2e2e2] opacity-70 text-[#e2e2e2]
+                  py-2 px-10 rounded-3xl text-[1.2rem]"
               >
                 Omitir
-              </button>
+              </Link>
             )}
 
-            {/* Vimeo player precargado */}
             <ReactPlayer
               url="https://vimeo.com/860989130"
               playing
               width="150%"
               height="150%"
+              onReady={() => {
+                setVideoLoading(false);
+                setTimeout(() => setShowSkipButton(true), 5000);
+              }}
               config={{
                 vimeo: {
                   playerOptions: {
@@ -102,13 +92,13 @@ export default function Intro({ loading }) {
               }}
             />
 
-            {/* ⚡ Motion div para transición oscuro → claro */}
+            {/* Overlay negro que se desvanece cuando videoLoading === false */}
             {!videoLoading && (
               <motion.div
                 initial={{ opacity: 1 }}
                 animate={{ opacity: 0 }}
-                transition={{ duration: 2 }} // ajusta la duración a tu gusto
-                className="absolute top-0 left-0 w-full h-full bg-black z-40"
+                transition={{ duration: 2 }}
+                className="fixed inset-0 bg-black z-20"
               />
             )}
           </div>
@@ -117,8 +107,8 @@ export default function Intro({ loading }) {
         <>
           {/* Video de fondo */}
           <video
-            src="/video/Loop-Prueba-color.mp4"
-            className="absolute top-0 left-0 w-full h-full object-cover"
+            src="/video/Im-Home2.mp4"
+            className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             loop
             muted
@@ -126,51 +116,63 @@ export default function Intro({ loading }) {
 
           {/* Capa negra con máscara */}
           <div
-            className="absolute top-0 left-0 w-full h-full bg-black transition-all duration-500 ease-in-out"
+            className="absolute inset-0 bg-black opacity-70 transition-all duration-500 ease-in-out"
             style={maskStyle}
-          ></div>
+          />
 
-          {/* Contenedor de imágenes */}
-          <div className="relative top-0 left-0 w-full h-full flex flex-col items-center justify-center">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none flex flex-col gap-2 items-center justify-center">
+          {/* Imágenes superpuestas */}
+          <div className="absolute mt-40 inset-0 flex items-center justify-center">
+            <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
               <img
-                className="w-[22rem]"
-                src="/transparent/primeraLineaTransparent (1).png"
-                alt=""
-              />
-              <img
-                className="w-[38rem]"
-                src="/transparent/segundaLineaTransparent (1).png"
+                className="w-[37rem]"
+                src="/transparent/pagina_la_magia_de_nueva_venecia2.png"
                 alt=""
               />
             </div>
-
             <div
-              className="absolute top-0 left-0 w-full h-full pointer-events-none flex flex-col gap-2 items-center justify-center"
+              className="absolute inset-0 pointer-events-none flex items-center justify-center"
               style={maskStyle}
             >
               <img
-                className="w-[22rem]"
-                src="/color/primeraLineaColor.png"
-                alt=""
-              />
-              <img
-                className="w-[38rem]"
-                src="/color/SegundaLineaColor.png"
+                className="w-[37rem]"
+                src="/color/pagina_la_magia_de_nueva_venecia.png"
                 alt=""
               />
             </div>
           </div>
 
-          {/* ⚡ Motion div para transición inicial */}
+          {/* Overlay negro inicial */}
           {!loading && (
             <motion.div
               initial={{ opacity: 1 }}
               animate={{ opacity: 0 }}
-              transition={{ duration: 4 }}
-              className="absolute top-0 left-0 w-full h-full bg-black z-50"
+              transition={{ duration: 3 }}
+              className="fixed inset-0 bg-black z-40"
             />
           )}
+
+          {/* Botón Reproducir */}
+          <button
+            onClick={handleClick}
+            className="absolute bottom-50 left-1/2 -translate-x-1/2 flex cursor-pointer Manrope
+              group border bg-black opacity-70 border-[#e2e2e2] text-[#e2e2e2]
+              hover:bg-[#e2e2e2] hover:opacity-100 hover:text-black
+              font-bold py-2 px-10 rounded-3xl text-[1.2rem] z-50"
+          >
+            Reproducir
+            {/* Icono por defecto */}
+            <img
+              src="/reproducir-09.svg"
+              alt="Ícono de reproducir"
+              className="w-4 ml-5 block group-hover:hidden"
+            />
+            {/* Icono hover */}
+            <img
+              src="/reproducirnegro-09.svg"
+              alt="Ícono de reproducir (hover)"
+              className="w-4 ml-5 hidden group-hover:block"
+            />
+          </button>
         </>
       )}
     </div>

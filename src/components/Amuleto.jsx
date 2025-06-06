@@ -9,7 +9,7 @@ import React, {
   Suspense,
 } from "react";
 import { Canvas } from "@react-three/fiber";
-import { Environment, useGLTF, useAnimations } from "@react-three/drei";
+import { Environment, useGLTF, useAnimations, Html } from "@react-three/drei";
 import * as THREE from "three";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -55,7 +55,7 @@ const AmuletoModel = forwardRef((_, ref) => {
       {/* Reducimos ligeramente la escala a 0.8 para que aparezca más pequeño */}
       <primitive
         object={scene}
-        scale={[0.5, 0.5, 0.5]}
+        scale={[0.8, 0.8, 0.8]}
         position={[0, -0.5, 0]}
       />
     </group>
