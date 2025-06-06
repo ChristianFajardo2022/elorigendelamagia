@@ -9,7 +9,14 @@ a.ytp-watermark.yt-uix-sessionlink {
     font-family: "Manrope";
     src: url("/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
   }
+  @font-face {
+    font-family: "Amber";
+    src: url("/fonts/LT-Amber-Ext-Light.ttf") format("truetype");
+  }
   .Manrope
   {
     font-family: Manrope;
   }
+.Amber {
+  font-family: Amber;
+}
