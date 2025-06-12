@@ -5,34 +5,54 @@ import { BotonReproducir } from "./BotonReproducir";
 
 const videos = [
   {
+    title: "MAKING OF",
+    thumbnail: "/making/making3.jpg",
+    bgVideo: "https://www.youtube.com/watch?v=c02q6fefv1c",
+    youtube: "https://www.youtube.com/watch?v=c02q6fefv1c",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    aspect: 16 / 9,
+  },
+  {
     title: "BEHIND THE SCENES",
     thumbnail: "/making/making1.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=c02q6fefv1c",
+    bgVideo: "https://www.youtube.com/watch?v=XXXXXXXXXX",
     youtube: "https://www.youtube.com/watch?v=XXXXXXXXXX",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
     aspect: 16 / 9,
   },
   {
     title: "CONTENIDOS DE EXPECTATIVA",
     thumbnail: "/making/making2.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=a7ddtxlYkpw",
+    bgVideo: "https://www.youtube.com/watch?v=YYYYYYYYYY",
     youtube: "https://www.youtube.com/watch?v=YYYYYYYYYY",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
     aspect: 16 / 9,
   },
   {
     title: "DEL STORY BOARD A LA HISTORIA",
     thumbnail: "/making/making3.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=YBGU3g6Tbrk",
+    bgVideo: "https://www.youtube.com/watch?v=ZZZZZZZZZZ",
     youtube: "https://www.youtube.com/watch?v=ZZZZZZZZZZ",
+    texto:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+
     aspect: 16 / 9,
   },
 ];
 
 export default function MakinOff() {
-  const [selected, setSelected] = useState(0);
+  const [selected, setSelected] = useState(0); // Cuál cuadro está activo (bg video)
   const [modalOpen, setModalOpen] = useState(false);
+  const [modalVideo, setModalVideo] = useState(null);
   const [dimensions, setDimensions] = useState({ width: 0, height: 0 });
   const containerRef = useRef(null);
 
+  // Medición responsive para cover video
   useEffect(() => {
     function handleResize() {
       if (containerRef.current) {
@@ -47,7 +67,6 @@ export default function MakinOff() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Cover logic
   const aspect = videos[selected].aspect || 16 / 9;
   let videoWidth = dimensions.width;
   let videoHeight = dimensions.width / aspect;
@@ -57,20 +76,22 @@ export default function MakinOff() {
     videoWidth = dimensions.height * aspect;
   }
 
+  // --- Layout ---
   return (
     <div
       ref={containerRef}
       className="relative w-full h-full overflow-hidden"
-      style={{ minHeight: "400px" }}
+      style={{ minHeight: "25rem" }}
     >
-      <div className="absolute bottom-0 left-0 w-full h-42 bg-gradient-to-t from-black via-black/70 to-transparent pointer-events-none z-10" />
+      {/* Gradiente inferior */}
+      <div className="absolute bottom-0 left-0 w-full h-40 bg-gradient-to-t from-black via-black/70 to-transparent pointer-events-none z-20" />
 
-      {/* Video de fondo centrado en ambas direcciones */}
+      {/* Background video centrado */}
       <div
         className="absolute left-1/2 top-1/2 z-0"
         style={{
-          width: `${videoWidth}px`,
-          height: `${videoHeight}px`,
+          width: `${videoWidth / 16}rem`,
+          height: `${videoHeight / 16}rem`,
           transform: "translate(-50%, -50%)",
           transition: "width 0.2s, height 0.2s",
         }}
@@ -90,60 +111,92 @@ export default function MakinOff() {
           }}
         />
       </div>
+
       {/* Overlay degradado */}
-      {
-        <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/20 z-10 pointer-events-none" />
-      }
-      {/* Contenido principal */}
-      <div className="relative px-10 md:px-20 xl:px-40 z-20 flex justify-between items-center w-full h-full max-lg:flex-col max-lg:justify-center max-lg:gap-8">
-        {/* Izquierda */}
-        <div className="max-w-lg text-white amber h-full flex flex-col amber justify-end pb-40">
-          <h1 className="text-[40px] md:text-[52px] font-light mb-0">
-            MAKING OF
+      <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/20 z-10 pointer-events-none" />
+
+      {/* Contenido principal superior */}
+      <div className="relative z-30 flex flex-col justify-end pb-[17rem] h-full px-20">
+        <div>
+          <h1 className="text-white text-[2.8rem] leading-tight font-light mb-2">
+            {videos[selected].title}
           </h1>
-          <p className="mt-5 text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          <p className="text-white max-w-lg text-base mb-8">
+            {videos[selected].texto}
           </p>
-          <button
-            className="cursor-pointer mt-10 flex flex-col"
-            onClick={() => setModalOpen(true)}
-          >
-              <BotonReproducir />
-          </button>
         </div>
-        {/* Derecha */}
-        <div className="flex flex-col gap-8 mt-8 md:mt-0 amber">
-          <h2 className="text-white text-4xl md:text-5xl font-light tracking-wide mb-4 text-left">
-            SHORTS
-          </h2>
+{/*         <button
+          className="cursor-pointer mt-6 flex flex-col"
+          onClick={() => {
+            setModalVideo(videos[selected].youtube);
+            setModalOpen(true);
+          }}
+        >
+          <BotonReproducir />
+        </button>
+ */}      </div>
+
+      {/* Fila de shorts al fondo */}
+      <div className="absolute bottom-6 left-1/2 z-30 -translate-x-1/2 flex flex-col items-center w-full px-20 ">
+        <div className="w-full text-white text-lg font-medium mb-3 ">
+          SHORTS
+        </div>
+        <div className="flex items-center justify-between w-full">
           {videos.map((v, i) => (
-            <div
-              key={i}
-              onClick={() => setSelected(i)}
-              className={`
-                cursor-pointer w-52 md:w-80 h-24 md:h-48 rounded-2xl
-                bg-cover bg-center shadow-xl relative flex items-end overflow-hidden border-2 transition
-                ${selected === i ? "border-white" : "border-transparent"}
-              `}
-              style={{ backgroundImage: `url(${v.thumbnail})` }}
-            >
-              <div className="w-full bg-black/40 text-white px-6 py-4 font-medium text-base backdrop-blur">
+            <div key={i} className="flex flex-col items-center">
+              <div
+                className={`
+                  cursor-pointer w-[16rem] h-[9rem] md:w-[21rem] md:h-[12rem] 
+                  rounded-2xl shadow-xl relative overflow-hidden border-2 transition-all duration-200
+                  ${selected === i ? "border-white" : "border-transparent"}
+                  group
+                `}
+                style={{
+                  backgroundImage: `url(${v.thumbnail})`,
+                  backgroundSize: "cover",
+                  backgroundPosition: "center",
+                }}
+                onMouseEnter={() => setSelected(i)}
+                onFocus={() => setSelected(i)}
+                onClick={() => {
+                  setModalVideo(v.youtube);
+                  setModalOpen(true);
+                }}
+                tabIndex={0}
+              >
+                {/* Play icon sólo en el primero o si lo necesitas */}
+                {i === 0 && (
+                  <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
+                    <svg
+                      width="60"
+                      height="60"
+                      fill="none"
+                      viewBox="0 0 60 60"
+                      className="opacity-90"
+                    >
+                      <circle cx="30" cy="30" r="30" fill="rgba(0,0,0,0.5)" />
+                      <polygon points="24,18 44,30 24,42" fill="#fff" />
+                    </svg>
+                  </div>
+                )}
+              </div>
+              <div className="mt-2 text-center text-xs md:text-sm text-white font-semibold tracking-tight w-[16rem] md:w-[21rem] truncate">
                 {v.title}
               </div>
             </div>
           ))}
         </div>
       </div>
+
       {/* Modal igual que antes */}
       {modalOpen && (
         <div
           onClick={() => setModalOpen(false)}
           className="fixed top-0 left-0 w-screen h-screen bg-black bg-opacity-95 z-[100] flex items-center justify-center"
         >
-          <div className="w-[90vw] md:w-[80vw] h-[40vh] md:h-[70vh] max-w-[1200px] rounded-2xl overflow-hidden bg-transparent">
+          <div className="w-[90vw] md:w-[80vw] h-[40vh] md:h-[70vh] max-w-[75rem] rounded-2xl overflow-hidden bg-transparent">
             <ReactPlayer
-              url={videos[selected].youtube}
+              url={modalVideo}
               playing
               controls
               width="100%"
