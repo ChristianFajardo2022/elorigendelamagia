@@ -3,9 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Intro from "./components/Intro";
 import Intro2 from "./components/IntroDos";
 import Loader from "./components/Loader";
-import Recorrido from "./components/Recorrido";
-import Amuleto from "./components/Amuleto";
-import {CanvaModel} from "./components/CanvaModel";
+import Contenido from "./components/Contenido";
 
 
 function App() {
@@ -28,15 +26,15 @@ function App() {
   return (
     <>
       <>
-        <Loader loading={loading} />
-        {loading2 && (
+       {/*  <Loader loading={loading} /> */}
+       
           <Router>
             <Routes>
               <Route path="/" element={<Intro loading={loading} />} />
-              <Route path="amuleto" element={<CanvaModel />} />
+              <Route path="contenido" element={<Contenido />} />
             </Routes>
           </Router>
-        )}
+    
       </>
     </>
   );

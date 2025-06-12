@@ -57,7 +57,7 @@ export default function Intro({ loading }) {
           <div className="fixed inset-0 z-40 flex items-center justify-center bg-black">
             {showSkipButton && (
               <Link
-                to="amuleto"
+                to="contenido"
                 className="absolute bottom-10 right-10 z-50 cursor-pointer Manrope
                   hover:bg-[#e2e2e2] hover:opacity-100 hover:text-[#262626]
                   border border-[#e2e2e2] opacity-70 text-[#e2e2e2]
@@ -116,12 +116,12 @@ export default function Intro({ loading }) {
 
           {/* Capa negra con máscara */}
           <div
-            className="absolute inset-0 bg-black opacity-70 transition-all duration-500 ease-in-out"
+            className="absolute inset-0 bg-black opacity-55 transition-all duration-500 ease-in-out"
             style={maskStyle}
           />
 
           {/* Imágenes superpuestas */}
-          <div className="absolute mt-40 inset-0 flex items-center justify-center">
+{/*           <div className="absolute mt-40 inset-0 flex items-center justify-center">
             <div className="absolute inset-0 pointer-events-none flex items-center justify-center">
               <img
                 className="w-[37rem]"
@@ -141,7 +141,7 @@ export default function Intro({ loading }) {
             </div>
           </div>
 
-          {/* Overlay negro inicial */}
+ */}          {/* Overlay negro inicial */}
           {!loading && (
             <motion.div
               initial={{ opacity: 1 }}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 92.36 92.19">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #e2e2e2;
+      }
+
+      .cls-2 {
+        stroke-width: .55px;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: #e2e2e2;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        stroke-width: .27px;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-2014.61" y="-693.12" width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g class="cls-5">
+    <image width="2237" height="1080" transform="translate(-2173.11 -693.12)" xlink:href="sendgb-pWflsZJT6t5/MAKING OFF-venecia-2_Carpeta/Links/Fondo-home-4.jpg"/>
+  </g>
+  <g>
+    <path class="cls-4" d="M55.27,49.06l1.11-7.26h-6.97v-4.71c0-1.99.97-3.92,4.09-3.92h3.17v-6.18s-2.87-.49-5.62-.49c-5.74,0-9.49,3.48-9.49,9.77v5.53h-6.38v7.26h6.38v16.57h7.85v-16.57h5.85Z"/>
+    <g>
+      <circle class="cls-2" cx="46.06" cy="46.18" r="39.45"/>
+      <circle class="cls-3" cx="46.06" cy="46.18" r="45.84"/>
+    </g>
+  </g>
+</svg>
