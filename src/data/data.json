@@ -2,11 +2,11 @@
   {
     "slug": "el-origen-de-la-magia",
     "titulo": "El Origen de la Magia",
-    "tituloImg": "/imagenes/el-origen-de-la-magia.png",
-    "imgBackgroundMakingOf": "/imagenes/el-origen-de-la-magia.png",
+    "tituloImg": "/imagenes/el-origen-de-la-magia.svg",
+    "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
     "trailer": "/video/trailers/origendelamagia.mp4",
     "trailerM": "/video/trailers/origendelamagia.mp4",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "videoUrl": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
     "makingOf": [
       "https://cdn.misitio.com/makingof/guardian1.jpg",

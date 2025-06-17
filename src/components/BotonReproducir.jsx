@@ -40,11 +40,11 @@ export const BotonReproducir = () => {
 
   return (
     <div
-      className="w-[17.5rem] flex flex-col items-center justify-center"
+      className="cursor-pointer w-[17.076875rem]  flex flex-col items-center justify-center"
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
-      <span className="w-[17.5rem] h-auto inline-block">
+      <span className="w-full h-auto inline-block">
         <Lottie
           lottieRef={lottieRef}
           animationData={icono}

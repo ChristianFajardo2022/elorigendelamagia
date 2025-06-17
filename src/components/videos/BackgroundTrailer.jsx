@@ -2,7 +2,7 @@ import { useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import VideoTrailer from "./VideoTrailer";
 
-export const BackgroundTrailer = ({ data, play, setVideoReady, setplay }) => {
+export const BackgroundTrailer = ({ data, play, setplay }) => {
   const containerRef = useRef(null);
 
   return (
@@ -33,7 +33,6 @@ export const BackgroundTrailer = ({ data, play, setVideoReady, setplay }) => {
               <VideoTrailer
                 url={data.videoUrl}
                 play={play}
-                videoReady={setVideoReady}
                 contenedorWidth={containerRef.current?.clientWidth}
               />
             </motion.div>
