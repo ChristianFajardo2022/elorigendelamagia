@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+/*Hamburgesa*/
+.lineBurger {
+  @apply absolute w-full h-[2px] rounded-full transition-all ease-in-out duration-500;
+}
+.lineBurger1 {
+  @apply top-0;
+}
+.lineBurger2 {
+  @apply top-1/2 translate-y-[-50%];
+}
+.lineBurger3 {
+  @apply bottom-0;
+}
+.active .lineBurger1 {
+  @apply rotate-[45deg] top-2;
+}
+.active .lineBurger2 {
+  @apply absolute top-2 rotate-[-45deg] translate-y-0;
+}
+.active .lineBurger3 {
+  @apply absolute bottom-0 opacity-0 invisible;
+}
+.lineBurger.active {
+  @apply absolute top-0;
+}
