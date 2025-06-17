@@ -7,7 +7,7 @@ const videos = [
   {
     title: "MAKING OF",
     thumbnail: "/making/making3.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=c02q6fefv1c",
+    bgVideo: "/making/Shorts-amigos-del-alma.mp4",
     youtube: "https://www.youtube.com/watch?v=c02q6fefv1c",
     texto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -16,7 +16,7 @@ const videos = [
   {
     title: "BEHIND THE SCENES",
     thumbnail: "/making/making1.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=XXXXXXXXXX",
+    bgVideo: "/making/Shorts-los-clasicos.mp4",
     youtube: "https://www.youtube.com/watch?v=XXXXXXXXXX",
     texto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -26,7 +26,7 @@ const videos = [
   {
     title: "CONTENIDOS DE EXPECTATIVA",
     thumbnail: "/making/making2.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=YYYYYYYYYY",
+    bgVideo: "/making/Shorts-operacion-mayo.mp4",
     youtube: "https://www.youtube.com/watch?v=YYYYYYYYYY",
     texto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -36,7 +36,7 @@ const videos = [
   {
     title: "DEL STORY BOARD A LA HISTORIA",
     thumbnail: "/making/making3.jpg",
-    bgVideo: "https://www.youtube.com/watch?v=ZZZZZZZZZZ",
+    bgVideo: "/making/Shorts-ultima-milla.mp4",
     youtube: "https://www.youtube.com/watch?v=ZZZZZZZZZZ",
     texto:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -96,7 +96,10 @@ export default function MakinOff() {
           transition: "width 0.2s, height 0.2s",
         }}
       >
-        <ReactPlayer
+        <video src={videos[selected].bgVideo}
+        autoPlay
+        loop />
+{/*         <ReactPlayer
           url={videos[selected].bgVideo}
           playing
           loop
@@ -110,15 +113,15 @@ export default function MakinOff() {
             },
           }}
         />
-      </div>
+ */}      </div>
 
       {/* Overlay degradado */}
       <div className="absolute inset-0 w-full h-full bg-gradient-to-r from-black/70 via-black/50 to-black/20 z-10 pointer-events-none" />
 
       {/* Contenido principal superior */}
-      <div className="relative z-30 flex flex-col justify-end pb-[17rem] h-full px-20">
+      <div className="relative z-30 flex flex-col amber justify-end pb-[19rem] h-full px-30">
         <div>
-          <h1 className="text-white text-[2.8rem] leading-tight font-light mb-2">
+          <h1 className="text-white text-[3.5rem] leading-tight font-light mb-2">
             {videos[selected].title}
           </h1>
           <p className="text-white max-w-lg text-base mb-8">
@@ -137,18 +140,18 @@ export default function MakinOff() {
  */}      </div>
 
       {/* Fila de shorts al fondo */}
-      <div className="absolute bottom-6 left-1/2 z-30 -translate-x-1/2 flex flex-col items-center w-full px-20 ">
-        <div className="w-full text-white text-lg font-medium mb-3 ">
+      <div className="absolute bottom-6 left-1/2 z-30 -translate-x-1/2 flex flex-col items-center w-full px-30 ">
+        <div className="w-full text-white text-xl amber mb-3 ">
           SHORTS
         </div>
         <div className="flex items-center justify-between w-full">
           {videos.map((v, i) => (
-            <div key={i} className="flex flex-col items-center">
+            <div key={i} className="flex flex-col items-center w-full">
               <div
                 className={`
-                  cursor-pointer w-[16rem] h-[9rem] md:w-[21rem] md:h-[12rem] 
+                  cursor-pointer w-[16rem] h-[9rem] md:w-[24.5rem] md:h-[14rem] 
                   rounded-2xl shadow-xl relative overflow-hidden border-2 transition-all duration-200
-                  ${selected === i ? "border-white" : "border-transparent"}
+                  ${selected === i ? " scale-110" : "border-transparent"}
                   group
                 `}
                 style={{
@@ -180,7 +183,7 @@ export default function MakinOff() {
                   </div>
                 )}
               </div>
-              <div className="mt-2 text-center text-xs md:text-sm text-white font-semibold tracking-tight w-[16rem] md:w-[21rem] truncate">
+              <div className="mt-2 w-full pl-5 text-start text-xs md:text-sm text-white font-semibold tracking-tight md:w-full truncate">
                 {v.title}
               </div>
             </div>

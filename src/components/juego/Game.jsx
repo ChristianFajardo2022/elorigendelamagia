@@ -20,28 +20,47 @@ const QUESTIONS = [
     ],
   },
   {
-    q: "Pregunta 2: (modifícala como gustes)",
-    options: ["A", "B", "C"],
+    q: "Cuál es el truco mágico más grande de tu papá:",
+    options: [
+      "Convertir lágrimas en risas",
+      "Reparar cualquier cosa",
+      "Siempre saber dónde está todo",
+    ],
   },
   {
-    q: "Pregunta 3: (modifícala como gustes)",
-    options: ["A", "B", "C"],
-  }
+    q: "Su herramienta mágica infaltable siempre ha sido:",
+    options: [
+      "Su ingenio para inventar excusas o soluciones rápidas en el momento.",
+      "Su capacidad para tener siempre la herramienta correcta o la respuesta precisa para todo.",
+      "Su sabiduría y consejos que siempre sabían cómo guiarte.",
+    ],
+  },
 ];
 
 const LEVEL_TIME = 30;
+
+// Parámetros del salto y colisión
+const CHARACTER_LEFT = 80;
+const CHARACTER_WIDTH = 40;
+const OBSTACLE_WIDTH = 20;
+const GROUND_Y = 0; // y=0 es el piso en nuestro sistema
+const JUMP_VELOCITY = 14; // Entre 10 y 18 se siente natural, prueba varios valores
+const GRAVITY = 0.8;      // Entre 0.6 y 1.2 según qué tan rápido quieras que caiga
+const FRAME_RATE = 1000 / 60; // 60fps
 
 const INITIAL_STATE = {
   isStarted: false,
   level: 0,
   levelStart: null,
-  isJumping: false,
+  isJumping: false, // Solo para bloquear doble salto, la animación real se maneja con characterY
   isGameOver: false,
   showQuiz: false,
   quizIndex: 0,
   answers: [],
   isCompleted: false,
   score: 0,
+  characterY: GROUND_Y, // Nueva variable de posición vertical
+  velocityY: 0,         // Nueva variable de velocidad vertical
 };
 
 export default function Game() {
@@ -49,47 +68,83 @@ export default function Game() {
   const [obstacles, setObstacles] = useState([]);
   const [timer, setTimer] = useState(LEVEL_TIME);
   const gameStateRef = useRef(gameState);
-  useEffect(() => { gameStateRef.current = gameState }, [gameState]);
 
-  const CHARACTER_LEFT = 80, CHARACTER_WIDTH = 40, OBSTACLE_WIDTH = 20;
+  useEffect(() => {
+    gameStateRef.current = gameState;
+  }, [gameState]);
 
   const startGame = () => {
     setGameState({
       ...INITIAL_STATE,
       isStarted: true,
       levelStart: Date.now(),
+      characterY: GROUND_Y,
+      velocityY: 0,
     });
     setObstacles([{ left: 1200, type: 0 }]);
     setTimer(LEVEL_TIME);
   };
 
+  // Salto FÍSICO y bloqueo de salto múltiple
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (
         (e.code === "Space" || e.keyCode === 32) &&
+        !e.repeat &&
         gameStateRef.current.isStarted &&
         !gameStateRef.current.isJumping &&
         !gameStateRef.current.isGameOver &&
         !gameStateRef.current.showQuiz &&
-        !gameStateRef.current.isCompleted
+        !gameStateRef.current.isCompleted &&
+        gameStateRef.current.characterY === GROUND_Y
       ) {
         e.preventDefault();
-        setGameState(s => ({ ...s, isJumping: true }));
-        setTimeout(() => setGameState(s => ({ ...s, isJumping: false })), 600);
+        setGameState((s) => ({
+          ...s,
+          isJumping: true,
+          velocityY: JUMP_VELOCITY, // Saltar
+        }));
       }
     };
     window.addEventListener("keydown", handleKeyDown, { passive: false });
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
-  // --- AQUÍ EL GAME LOOP AJUSTADO ---
+  // Animación y física del salto (parábola)
+  useEffect(() => {
+    if (!gameState.isStarted || gameState.isGameOver || gameState.showQuiz || gameState.isCompleted) return;
+
+    let animationFrame;
+    const animate = () => {
+      setGameState((s) => {
+        let { characterY, velocityY, isJumping } = s;
+        if (characterY > GROUND_Y || velocityY !== 0) {
+          characterY += velocityY;
+          velocityY -= GRAVITY;
+          if (characterY <= GROUND_Y) {
+            characterY = GROUND_Y;
+            velocityY = 0;
+            isJumping = false; // Permitir siguiente salto
+          }
+          return { ...s, characterY, velocityY, isJumping };
+        }
+        return s;
+      });
+      animationFrame = setTimeout(animate, FRAME_RATE);
+    };
+    animate();
+    return () => clearTimeout(animationFrame);
+  }, [gameState.isStarted, gameState.isGameOver, gameState.showQuiz, gameState.isCompleted]);
+
+  // Game loop de obstáculos, score, colisión, timer, preguntas
   useEffect(() => {
     if (
       !gameState.isStarted ||
       gameState.isGameOver ||
       gameState.showQuiz ||
       gameState.isCompleted
-    ) return;
+    )
+      return;
 
     const timerInterval = setInterval(() => {
       setTimer(() =>
@@ -103,8 +158,8 @@ export default function Game() {
     const gameInterval = setInterval(() => {
       let esquivados = 0;
       let nuevosObstaculos = obstacles
-        .map(o => ({ ...o, left: o.left - 12 }))
-        .filter(o => {
+        .map((o) => ({ ...o, left: o.left - 40 }))
+        .filter((o) => {
           if (o.left <= -70) {
             esquivados++;
             return false;
@@ -113,11 +168,11 @@ export default function Game() {
         });
 
       if (esquivados > 0) {
-        setGameState(s => ({ ...s, score: s.score + 100 * esquivados }));
+        setGameState((s) => ({ ...s, score: s.score + 100 * esquivados }));
       }
 
       // Generar obstáculo con espacio mínimo
-      const MIN_OBSTACLE_GAP = 320;
+      const MIN_OBSTACLE_GAP = 190;
       if (
         nuevosObstaculos.length === 0 ||
         (nuevosObstaculos[nuevosObstaculos.length - 1].left <
@@ -130,18 +185,23 @@ export default function Game() {
         ];
       }
 
-      // 💥 DETECCIÓN DE COLISIÓN usando los obstáculos ya actualizados
-      const hayColision = nuevosObstaculos.some(o => {
+      // 💥 DETECCIÓN DE COLISIÓN usando characterY real
+      const hayColision = nuevosObstaculos.some((o) => {
         const obstacleLeft = o.left;
         const obstacleRight = o.left + OBSTACLE_WIDTH;
         const charLeft = CHARACTER_LEFT;
         const charRight = CHARACTER_LEFT + CHARACTER_WIDTH;
         const overlapX = charRight > obstacleLeft && charLeft < obstacleRight;
-        return overlapX && !gameStateRef.current.isJumping;
+        // Consideramos colisión solo si el personaje está suficientemente bajo
+        const personajeAlto = gameStateRef.current.characterY;
+        return (
+          overlapX &&
+          personajeAlto < 60 // Ajusta este valor según el tamaño real del sprite
+        );
       });
 
       if (hayColision) {
-        setGameState(s => ({ ...s, isGameOver: true }));
+        setGameState((s) => ({ ...s, isGameOver: true }));
       }
 
       setObstacles(nuevosObstaculos);
@@ -153,7 +213,7 @@ export default function Game() {
         gameStateRef.current.level < 3 &&
         !gameStateRef.current.showQuiz
       ) {
-        setGameState(s => ({ ...s, showQuiz: true }));
+        setGameState((s) => ({ ...s, showQuiz: true }));
       }
       if (
         timePassed >= LEVEL_TIME &&
@@ -161,7 +221,7 @@ export default function Game() {
         !gameStateRef.current.isCompleted
       ) {
         setTimeout(() => {
-          setGameState(s => ({ ...s, isCompleted: true }));
+          setGameState((s) => ({ ...s, isCompleted: true }));
         }, 400);
       }
     }, 50);
@@ -170,13 +230,12 @@ export default function Game() {
       clearInterval(timerInterval);
       clearInterval(gameInterval);
     };
-    // eslint-disable-next-line
   }, [
     gameState.isStarted,
     gameState.isGameOver,
     gameState.showQuiz,
     gameState.isCompleted,
-    obstacles
+    obstacles,
   ]);
 
   const handleAnswer = (option) => {
@@ -191,11 +250,11 @@ export default function Game() {
           respuesta: option,
         },
       ],
-      quizIndex: s.quizIndex + 1
+      quizIndex: s.quizIndex + 1,
     }));
 
     setTimeout(() => {
-      setGameState(s => {
+      setGameState((s) => {
         if (s.level < 3) {
           setObstacles([{ left: 1200, type: 0 }]);
           setTimer(LEVEL_TIME);
@@ -206,6 +265,8 @@ export default function Game() {
             isJumping: false,
             isGameOver: false,
             showQuiz: false,
+            characterY: GROUND_Y,
+            velocityY: 0,
           };
         }
         return s;
@@ -219,13 +280,19 @@ export default function Game() {
         <p className="text-white z-50 text-5xl mb-5">Juego Nueva Venecia</p>
       </div>
       <div className="relative w-[70%] h-[70%] flex items-center justify-center">
-        <img className="rounded-3xl absolute w-full h-full object-cover" src="/game/fondoGame.jpg" alt="" />
+        <img
+          className="rounded-3xl absolute w-full h-full object-cover"
+          src="/game/fondoGame.jpg"
+          alt=""
+        />
 
         {!gameState.isStarted && (
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-black/70 z-20 text-white rounded-3xl">
             <h2 className="text-3xl font-bold mb-4">¡Bienvenido!</h2>
             <p className="mb-6 max-w-xl text-center text-lg">
-              Supera los obstáculos saltando con la barra espaciadora. Después de cada nivel tendrás una pregunta. ¡Responde y sigue avanzando! Todas las respuestas serán guardadas.
+              Supera los obstáculos saltando con la barra espaciadora. Después
+              de cada nivel tendrás una pregunta. ¡Responde y sigue avanzando!
+              Todas las respuestas serán guardadas.
             </p>
             <button
               onClick={startGame}
@@ -254,7 +321,12 @@ export default function Game() {
             </>
           )}
 
-        {gameState.isStarted && <Character isJumping={gameState.isJumping} />}
+        {gameState.isStarted && (
+          <Character
+            isJumping={gameState.isJumping}
+            characterY={gameState.characterY}
+          />
+        )}
         {gameState.isStarted &&
           obstacles.map((o, i) => (
             <Obstacle
@@ -287,7 +359,8 @@ export default function Game() {
           <div className="absolute inset-0 flex flex-col items-center justify-center bg-green-700/80 text-3xl font-bold z-30 rounded-3xl text-white">
             <div>🎉 ¡Felicidades, terminaste el reto! 🎉</div>
             <div className="text-lg mt-4 mb-4 max-w-lg text-center">
-              Eres un verdadero maestro de los desafíos. Guarda este mensaje, ¡y comparte tus respuestas con quien más quieras!
+              Eres un verdadero maestro de los desafíos. Guarda este mensaje, ¡y
+              comparte tus respuestas con quien más quieras!
             </div>
             <div className="bg-white text-black p-4 rounded-xl w-[90%] max-w-md text-base font-normal mb-4">
               <h3 className="font-bold mb-2 text-center">Tus respuestas:</h3>
@@ -295,7 +368,8 @@ export default function Game() {
                 {gameState.answers.map((ans, i) => (
                   <li key={i}>
                     <b>Nivel {ans.nivel}:</b> {ans.pregunta}
-                    <br /> <span className="text-blue-600">{ans.respuesta}</span>
+                    <br />{" "}
+                    <span className="text-blue-600">{ans.respuesta}</span>
                   </li>
                 ))}
               </ol>

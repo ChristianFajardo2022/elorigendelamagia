@@ -5,7 +5,7 @@ export default function Obstacle({ left, src }) {
       alt="Obstáculo"
       className="absolute bottom-8"
       style={{ left }}
-      width={40}
+      width={80}
     />
   );
 }
