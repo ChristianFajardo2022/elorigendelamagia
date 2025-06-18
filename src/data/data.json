@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "el-origen-de-la-magia",
+    "titulo": "El Origen    xxxxxxx de la Magi",
+    "tituloImg": "/imagenes/el-origen-de-la-magia.png",
+    "imgBackgroundMakingOf": "/imagenes/el-origen-de-la-magia.png",
+    "trailer": "/video/trailers/origendelamagia.mp4",
+    "trailerM": "/video/trailers/origendelamagia.mp4",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
+    "videoUrl": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
+    "makingOf": {
+       "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+  },
+    "souvenir": true
+  },
+  {
+    "slug": "guardian-del-paramo",
+    "titulo": "Guardianes del Páramo",
+    "tituloImg": "Guardianes del Páramo",
+    "imgBackgroundMakingOf": "Guardianes del Páramo",
+    "trailer": "/video/trailers/trailer.mp4",
+    "trailerM": "/video/trailers/trailer.mp4",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
+    "videoUrl": "https://www.youtube.com/watch?v=ejemplo1",
+    "makingOf": {
+       "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+  },
+    "souvenir": true
+  },
+  {
+    "slug": "el-gran-acto",
+    "titulo": "El Gran Acto",
+    "tituloImg": "El Gran Acto",
+    "imgBackgroundMakingOf": "El Gran Acto",
+    "trailer": "/video/trailers/trailer.mp4",
+    "trailerM": "/video/trailers/trailer.mp4",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
+    "videoUrl": "https://www.youtube.com/watch?v=ejemplo2",
+    "makingOf": {
+       "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+  },
+    "souvenir": false
+  },
+  {
+    "slug": "mundo-sin-plastico",
+    "titulo": "Mundo sin Plástico",
+    "tituloImg": "Mundo sin Plástico",
+    "imgBackgroundMakingOf": "Mundo sin Plástico",
+    "trailer": "/video/trailers/trailer.mp4",
+    "trailerM": "/video/trailers/trailer.mp4",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
+    "videoUrl": "https://www.youtube.com/watch?v=ejemplo3",
+    "makingOf": {
+       "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+       "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+  },
+    "souvenir": true
+  }
+]

@@ -1,26 +1,40 @@
 @import "tailwindcss";
 
-body{
-  background-color: black;
+@font-face {
+  font-family: "InterFont";
+  src: url("/fonts/InterRapidisimoFont-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "InterFont Bold";
+  src: url("/fonts/InterRapidisimoFont-Regular.ttf") format("truetype");
 }
 
-
-a.ytp-watermark.yt-uix-sessionlink {
-    display: none !important;
+@theme inline {
+  --color-blackInter: var(--blackInter);
+  --color-whiteInter: var(--whiteInter);
+  --font-inter: var(--font-inter);
+  --font-interB: var(--font-inter);
 }
-
-  @font-face {
-    font-family: "Manrope";
-    src: url("/fonts/Manrope-VariableFont_wght.ttf") format("truetype");
-  }
-  @font-face {
-    font-family: "Amber";
-    src: url("/fonts/LT-Amber-Ext-Light.ttf") format("truetype");
-  }
-  .Manrope
-  {
-    font-family: Manrope;
-  }
-.amber {
-  font-family: Amber;
+:root {
+  --font-inter: "InterFont Bold";
+  --font-inter-bold: "InterFont Bold";
+  --blackInter: #000000;
+  --whiteInter: #ffffff;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  @apply overflow-x-hidden xl:text-[0.8333339vw] max-sm:text-[4vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black;
+  /* @apply overflow-x-hidden xl:text-[16px] max-sm:text-[4vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black; */
+}
+body {
+  @apply bg-blackInter text-whiteInter font-inter;
+}
+body,
+#root {
+  @apply w-full h-full;
+}
+.btn {
+  @apply flex items-center justify-center gap-4 cursor-pointer text-2xl hover:bg-whiteInter/60 bg-whiteInter text-blackInter min-w-60 min-h-12 rounded-md ease-in-out transition-all duration-300;
 }
