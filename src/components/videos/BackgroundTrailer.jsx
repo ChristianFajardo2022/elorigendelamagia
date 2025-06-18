@@ -1,6 +1,7 @@
 import { useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import VideoTrailer from "./VideoTrailer";
+import { VideoPlayinline } from "../commons/VideoPlayinline";
 
 export const BackgroundTrailer = ({ data, play, setplay }) => {
   const containerRef = useRef(null);
@@ -47,24 +48,7 @@ export const BackgroundTrailer = ({ data, play, setplay }) => {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <div className="absolute w-4xl h-full bg-gradient-to-r from-blackInter/60 pointer-events-none " />
-            <video
-              className="video w-full h-full object-cover object-center   pointer-events-none"
-              autoPlay
-              muted
-              loop
-              playsInline
-            >
-              <source
-                src={
-                  typeof window !== "undefined" &&
-                  window.matchMedia("(max-width: 600px)").matches
-                    ? data.trailerM
-                    : data.trailer
-                }
-                type="video/mp4"
-              />
-              Tu navegador no soporta la reproducción de video.
-            </video>
+            <VideoPlayinline data={data} autoPlay={true} />
           </motion.div>
         )}
       </AnimatePresence>

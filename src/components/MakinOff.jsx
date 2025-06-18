@@ -125,7 +125,7 @@ export default function MakinOff() {
             {videos[selected].texto}
           </p>
         </div>
-{/*         <button
+        {/*         <button
           className="cursor-pointer mt-6 flex flex-col"
           onClick={() => {
             setModalVideo(videos[selected].youtube);
@@ -134,7 +134,8 @@ export default function MakinOff() {
         >
           <BotonReproducir />
         </button>
- */}      </div>
+ */}{" "}
+      </div>
 
       {/* Fila de shorts al fondo */}
       <div className="absolute bottom-6 left-1/2 z-30 -translate-x-1/2 flex flex-col items-center w-full px-20 ">
