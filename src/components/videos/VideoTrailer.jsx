@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import ReactPlayer from "react-player";
 import { AnimatePresence, motion } from "framer-motion";
 
-const VideoTrailer = ({ videoReady, play, url, contenedorWidth }) => {
+const VideoTrailer = ({ play, url, contenedorWidth }) => {
   const [ancho, setAncho] = useState(0);
   const video = useRef(null);
 
@@ -26,7 +26,7 @@ const VideoTrailer = ({ videoReady, play, url, contenedorWidth }) => {
   return (
     <div ref={video} className="w-full h-full flex items-center justify-center">
       <ReactPlayer
-        onReady={() => videoReady(true)}
+        /*  onReady={() => videoReady(true)} */
         playing={play ? true : false}
         url={url}
         className="react-player overflow-hidden "

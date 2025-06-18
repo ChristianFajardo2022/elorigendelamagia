@@ -1,13 +1,15 @@
 import { Outlet } from "react-router-dom";
 import { Header } from "../components/header/Header";
+import { useState } from "react";
 
 const LayoutGlobal = () => {
+  const [videoReady, setVideoReady] = useState(false);
   return (
     <>
       <Header />
-      <main className="bg-blackInter w-full h-full">
-        <Outlet />
-      </main>
+      <>
+        <Outlet context={{videoReady, setVideoReady}} />
+      </>
     </>
   );
 };
