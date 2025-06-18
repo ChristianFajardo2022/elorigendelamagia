@@ -6,6 +6,7 @@
     "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
     "trailer": "/video/trailers/origendelamagia.mp4",
     "trailerM": "/video/trailers/origendelamagia.mp4",
+    "categoria": "",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam",
     "videoUrl": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
     "makingOf": 
@@ -33,7 +34,85 @@
          "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
     }
     ],
-    "souvenir": true
+    "souvenir": true,
+    "making": true
+  },
+    {
+    "slug": "el-gran-acto",
+    "titulo": "El Gran Acto",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "",
+    "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
+    "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
+    "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
+    "videoUrl": "https://www.youtube.com/watch?v=yV3bIwC3y1g",
+    "makingOf": 
+    [
+
+      {
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
+      {
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
+      {
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    }
+    ],
+    "souvenir": false,
+        "making": true
+
+  },
+
+  {
+    "slug": "amigos-del-alma",
+    "titulo": "Guardianes del Páramo",
+    "tituloImg": "Guardianes del Páramo",
+    "imgBackgroundMakingOf": "Guardianes del Páramo",
+    "trailer": "/video/trailers/TRAILER-amigos-del-alma.mp4",
+    "trailerM": "/video/trailers/trailer.mp4",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
+    "videoUrl": "https://www.youtube.com/watch?v=ejemplo1",
+    "makingOf": 
+    [
+
+      {
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
+      {
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
+      {
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    }
+    ],
+    "souvenir": true,
+        "making": true
+
   },
   {
     "slug": "guardian-del-paramo",
@@ -69,7 +148,9 @@
          "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
     }
     ],
-    "souvenir": true
+    "souvenir": true,
+        "making": true
+
   },
   {
     "slug": "el-gran-acto",
@@ -105,7 +186,9 @@
          "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
     }
     ],
-    "souvenir": false
+    "souvenir": false,
+        "making": true
+
   },
   {
     "slug": "mundo-sin-plastico",
@@ -141,6 +224,8 @@
          "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
     }
     ],
-    "souvenir": true
+    "souvenir": true,
+        "making": true
+
   }
 ]

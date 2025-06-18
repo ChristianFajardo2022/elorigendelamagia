@@ -5,6 +5,7 @@ import { BackgroundTrailer } from "../videos/BackgroundTrailer";
 import { MainContent } from "../commons/MainContent";
 import { MainSection } from "./MainSection";
 import { SectionMakingof } from "./SectionMakingof";
+import { EntregasSection } from "./EntregasSection";
 
 export const Home = () => {
   const slug = "el-origen-de-la-magia";
@@ -14,6 +15,8 @@ export const Home = () => {
     <>
       <MainSection data={data} />
       <SectionMakingof data={data} />
+      <EntregasSection data={data} />
+      
     </>
   );
 };
