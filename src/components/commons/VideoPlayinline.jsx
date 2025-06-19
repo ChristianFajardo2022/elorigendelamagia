@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 
-export const VideoPlayinline = ({ data, autoPlay, play }) => {
+export const VideoPlayinline = ({ data, autoPlay, play, scale }) => {
   const video = useRef(null);
 
   useEffect(() => {
@@ -25,7 +25,9 @@ export const VideoPlayinline = ({ data, autoPlay, play }) => {
   return (
     <video
       ref={video}
-      className="video size-full object-cover object-center pointer-events-none"
+      className={`video size-full object-cover ${
+        scale ? scale : ""
+      } object-center pointer-events-none`}
       autoPlay={autoPlay && !play ? true : false}
       muted
       loop

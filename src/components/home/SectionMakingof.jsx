@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import { VideoPlayinline } from "../commons/VideoPlayinline";
+import { OverLay } from "../commons/OverLay";
 
 export const SectionMakingof = ({ data }) => {
   const [selectedMaking, setSelectedMaking] = useState(0);
@@ -21,17 +23,29 @@ export const SectionMakingof = ({ data }) => {
 const BackGround = ({ data, children, selectedMaking }) => {
   return (
     <>
-      <div className="absolute top-0 left-0 bg-gradient-to-t to-blackInter/85 from-70% size-full z-20 pointer-events-none" />
-      <div className="absolute top-0 left-0 bg-radial to-80% to-blackInter/70 size-full z-10 pointer-events-none" />
+      <OverLay top={true} radial={true} />
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={data[selectedMaking].kv} // clave dinámica para reiniciar la animación
+          initial={{ opacity: 0, scale: 1.1 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0, scale: 1.1 }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
+          style={{
+            backgroundImage: `url(${data[selectedMaking].kv})`,
+          }}
+          className="absolute size-full bg-top bg-no-repeat bg-contain z-[9]"
+        />
+      </AnimatePresence>
       <div
-        style={{
-          backgroundImage: `url(${data[selectedMaking].kv})`,
-        }}
-        className="absolute size-full bg-top bg-no-repeat bg-contain z-[9]"
-      />
-      <div
-        className={`relative flex justify-start items-end size-full z-[22] px-20 pb-20`}
+        className={`relative flex flex-col justify-end items-start size-full z-[22] px-20 pb-20`}
       >
+        <div className="w-full pb-14">
+          <h2 className="font-interB text-6xl">
+            {data[selectedMaking].titulo}
+          </h2>
+          <p>{data[selectedMaking].descripcion}</p>
+        </div>
         {children}
       </div>
     </>
@@ -52,7 +66,7 @@ const ContentMakingOf = ({ data, setSelectedMaking }) => {
   };
 
   return (
-    <div className=" h-80 flex items-center justify-start gap-6">
+    <div className="h-80 flex items-center justify-start gap-6">
       {dataMaking.map((data, i) => (
         <div
           onMouseEnter={() => handleMouseEnter(i)}
@@ -68,11 +82,11 @@ const ContentMakingOf = ({ data, setSelectedMaking }) => {
             </div>
           </div>
           <img
-            className="absolute size-full object-center object-cover scale-105 group-hover:scale-x-125 top-0 left-0 transition-all duration-500 opacity-100 group-hover:opacity-0"
+            className="absolute z-10 size-full object-center object-cover scale-105 group-hover:scale-x-125 top-0 left-0 transition-all duration-500 opacity-100 group-hover:opacity-0"
             src={data.kv}
             alt={data.titulo}
           />
-          <VideoPlayinline data={data} play={play === i} />
+          <VideoPlayinline data={data} play={play === i} scale={"scale-135"} />
         </div>
       ))}
     </div>

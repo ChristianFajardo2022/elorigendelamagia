@@ -2,21 +2,21 @@
 
 @font-face {
   font-family: "InterFont";
-  src: url("/fonts/InterRapidisimoFont-Bold.ttf") format("truetype");
+  src: url("/fonts/InterRapidisimoFont-Regular.ttf") format("truetype");
 }
 @font-face {
   font-family: "InterFont Bold";
-  src: url("/fonts/InterRapidisimoFont-Regular.ttf") format("truetype");
+  src: url("/fonts/InterRapidisimoFont-Bold.ttf") format("truetype");
 }
 
 @theme inline {
   --color-blackInter: var(--blackInter);
   --color-whiteInter: var(--whiteInter);
   --font-inter: var(--font-inter);
-  --font-interB: var(--font-inter);
+  --font-interB: var(--font-inter-bold);
 }
 :root {
-  --font-inter: "InterFont Bold";
+  --font-inter: "InterFont";
   --font-inter-bold: "InterFont Bold";
   --blackInter: #000000;
   --whiteInter: #ffffff;
@@ -37,4 +37,7 @@ body,
 }
 .btn {
   @apply flex items-center justify-center gap-4 cursor-pointer text-2xl hover:bg-whiteInter/60 bg-whiteInter text-blackInter min-w-60 min-h-12 rounded-md ease-in-out transition-all duration-300;
+}
+p{
+  @apply text-lg
 }

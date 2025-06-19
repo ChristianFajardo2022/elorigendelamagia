@@ -2,6 +2,7 @@ import { useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import VideoTrailer from "./VideoTrailer";
 import { VideoPlayinline } from "../commons/VideoPlayinline";
+import { OverLay } from "../commons/OverLay";
 
 export const BackgroundTrailer = ({ data, play, setplay }) => {
   const containerRef = useRef(null);
@@ -47,7 +48,7 @@ export const BackgroundTrailer = ({ data, play, setplay }) => {
             exit={{ opacity: 0, scale: 1.5 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <div className="absolute w-4xl h-full bg-gradient-to-r from-blackInter/60 pointer-events-none " />
+            <OverLay top={true} bottom={true}  />
             <VideoPlayinline data={data} autoPlay={true} />
           </motion.div>
         )}
