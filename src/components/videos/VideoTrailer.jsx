@@ -1,6 +1,5 @@
 import { useEffect, useRef, useState } from "react";
 import ReactPlayer from "react-player";
-import { AnimatePresence, motion } from "framer-motion";
 
 const VideoTrailer = ({ play, url, contenedorWidth }) => {
   const [ancho, setAncho] = useState(0);

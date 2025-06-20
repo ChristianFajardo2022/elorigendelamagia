@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Burger = ({ active, handleClick, showLogo }) => {
+export const Burger = ({ active, handleClick }) => {
   return (
     <span
       onClick={handleClick}

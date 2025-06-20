@@ -3,12 +3,13 @@ import { Header } from "../components/header/Header";
 import { useState } from "react";
 
 const LayoutGlobal = () => {
-  const [videoReady, setVideoReady] = useState(false);
+  const [nameCampaña, setNameCampaña] = useState({});
+
   return (
     <>
-      <Header />
+      <Header nameCampaña={nameCampaña} />
       <>
-        <Outlet context={{videoReady, setVideoReady}} />
+        <Outlet context={{ nameCampaña, setNameCampaña }} />
       </>
     </>
   );

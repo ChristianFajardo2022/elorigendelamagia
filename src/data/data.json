@@ -37,261 +37,50 @@
         "trailerM": "/video/trailers/origendelamagia.mp4"
       }
     
-    ],
+    ],   
     "souvenir": true,
     "making": true
   },
-    {
-    "slug": "ultima-milla",
-    "titulo": "ÚLTIMA MILLA",
-    "tituloImg": "",
-    "imgBackgroundMakingOf": "",
-        "categoria": "comercial",
-    "kv": "imagenes/kv/ultimamilla.jpg",
-
-    "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
-    "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
-    "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
-    "videoUrl": "https://www.youtube.com/watch?v=8VIcwCRwr5g",
-    "makingOf": 
-    [
-
-      {
-         "titulo": "",
-         "descripcion": "",
-         "video": "",
-         "kivi": "",
-         "trailer": ""
-    },
-      {
-         "titulo": "",
-         "descripcion": "",
-         "video": "",
-         "kivi": "",
-         "trailer": ""
-    },
-      {
-         "titulo": "",
-         "descripcion": "",
-         "video": "",
-         "kivi": "",
-         "trailer": ""
-    }
-    ],
-    "souvenir": false,
-        "making": true
-
-  },
-    {
-    "slug": "el-gran-acto",
-    "titulo": "El Gran Acto",
-    "tituloImg": "",
-    "imgBackgroundMakingOf": "",
-    "categoria": "comercial",
-    "kv": "imagenes/kv/ultimamilla.jpg",
-
-    "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
-    "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
-    "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
-    "videoUrl": "https://www.youtube.com/watch?v=yV3bIwC3y1g",
-    "makingOf": 
-    [
-
-      {
-         "titulo": "MAKING OFF",
-         "descripcion": "Este es un pequeño resumen de lo que fue El Gran Acto, nuestra campaña de Navidad que busca conectar con las personas, contando la historia de Los Clásicos; un grupo de 5 adultos mayores que cautivaron las redes con su canción +de75 y que terminó con una linda acción en el Centro de Bienestar del Anciano San José de Facatativá. Esperamos que lo disfruten tanto como nosotros.",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailerM": "/video/trailers/origendelamagia.mp4"
-
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailerM": "/video/trailers/origendelamagia.mp4"
-
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailerM": "/video/trailers/origendelamagia.mp4"
-
-    }
-    ],
-    "souvenir": false,
-        "making": true
-
-  },
-
   {
-    "slug": "amigos-del-alma",
-    "titulo": "Guardianes del Páramo",
-    "tituloImg": "Guardianes del Páramo",
+    "slug": "el-origen-de-la-magia",
+    "titulo": "LA MAGIA DE NUEVA VENECIA",
+    "tituloImg": "/imagenes/el-origen-de-la-magia.svg",
+    "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
+    "trailer": "/video/trailers/origendelamagia.mp4",
+    "trailerM": "/video/trailers/origendelamagia.mp4",
     "categoria": "comercial",
-    "kv": "imagenes/kv/ultimamilla.jpg",
-
-    "imgBackgroundMakingOf": "Guardianes del Páramo",
-    "trailer": "/video/trailers/TRAILER-amigos-del-alma.mp4",
-    "trailerM": "/video/trailers/trailer.mp4",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
-    "videoUrl": "https://www.youtube.com/watch?v=ejemplo1",
-    "makingOf": 
-    [
-
+    "kv": "imagenes/kv/lamagiadenuevavenecia.jpg",
+    "creditos": "<ul><li><strong>Vp Creativo</strong> Isaac Chaparro</li><li><strong>Gerente Creativo</strong> Edwin Romero</li><li><strong>Director de Cine</strong> Carlos Godoy</li><li><strong>Post Productor</strong> Felipe Chica</li><li><strong>Productora Ejecutiva</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo</strong> Andrés Ramírez</li><li><strong>Foto fija</strong> Camilo Salazar</li><li><strong>Realizador y Drone</strong> Camilo Ospina</li><li><strong>Gráfica Audiovisual</strong> Andrea Pedraza</li><li><strong>Director de Arte</strong> William Martínez</li><li><strong>Diseñador Gráfico</strong> Gabriel González</li><li><strong>Diseñador Gráfico</strong> Juan Garza</li><li><strong>Diseñador Gráfico</strong> Julián Getzamhá</li><li><strong>Creativo</strong> Daniel Garzón</li><li><strong>Relaciones Públicas</strong> Lauri Espinosa</li><li><strong>AD y Director NY</strong> David Bravo</li><li><strong>Director Fotografía</strong> Andrés Vergara (Comanche)</li><li><strong>Gaffer</strong> Julián Bohórquez</li><li><strong>Música Original</strong> Diego Cáceres</li><li><strong>Colorista</strong> Daniel Saavedra</li><li><strong>Director de Vestuario</strong> Tulia Díaz</li><li><strong>Vestuarista</strong> Sam Ruiz</li><li><strong>Actriz Principal</strong> Angie Gómez</li><li><strong>Actor</strong> Roberto Giraldo</li><li><strong>Dir. Arte (Cortometraje)</strong> Rebecca Piñeres</li><li><strong>Extra</strong> Hiber Cabarcas</li></ul>",
+    "descripcion": "Una historia mágica nos lleva de Nueva Venecia, Magdalena a EE. UU., tras los pasos de una migrante que conquistó corazones y vuelve a casa, para honrar al verdadero mago de su vida.",
+    "videoUrl": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
+    "makingOf": [
       {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
+        "titulo": "Del storyboard, a la historia",
+        "descripcion": "Cada línea, cada trazo y cada plano en esta mágica historia estuvo pensado para que emocionara a las personas, tanto como nos emocionó a nosotros, esperamos que disfruten de este proceso, tanto como lo hicimos nosotros.",
+        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
+        "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-1.jpg",
+        "trailer": "/video/trailers/origendelamagia.mp4",
+        "trailerM": "/video/trailers/origendelamagia.mp4"
+      },
       {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
+        "titulo": "Testigos de la magia",
+        "descripcion": "Estas son las palabras de los que vieron a la gran maga Juanita en acción, y quienes viven en este mágico lugar, que parece sacado de libros de ficción, un pueblo que emerge de entre las aguas de la ciénaga convirtiéndose en un paraíso en medio del Magdalena.",
+        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
+        "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-2.jpg",
+        "trailer": "/video/trailers/origendelamagia.mp4",
+        "trailerM": "/video/trailers/origendelamagia.mp4"
+      },
       {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    }
-    ],
+        "titulo": "Making of",
+        "descripcion": "Al rendir homenaje a quienes sostienen a sus familias con casi nada, descubrimos a otros magos: los que, entre cifras y debates, desafían el clima y cruzan fronteras con la esperanza de algún día retornar a su tierra trunfadores.",
+        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
+        "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-3.jpg",
+        "trailer": "/video/trailers/origendelamagia.mp4",
+        "trailerM": "/video/trailers/origendelamagia.mp4"
+      }
+    
+    ],   
     "souvenir": true,
-        "making": true
-
-  },
-  {
-    "slug": "guardian-del-paramo",
-    "titulo": "Guardianes del Páramo",
-    "tituloImg": "Guardianes del Páramo",
-    "categoria": "comercial",
-    "kv": "imagenes/kv/ultimamilla.jpg",
-
-    "imgBackgroundMakingOf": "Guardianes del Páramo",
-    "trailer": "/video/trailers/trailer.mp4",
-    "trailerM": "/video/trailers/trailer.mp4",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
-    "videoUrl": "https://www.youtube.com/watch?v=ejemplo1",
-    "makingOf": 
-    [
-
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    }
-    ],
-    "souvenir": true,
-        "making": true
-
-  },
-  {
-    "slug": "el-gran-acto",
-    "titulo": "El Gran Acto",
-    "tituloImg": "El Gran Acto",
-    "categoria": "comercial",
-    "kv": "imagenes/kv/ultimamilla.jpg",
-
-    "imgBackgroundMakingOf": "El Gran Acto",
-    "trailer": "/video/trailers/trailer.mp4",
-    "trailerM": "/video/trailers/trailer.mp4",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
-    "videoUrl": "https://www.youtube.com/watch?v=ejemplo2",
-    "makingOf": 
-    [
-
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    }
-    ],
-    "souvenir": false,
-        "making": true
-
-  },
-  {
-    "slug": "mundo-sin-plastico",
-    "titulo": "Mundo sin Plástico",
-    "tituloImg": "Mundo sin Plástico",
-    "categoria": "comercial",
-    "kv": "imagenes/kv/ultimamilla.jpg",
-
-    "imgBackgroundMakingOf": "Mundo sin Plástico",
-    "trailer": "/video/trailers/trailer.mp4",
-    "trailerM": "/video/trailers/trailer.mp4",
-    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
-    "videoUrl": "https://www.youtube.com/watch?v=ejemplo3",
-    "makingOf": 
-    [
-
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    },
-      {
-         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-    }
-    ],
-    "souvenir": true,
-        "making": true
-
+    "making": true
   }
 ]
