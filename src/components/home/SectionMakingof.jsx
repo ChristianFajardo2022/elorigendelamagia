@@ -3,16 +3,16 @@ import { AnimatePresence, motion } from "framer-motion";
 import { VideoPlayinline } from "../commons/VideoPlayinline";
 import { OverLay } from "../commons/OverLay";
 
-export const SectionMakingof = ({ data }) => {
+export const SectionMakingof = ({ data, handlePlay }) => {
   const [selectedMaking, setSelectedMaking] = useState(0);
   const dataMaking = data.makingOf;
   return (
-    <section className="w-full h-dvh relative">
+    <section className="w-full h-dvh relative overflow-hidden">
       <BackGround data={dataMaking} selectedMaking={selectedMaking}>
         <ContentMakingOf
           data={data}
-          selectedMaking={selectedMaking}
           setSelectedMaking={setSelectedMaking}
+          handlePlay={handlePlay}
         />
       </BackGround>
     </section>
@@ -28,13 +28,13 @@ const BackGround = ({ data, children, selectedMaking }) => {
         <motion.div
           key={data[selectedMaking].kv} // clave dinámica para reiniciar la animación
           initial={{ opacity: 0, scale: 1.1 }}
-          animate={{ opacity: 1, scale: 1 }}
+          animate={{ opacity: 1, scale: 1.05 }}
           exit={{ opacity: 0, scale: 1.1 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
           style={{
             backgroundImage: `url(${data[selectedMaking].kv})`,
           }}
-          className="absolute size-full bg-top bg-no-repeat bg-contain z-[9]"
+          className="absolute size-full bg-top bg-no-repeat bg-cover z-[9]"
         />
       </AnimatePresence>
       <div
@@ -52,7 +52,7 @@ const BackGround = ({ data, children, selectedMaking }) => {
   );
 };
 /* Contenido dinamico */
-const ContentMakingOf = ({ data, setSelectedMaking }) => {
+const ContentMakingOf = ({ data, setSelectedMaking, handlePlay }) => {
   const dataMaking = data.makingOf;
   const [play, setPlay] = useState(null);
 
@@ -74,10 +74,15 @@ const ContentMakingOf = ({ data, setSelectedMaking }) => {
           className={`group relative transition-all delay-150 overflow-hidden aspect-video hover:h-full h-62 w-96 hover:scale-110 transform origin-center rounded-2xl`}
           key={i}
         >
-          <div className="absolute bottom-0 w-full h-10 group-hover:bg-blackInter transition-all duration-500 z-10 flex px-6 items-center justify-between">
+          <div className="absolute bottom-0 w-full h-10 group-hover:bg-blackInter transition-all duration-500 z-20 flex px-6 items-center justify-between">
             <h2 className="font-extrabold">{data.titulo}</h2>
             <div className="flex justify-center gap-2 group-hover:opacity-100 opacity-0 transition-all duration-500 delay-300">
-              <i>icono 1</i>
+              <button
+                className="cursor-pointer"
+                onClick={() => handlePlay(data.video)}
+              >
+                <i>icono 1</i>
+              </button>
               <i>icono 2</i>
             </div>
           </div>

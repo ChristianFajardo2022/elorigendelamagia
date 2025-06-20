@@ -4,36 +4,14 @@ import { Burger } from "./Burger";
 
 import gsap from "gsap";
 
-export const NavBar = ({ logo }) => {
-  const [showLogo, setShowLogo] = useState(true);
-  const [active, setActive] = useState(false);
-
+export const NavBar = ({ activeMenu, setActiveMenu }) => {
   const handleClick = () => {
-    setActive((prevActive) => !prevActive);
+    setActiveMenu((prevActive) => !prevActive);
   };
-  useEffect(() => {
-    if (active) {
-      gsap.to(".menuLink", {
-        opacity: 1,
-        display: "flex",
-        paddingTop: "3rem",
-        ease: "power1.inOut",
-        duration: 0.5,
-      });
-    } else {
-      gsap.to(".menuLink", {
-        opacity: 0,
-        display: "none",
-        paddingTop: "0rem",
-        ease: "power1.inOut",
-        duration: 0.5,
-      });
-    }
-  }, [active]);
 
   return (
     <nav className="relative top-0 left-0 z-[200] w-6 h-6">
-      <Burger handleClick={handleClick} showLogo={showLogo} active={active} />
+      <Burger handleClick={handleClick} active={activeMenu} />
     </nav>
   );
 };

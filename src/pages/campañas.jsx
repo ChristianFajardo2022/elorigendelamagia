@@ -1,10 +1,16 @@
-import { useParams } from "react-router-dom";
+import { useOutletContext, useParams } from "react-router-dom";
 
 import data from "../data/data.json";
+import { useEffect } from "react";
 
 const Campañas = () => {
   const { slug } = useParams();
   const page = data.find((p) => p.slug === slug);
+
+  const { setNameCampaña } = useOutletContext();
+  useEffect(() => {
+    setNameCampaña(page);
+  }, [page]);
 
   if (!page) return <h1>Página no encontrada</h1>;
 
