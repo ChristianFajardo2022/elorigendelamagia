@@ -36,123 +36,140 @@
         "trailer": "/video/trailers/origendelamagia.mp4",
         "trailerM": "/video/trailers/origendelamagia.mp4"
       }
+    
     ],
     "souvenir": true,
     "making": true
   },
-  {
+    {
     "slug": "ultima-milla",
     "titulo": "ÚLTIMA MILLA",
     "tituloImg": "",
     "imgBackgroundMakingOf": "",
-    "categoria": "comercial",
+        "categoria": "comercial",
     "kv": "imagenes/kv/ultimamilla.jpg",
+
     "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
     "videoUrl": "https://www.youtube.com/watch?v=8VIcwCRwr5g",
-    "makingOf": [
+    "makingOf": 
+    [
+
       {
-        "titulo": "",
-        "descripcion": "",
-        "video": "",
-        "kivi": "",
-        "trailer": ""
-      },
+         "titulo": "",
+         "descripcion": "",
+         "video": "",
+         "kivi": "",
+         "trailer": ""
+    },
       {
-        "titulo": "",
-        "descripcion": "",
-        "video": "",
-        "kivi": "",
-        "trailer": ""
-      },
+         "titulo": "",
+         "descripcion": "",
+         "video": "",
+         "kivi": "",
+         "trailer": ""
+    },
       {
-        "titulo": "",
-        "descripcion": "",
-        "video": "",
-        "kivi": "",
-        "trailer": ""
-      }
+         "titulo": "",
+         "descripcion": "",
+         "video": "",
+         "kivi": "",
+         "trailer": ""
+    }
     ],
     "souvenir": false,
-    "making": true
+        "making": true
+
   },
-  {
+    {
     "slug": "el-gran-acto",
     "titulo": "El Gran Acto",
     "tituloImg": "",
     "imgBackgroundMakingOf": "",
     "categoria": "comercial",
     "kv": "imagenes/kv/ultimamilla.jpg",
+
     "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
     "videoUrl": "https://www.youtube.com/watch?v=yV3bIwC3y1g",
-    "makingOf": [
+    "makingOf": 
+    [
+
       {
-        "titulo": "MAKING OFF",
-        "descripcion": "Este es un pequeño resumen de lo que fue El Gran Acto, nuestra campaña de Navidad que busca conectar con las personas, contando la historia de Los Clásicos; un grupo de 5 adultos mayores que cautivaron las redes con su canción +de75 y que terminó con una linda acción en el Centro de Bienestar del Anciano San José de Facatativá. Esperamos que lo disfruten tanto como nosotros.",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailerM": "/video/trailers/origendelamagia.mp4"
-      },
+         "titulo": "MAKING OFF",
+         "descripcion": "Este es un pequeño resumen de lo que fue El Gran Acto, nuestra campaña de Navidad que busca conectar con las personas, contando la historia de Los Clásicos; un grupo de 5 adultos mayores que cautivaron las redes con su canción +de75 y que terminó con una linda acción en el Centro de Bienestar del Anciano San José de Facatativá. Esperamos que lo disfruten tanto como nosotros.",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailerM": "/video/trailers/origendelamagia.mp4"
+
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailerM": "/video/trailers/origendelamagia.mp4"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailerM": "/video/trailers/origendelamagia.mp4"
+
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailerM": "/video/trailers/origendelamagia.mp4"
-      }
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kV": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailerM": "/video/trailers/origendelamagia.mp4"
+
+    }
     ],
     "souvenir": false,
-    "making": true
+        "making": true
+
   },
+
   {
     "slug": "amigos-del-alma",
     "titulo": "Guardianes del Páramo",
     "tituloImg": "Guardianes del Páramo",
     "categoria": "comercial",
     "kv": "imagenes/kv/ultimamilla.jpg",
+
     "imgBackgroundMakingOf": "Guardianes del Páramo",
     "trailer": "/video/trailers/TRAILER-amigos-del-alma.mp4",
     "trailerM": "/video/trailers/trailer.mp4",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
     "videoUrl": "https://www.youtube.com/watch?v=ejemplo1",
-    "makingOf": [
+    "makingOf": 
+    [
+
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      }
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    }
     ],
     "souvenir": true,
-    "making": true
+        "making": true
+
   },
   {
     "slug": "guardian-del-paramo",
@@ -160,36 +177,40 @@
     "tituloImg": "Guardianes del Páramo",
     "categoria": "comercial",
     "kv": "imagenes/kv/ultimamilla.jpg",
+
     "imgBackgroundMakingOf": "Guardianes del Páramo",
     "trailer": "/video/trailers/trailer.mp4",
     "trailerM": "/video/trailers/trailer.mp4",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
     "videoUrl": "https://www.youtube.com/watch?v=ejemplo1",
-    "makingOf": [
+    "makingOf": 
+    [
+
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      }
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    }
     ],
     "souvenir": true,
-    "making": true
+        "making": true
+
   },
   {
     "slug": "el-gran-acto",
@@ -197,36 +218,40 @@
     "tituloImg": "El Gran Acto",
     "categoria": "comercial",
     "kv": "imagenes/kv/ultimamilla.jpg",
+
     "imgBackgroundMakingOf": "El Gran Acto",
     "trailer": "/video/trailers/trailer.mp4",
     "trailerM": "/video/trailers/trailer.mp4",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
     "videoUrl": "https://www.youtube.com/watch?v=ejemplo2",
-    "makingOf": [
+    "makingOf": 
+    [
+
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      }
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    }
     ],
     "souvenir": false,
-    "making": true
+        "making": true
+
   },
   {
     "slug": "mundo-sin-plastico",
@@ -234,35 +259,39 @@
     "tituloImg": "Mundo sin Plástico",
     "categoria": "comercial",
     "kv": "imagenes/kv/ultimamilla.jpg",
+
     "imgBackgroundMakingOf": "Mundo sin Plástico",
     "trailer": "/video/trailers/trailer.mp4",
     "trailerM": "/video/trailers/trailer.mp4",
     "descripcion": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, repellendus necessitatibus at rem",
     "videoUrl": "https://www.youtube.com/watch?v=ejemplo3",
-    "makingOf": [
+    "makingOf": 
+    [
+
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      },
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    },
       {
-        "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
-        "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
-      }
+         "titulo": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "descripcion": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "video": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "kivi": "https://cdn.misitio.com/makingof/guardian1.jpg",
+         "trailer": "https://cdn.misitio.com/makingof/guardian1.jpg"
+    }
     ],
     "souvenir": true,
-    "making": true
+        "making": true
+
   }
 ]
