@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { VideoPlayinline } from "../commons/VideoPlayinline";
 import { OverLay } from "../commons/OverLay";
+import { PlayIcon } from "../commons/PlayIcon";
 
 export const SectionMakingof = ({ data, handlePlay }) => {
   const [selectedMaking, setSelectedMaking] = useState(0);
@@ -76,14 +77,13 @@ const ContentMakingOf = ({ data, setSelectedMaking, handlePlay }) => {
         >
           <div className="absolute bottom-0 w-full h-10 group-hover:bg-blackInter transition-all duration-500 z-20 flex px-6 items-center justify-between">
             <h2 className="font-extrabold">{data.titulo}</h2>
-            <div className="flex justify-center gap-2 group-hover:opacity-100 opacity-0 transition-all duration-500 delay-300">
+            <div className="flex justify-center items-center gap-2 group-hover:opacity-100 opacity-0 transition-all duration-500">
               <button
-                className="cursor-pointer"
+                className="cursor-pointer w-4 flex items-center justify-center"
                 onClick={() => handlePlay(data.video)}
               >
-                <i>icono 1</i>
+                <PlayIcon invertColor={true} />
               </button>
-              <i>icono 2</i>
             </div>
           </div>
           <img

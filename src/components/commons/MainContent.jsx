@@ -22,7 +22,10 @@ export const MainContent = ({ data, handleClick }) => {
       </div>
       <p>{data.descripcion}</p>
       <button className="btn" onClick={handleClick}>
-        <PlayIcon /> Reproducir
+        <span className="w-6 flex justify-center items-center">
+          <PlayIcon />
+        </span>
+        Reproducir
       </button>
       {/* <button onClick={handleClick}>
         <BotonReproducir />
