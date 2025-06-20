@@ -15,8 +15,8 @@ export const Home = () => {
     <>
       <MainSection data={data} />
       <SectionMakingof data={data} />
-      <EntregasSection data={data} />
-      
+      <EntregasSection dataList={Data} />
+
     </>
   );
 };
