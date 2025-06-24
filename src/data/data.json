@@ -1,16 +1,17 @@
 [
   {
     "slug": "el-origen-de-la-magia",
-    "titulo": "LA MAGIA DE NUEVA VENECIA",
+    "titulo": "La Magia de Nueva Venecia",
     "tituloImg": "/imagenes/el-origen-de-la-magia.svg",
     "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
     "trailer": "/video/trailers/origendelamagia.mp4",
     "trailerM": "/video/trailers/origendelamagia.mp4",
     "categoria": "comercial",
+    "fecha": "Abril de 2025",
     "kv": "imagenes/kv/lamagiadenuevavenecia.jpg",
     "creditos": "<ul><li><strong>Vp Creativo</strong> Isaac Chaparro</li><li><strong>Gerente Creativo</strong> Edwin Romero</li><li><strong>Director de Cine</strong> Carlos Godoy</li><li><strong>Post Productor</strong> Felipe Chica</li><li><strong>Productora Ejecutiva</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo</strong> Andrés Ramírez</li><li><strong>Foto fija</strong> Camilo Salazar</li><li><strong>Realizador y Drone</strong> Camilo Ospina</li><li><strong>Gráfica Audiovisual</strong> Andrea Pedraza</li><li><strong>Director de Arte</strong> William Martínez</li><li><strong>Diseñador Gráfico</strong> Gabriel González</li><li><strong>Diseñador Gráfico</strong> Juan Garza</li><li><strong>Diseñador Gráfico</strong> Julián Getzamhá</li><li><strong>Creativo</strong> Daniel Garzón</li><li><strong>Relaciones Públicas</strong> Lauri Espinosa</li><li><strong>AD y Director NY</strong> David Bravo</li><li><strong>Director Fotografía</strong> Andrés Vergara (Comanche)</li><li><strong>Gaffer</strong> Julián Bohórquez</li><li><strong>Música Original</strong> Diego Cáceres</li><li><strong>Colorista</strong> Daniel Saavedra</li><li><strong>Director de Vestuario</strong> Tulia Díaz</li><li><strong>Vestuarista</strong> Sam Ruiz</li><li><strong>Actriz Principal</strong> Angie Gómez</li><li><strong>Actor</strong> Roberto Giraldo</li><li><strong>Dir. Arte (Cortometraje)</strong> Rebecca Piñeres</li><li><strong>Extra</strong> Hiber Cabarcas</li></ul>",
     "descripcion": "Una historia mágica nos lleva de Nueva Venecia, Magdalena a EE. UU., tras los pasos de una migrante que conquistó corazones y vuelve a casa, para honrar al verdadero mago de su vida.",
-    "videoUrl": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
+    "video": "https://www.youtube.com/watch?v=TvH3Hq3_gbs",
     "makingOf": [
       {
         "titulo": "Del storyboard, a la historia",
@@ -36,52 +37,176 @@
         "trailer": "/video/trailers/origendelamagia.mp4",
         "trailerM": "/video/trailers/origendelamagia.mp4"
       }
-    
-    ],   
-    "souvenir": true,
+    ],
+    "souvenir": false,
     "making": true
   },
   {
-    "slug": "el-origen-de-la-magia",
-    "titulo": "LA MAGIA DE NUEVA VENECIA",
-    "tituloImg": "/imagenes/el-origen-de-la-magia.svg",
-    "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
-    "trailer": "/video/trailers/origendelamagia.mp4",
-    "trailerM": "/video/trailers/origendelamagia.mp4",
+    "slug": "ultima-milla",
+    "titulo": "Última Milla",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/ultimamilla.jpg",
+    "trailer": "/video/trailers/trailerultimamilla.mp4",
+    "trailerM": "/video/trailers/trailerultimamilla.mp4",
     "categoria": "comercial",
-    "kv": "imagenes/kv/lamagiadenuevavenecia.jpg",
-    "creditos": "<ul><li><strong>Vp Creativo</strong> Isaac Chaparro</li><li><strong>Gerente Creativo</strong> Edwin Romero</li><li><strong>Director de Cine</strong> Carlos Godoy</li><li><strong>Post Productor</strong> Felipe Chica</li><li><strong>Productora Ejecutiva</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo</strong> Andrés Ramírez</li><li><strong>Foto fija</strong> Camilo Salazar</li><li><strong>Realizador y Drone</strong> Camilo Ospina</li><li><strong>Gráfica Audiovisual</strong> Andrea Pedraza</li><li><strong>Director de Arte</strong> William Martínez</li><li><strong>Diseñador Gráfico</strong> Gabriel González</li><li><strong>Diseñador Gráfico</strong> Juan Garza</li><li><strong>Diseñador Gráfico</strong> Julián Getzamhá</li><li><strong>Creativo</strong> Daniel Garzón</li><li><strong>Relaciones Públicas</strong> Lauri Espinosa</li><li><strong>AD y Director NY</strong> David Bravo</li><li><strong>Director Fotografía</strong> Andrés Vergara (Comanche)</li><li><strong>Gaffer</strong> Julián Bohórquez</li><li><strong>Música Original</strong> Diego Cáceres</li><li><strong>Colorista</strong> Daniel Saavedra</li><li><strong>Director de Vestuario</strong> Tulia Díaz</li><li><strong>Vestuarista</strong> Sam Ruiz</li><li><strong>Actriz Principal</strong> Angie Gómez</li><li><strong>Actor</strong> Roberto Giraldo</li><li><strong>Dir. Arte (Cortometraje)</strong> Rebecca Piñeres</li><li><strong>Extra</strong> Hiber Cabarcas</li></ul>",
-    "descripcion": "Una historia mágica nos lleva de Nueva Venecia, Magdalena a EE. UU., tras los pasos de una migrante que conquistó corazones y vuelve a casa, para honrar al verdadero mago de su vida.",
-    "videoUrl": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/ultimamilla.jpg",
+    "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Equipo Creativo:</strong> Alejandro Camelo - Daniel Garzón</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Foto fija y Realización Audiovisual:</strong> Camilo Salazar</li><li><strong>Postproducción y Color:</strong> Felipe Chica</li><li><strong>Arte y Gráfica:</strong> William Martínez</li><li><strong>Cast:</strong> @julian_velasquez_actor @manolitoramirez03 @davinsonramirez_actorjuvenil</li><li><strong>Director:</strong> Carlos Godoy</li><li><strong>AD:</strong> David Bravo</li><li><strong>Producción de Campo:</strong> Andrés Gómez @fisica_pura</li><li><strong>DP:</strong> Santiago Otoya</li><li><strong>Gaffer:</strong> @elsa_veedra</li><li><strong>Foto Crew:</strong> @xocarrax @pipeberri Camilo Ospina @david.salgadod</li><li><strong>Arte:</strong> @lasagradafamilia.arte</li><li><strong>Vest:</strong> @lineinsb</li><li><strong>Makeup:</strong> @juanita.gomez._</li><li><strong>Sonido directo:</strong> @elmandelsonido</li><li><strong>Diseño de sonido y Música:</strong> @dizeemills</li><li><strong>Vfx:</strong> @theportalmedia @jlmartins @dtrres</li><li><strong>Entrenador de perros:</strong> @maritoverde</li></ul>",
+    "descripcion": "Un día fuimos al espacio infinidades de veces, ganamos la copa mundial en cada encuentro, incluso, subíamos siempre a lo más alto del podio porque fuimos niños. Pero, ¿saben algo? Siempre es un buen día para ser niños.",
+    "video": "https://www.youtube.com/watch?v=8VIcwCRwr5g",
     "makingOf": [
       {
-        "titulo": "Del storyboard, a la historia",
-        "descripcion": "Cada línea, cada trazo y cada plano en esta mágica historia estuvo pensado para que emocionara a las personas, tanto como nos emocionó a nosotros, esperamos que disfruten de este proceso, tanto como lo hicimos nosotros.",
-        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
-        "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-1.jpg",
-        "trailer": "/video/trailers/origendelamagia.mp4",
-        "trailerM": "/video/trailers/origendelamagia.mp4"
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
       },
       {
-        "titulo": "Testigos de la magia",
-        "descripcion": "Estas son las palabras de los que vieron a la gran maga Juanita en acción, y quienes viven en este mágico lugar, que parece sacado de libros de ficción, un pueblo que emerge de entre las aguas de la ciénaga convirtiéndose en un paraíso en medio del Magdalena.",
-        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
-        "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-2.jpg",
-        "trailer": "/video/trailers/origendelamagia.mp4",
-        "trailerM": "/video/trailers/origendelamagia.mp4"
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
       },
       {
-        "titulo": "Making of",
-        "descripcion": "Al rendir homenaje a quienes sostienen a sus familias con casi nada, descubrimos a otros magos: los que, entre cifras y debates, desafían el clima y cruzan fronteras con la esperanza de algún día retornar a su tierra trunfadores.",
-        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
-        "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-3.jpg",
-        "trailer": "/video/trailers/origendelamagia.mp4",
-        "trailerM": "/video/trailers/origendelamagia.mp4"
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
       }
-    
-    ],   
-    "souvenir": true,
-        "making": true
-
+    ],
+    "souvenir": false,
+    "making": false
+  },
+  {
+    "slug": "el-gran-acto",
+    "titulo": "El Gran Acto",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvelgranacto.jpg",
+    "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
+    "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
+    "categoria": "comercial",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvelgranacto.jpg",
+    "creditos": "<ul><li><strong>V.P. Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Creativo:</strong> Edwin Romero</li><li><strong>Director de Cine:</strong> Charlie Godoy</li><li><strong>Edición y Color:</strong> Felipe Chica</li><li><strong>Director de Fotografía:</strong> Santiago Otoya</li><li><strong>Asistente de Dirección:</strong> David Bravo</li><li><strong>Director de Arte:</strong> William Martínez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo:</strong> Andrés Ramírez</li><li><strong>Directora de Experiencias:</strong> Lina Botero</li><li><strong>Productor de Campo:</strong> Andrés Gómez</li><li><strong>Productor Musical:</strong> Diego Cáceres</li><li><strong>Compositor:</strong> Mauricio y Palodeagua</li><li><strong>Compositor:</strong> Camilo Godoy</li><li><strong>Creativo:</strong> Daniel Garzón</li><li><strong>Creativo:</strong> Felipe González</li><li><strong>Diseñador Gráfico:</strong> Gabriel González</li><li><strong>Diseñador Gráfico:</strong> Juan Garza</li><li><strong>Diseñador Gráfico:</strong> Sergio Castro</li><li><strong>Diseñador Gráfico:</strong> Jonathan Bustos</li><li><strong>Fotografía:</strong> Camilo Salazar</li><li><strong>Realizador:</strong> Juan Camilo Ospina</li><li><strong>Gráfica Audiovisual:</strong> Andrea Pedraza</li><li><strong>Creadora de Contenido:</strong> Sandra Escobar</li><li><strong>Desarrollador Web:</strong> Jefersson Bautista</li><li><strong>Desarrollador Web:</strong> Christian Fajardo</li><li><strong>Investigador:</strong> Diego Rodríguez</li><li><strong>Experiencias:</strong> Laura León</li><li><strong>Relaciones Públicas:</strong> Lauri Espinosa</li><li><strong>Publicidad:</strong> Diana Velasco</li><li><strong>Mercadeo:</strong> Nicolás Pinzón</li><li><strong>Entrenador de Actores:</strong> Jorge Giraldo</li><li><strong>Productora de Campo:</strong> Carolina Bermúdez</li><li><strong>Coordinación de Producción:</strong> Jaime A. y Leydi G.</li></ul>",
+    "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
+    "video": "https://www.youtube.com/watch?v=yV3bIwC3y1g",
+    "makingOf": [
+      {
+        "titulo": "MAKING OF",
+        "descripcion": "Este es un pequeño resumen de lo que fue El Gran Acto, nuestra campaña de Navidad que busca conectar con las personas, contando la historia de Los Clásicos; un grupo de 5 adultos mayores que cautivaron las redes con su canción +de75 y que terminó con una linda acción en el Centro de Bienestar del Anciano San José de Facatativá. Esperamos que lo disfruten tanto como nosotros.",
+        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
+        "kv": "imagenes/kv/Henrry.jpg",
+        "trailer": "/video/trailers/Shorts-Making-of-los-clasicos.mp4",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "imagenes/kv/Joaquin.jpg",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "imagenes/kv/Rosalba.jpg",
+        "trailer": "",
+        "trailerM": ""
+      }
+    ],
+    "souvenir": false,
+    "making": true
+  },
+  {
+    "slug": "amigos-del-alma",
+    "titulo": "Amigos del Alma",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvamigosdelalma.jpg",
+    "trailer": "/video/trailers/TRAILER-15-DE-SEPTIEMBRE-INTER-RAPIDISÍMO.mp4",
+    "trailerM": "/video/trailers/TRAILER-15-DE-SEPTIEMBRE-INTER-RAPIDISÍMO.mp4",
+    "categoria": "comercial",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvamigosdelalma.jpg",
+    "creditos": "<ul><li><strong>V.P. Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Creativo:</strong> Edwin Romero</li><li><strong>Director de Cine:</strong> Charlie Godoy</li><li><strong>Edición y Color:</strong> Felipe Chica</li><li><strong>Director de Fotografía:</strong> Santiago Otoya</li><li><strong>Asistente de Dirección:</strong> David Bravo</li><li><strong>Director de Arte:</strong> William Martínez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo:</strong> Andrés Ramírez</li><li><strong>Directora de Experiencias:</strong> Lina Botero</li><li><strong>Productor de Campo:</strong> Andrés Gómez</li><li><strong>Productor Musical:</strong> Diego Cáceres</li><li><strong>Compositor:</strong> Mauricio y Palodeagua</li><li><strong>Compositor:</strong> Camilo Godoy</li><li><strong>Creativo:</strong> Daniel Garzón</li><li><strong>Creativo:</strong> Felipe González</li><li><strong>Diseñador Gráfico:</strong> Gabriel González</li><li><strong>Diseñador Gráfico:</strong> Juan Garza</li><li><strong>Diseñador Gráfico:</strong> Sergio Castro</li><li><strong>Diseñador Gráfico:</strong> Jonathan Bustos</li><li><strong>Fotografía:</strong> Camilo Salazar</li><li><strong>Realizador:</strong> Juan Camilo Ospina</li><li><strong>Gráfica Audiovisual:</strong> Andrea Pedraza</li><li><strong>Creadora de Contenido:</strong> Sandra Escobar</li><li><strong>Desarrollador Web:</strong> Jefersson Bautista</li><li><strong>Desarrollador Web:</strong> Christian Fajardo</li><li><strong>Investigador:</strong> Diego Rodríguez</li><li><strong>Experiencias:</strong> Laura León</li><li><strong>Relaciones Públicas:</strong> Lauri Espinosa</li><li><strong>Publicidad:</strong> Diana Velasco</li><li><strong>Mercadeo:</strong> Nicolás Pinzón</li><li><strong>Entrenador de Actores:</strong> Jorge Giraldo</li><li><strong>Productora de Campo:</strong> Carolina Bermúdez</li><li><strong>Coordinación de Producción:</strong> Jaime A. y Leydi G.</li></ul",
+    "descripcion": "Con esta entrega buscamos hacer un homenaje a todos aquellos que siempre están ahí. Para esto quisimos contar la historia de Alejo y Toño dos amigos que llevan toda la vida juntos y quienes nos sirvieron de inspiración para celebrar la amistad más fiel que existe. En amigodelalma.com puedes conseguir una replica exacta del collar de Toño y podrás personalizarlo con una foto tuya junto a tu amigo del alma. ",
+    "video": "https://www.youtube.com/watch?v=4IjOMqehin8",
+    "makingOf": [
+      {
+        "titulo": "MAKING OF",
+        "descripcion": "Así le dimos vida a Amigos del Alma, una historia inspirada en la sinceridad y la fidelidad de un amigo de verdad. Con la ayuda de Andrés Jaramillo, quien nos guio y nos inspiró con su historia y la de su fiel compañía. Amigos del Alma es una campaña para honrar la amistad más sincera que ha existido, una amistad que nos demuestra que no hay vínculo más fuerte que el de una persona y su mascota. Esperamos que lo disfruten tanto como nosotros.",
+        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
+        "kv": "imagenes/kv/Henrry.jpg",
+        "trailer": "/video/trailers/Shorts-Making-of-los-clasicos.mp4",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "imagenes/kv/Joaquin.jpg",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "imagenes/kv/Rosalba.jpg",
+        "trailer": "",
+        "trailerM": ""
+      }
+    ],
+    "souvenir": false,
+    "making": true
+  },
+  {
+    "slug": "maturana",
+    "titulo": "¡Ganémosla de nuevo!",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvmaturana.jpg",
+    "trailer": "/video/trailers/Shorts-Maturana.mp4",
+    "trailerM": "/video/trailers/Shorts-Maturana.mp4",
+    "categoria": "comercial",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvmaturana.jpg",
+    "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Director de Arte:</strong> William Martínez López</li><li><strong>Diseño Gráfico:</strong> Gabriel Eduardo González</li><li><strong>Diseño Gráfico:</strong> Jonathan Bustos Meléndez</li><li><strong>Diseño Gráfico:</strong> Juan David Garza Forero</li><li><strong>Diseño Gráfico:</strong> Julián Getzamhá</li><li><strong>Diseño Gráfico:</strong> Sergio Arturo Castro Carrillo</li><li><strong>Diseño Gráfico:</strong> Paola Andrea Pedraza Casallas</li><li><strong>Equipo Creativo:</strong> Daniel Santiago Garzón Correa</li><li><strong>Equipo Creativo:</strong> Ginna Melo</li><li><strong>Equipo Creativo:</strong> Juliana Escobar</li><li><strong>Equipo Creativo:</strong> Juan Pablo Vega</li><li><strong>Productora:</strong> Inter Rapidísimo</li><li><strong>Dirección Audiovisual:</strong> Charlie Godoy</li><li><strong>Fotografía:</strong> David Camilo Salazar Cubillos</li><li><strong>Colorización y Post:</strong> Andrés Felipe Herreño Chica</li><li><strong>Jefe de Prensa:</strong> Lauri Espinosa</li></ul>",
+    "descripcion": "<p>Han pasado 23 años desde que un grupo de amigos nos dejó una victoria inolvidable, hoy quisimos hacer un homenaje a ellos y a quienes están luchando por traer la segunda. </p><p>Esta entrega es para todos ustedes, porque hemos llorado, nos hemos ilusionado, y nos hemos levantado muchas veces. Queremos que sepan que lo único que no perdemos es la fe. </p><p>¡Vamos muchachos, ganémosla de nuevo!</p><p>Inter Rapidísimo Optimista Colaborador Oficial de la Selección Colombia.</p><p>Un homenaje a: @franciscomaturanaoficial @aristigol09 @oscarcordoba_ @gerardobedoyam @totono_grisales @eulalio_arriaga @oscardiazg_10 @fabianvargas_6 Iván López, Roberto Carlos Cortés, Elkin Murillo, Miguel Calero y Elson Becerra.</p><p>#InterRapidisimo #Maturana #Colombia #SelelccionColombia #CopaAmerica 2024</p>",
+    "video": "https://www.youtube.com/watch?v=uzJmSqZlXmc",
+    "makingOf": [
+      {
+        "titulo": "MAKING OF",
+        "descripcion": "Así le dimos vida a Amigos del Alma, una historia inspirada en la sinceridad y la fidelidad de un amigo de verdad. Con la ayuda de Andrés Jaramillo, quien nos guio y nos inspiró con su historia y la de su fiel compañía. Amigos del Alma es una campaña para honrar la amistad más sincera que ha existido, una amistad que nos demuestra que no hay vínculo más fuerte que el de una persona y su mascota. Esperamos que lo disfruten tanto como nosotros.",
+        "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
+        "kv": "imagenes/kv/Henrry.jpg",
+        "trailer": "/video/trailers/Shorts-Making-of-los-clasicos.mp4",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "imagenes/kv/Joaquin.jpg",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "imagenes/kv/Rosalba.jpg",
+        "trailer": "",
+        "trailerM": ""
+      }
+    ],
+    "souvenir": false,
+    "making": true
   }
 ]

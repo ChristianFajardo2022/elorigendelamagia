@@ -29,15 +29,15 @@ html {
   /* @apply overflow-x-hidden xl:text-[16px] max-sm:text-[4vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black; */
 }
 body {
-  @apply bg-blackInter text-whiteInter font-inter;
+  @apply overflow-x-hidden bg-blackInter text-whiteInter font-inter;
 }
 body,
 #root {
   @apply w-full h-full;
 }
 .btn {
-  @apply flex items-center justify-center gap-4 cursor-pointer text-2xl hover:bg-whiteInter/60 bg-whiteInter text-blackInter min-w-60 min-h-12 rounded-md ease-in-out transition-all duration-300;
+  @apply flex items-center justify-center gap-4 px-6 cursor-pointer text-2xl hover:bg-whiteInter/60 bg-whiteInter text-blackInter min-w-60 min-h-14 rounded-full ease-in-out transition-all duration-300;
 }
-p{
-  @apply text-lg
-}
+/* p {
+  @apply text-lg;
+} */

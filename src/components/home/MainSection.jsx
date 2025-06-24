@@ -12,7 +12,7 @@ export const MainSection = ({ data, video, handlePlay, play }) => {
           <MainContent
             data={data}
             play={play}
-            handleClick={() => handlePlay(data.videoUrl)}
+            handleClick={() => handlePlay(data.video)}
           />
           <BackgroundTrailer data={data} play={play} />
         </div>
@@ -30,7 +30,7 @@ const VideoFixed = ({ play, url, handlePlay }) => {
         <motion.div
           key="player"
           ref={containerRef}
-          className="fixed size-full top-0 left-0 z-101"
+          className="fixed size-full top-0 left-0 z-103"
         >
           <motion.div
             className="absolute w-full h-full bg-blackInter pointer-events-none z-40"

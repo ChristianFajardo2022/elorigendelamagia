@@ -7,6 +7,7 @@ import { MainSection } from "./MainSection";
 import { SectionMakingof } from "./SectionMakingof";
 import { EntregasSection } from "./EntregasSection";
 import { useOutletContext } from "react-router-dom";
+import { useScrollLock } from "../../helpers/ScrollLock";
 
 export const Home = () => {
   const [play, setplay] = useState(false);
@@ -14,6 +15,17 @@ export const Home = () => {
   const slug = "el-origen-de-la-magia";
   const data = Data.find((p) => p.slug === slug);
   const { setNameCampaña } = useOutletContext();
+
+  const { lockScroll, unlockScroll } = useScrollLock();
+  useEffect(() => {
+    if (play) {
+      lockScroll();
+    } else {
+      unlockScroll();
+    }
+
+    return () => unlockScroll();
+  }, [play, lockScroll, unlockScroll]);
 
   useEffect(() => {
     setNameCampaña(data);
@@ -31,7 +43,6 @@ export const Home = () => {
   console.log(video);
   return (
     <>
-
       <MainSection
         data={data}
         video={video}
@@ -39,7 +50,7 @@ export const Home = () => {
         play={play}
       />
       <SectionMakingof data={data} handlePlay={handlePlay} />
-      <EntregasSection dataList={Data} />
+      <EntregasSection dataList={Data} handlePlay={handlePlay} />
     </>
   );
 };
