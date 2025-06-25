@@ -1,8 +1,7 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import { VideoPlayinline } from "../commons/VideoPlayinline";
 import { OverLay } from "../commons/OverLay";
-import { PlayIcon } from "../commons/PlayIcon";
+import { ContentCampaing } from "../commons/ContentCampaing";
 
 export const SectionMakingof = ({ data, handlePlay }) => {
   const [selectedMaking, setSelectedMaking] = useState(0);
@@ -10,8 +9,8 @@ export const SectionMakingof = ({ data, handlePlay }) => {
   return (
     <section className="w-full h-dvh relative overflow-hidden">
       <BackGround data={dataMaking} selectedMaking={selectedMaking}>
-        <ContentMakingOf
-          data={data}
+        <ContentCampaing
+          data={data.makingOf}
           setSelectedMaking={setSelectedMaking}
           handlePlay={handlePlay}
         />
@@ -41,59 +40,14 @@ const BackGround = ({ data, children, selectedMaking }) => {
       <div
         className={`relative flex flex-col justify-end items-start size-full z-[22] px-20 pb-20`}
       >
-        <div className="w-full pb-14">
+        <div className="w-full pb-10">
           <h2 className="font-interB text-6xl">
             {data[selectedMaking].titulo}
           </h2>
-          <p>{data[selectedMaking].descripcion}</p>
+          <p className="w-1/2 mt-4">{data[selectedMaking].descripcion}</p>
         </div>
         {children}
       </div>
     </>
-  );
-};
-/* Contenido dinamico */
-const ContentMakingOf = ({ data, setSelectedMaking, handlePlay }) => {
-  const dataMaking = data.makingOf;
-  const [play, setPlay] = useState(null);
-
-  const handleMouseEnter = (i) => {
-    setSelectedMaking(i);
-    setPlay(i);
-  };
-
-  const handleMouseLeave = () => {
-    setPlay(null);
-  };
-
-  return (
-    <div className="h-80 flex items-center justify-start gap-6">
-      {dataMaking.map((data, i) => (
-        <div
-          onMouseEnter={() => handleMouseEnter(i)}
-          onMouseLeave={handleMouseLeave}
-          className={`group relative transition-all delay-150 overflow-hidden aspect-video hover:h-full h-62 w-96 hover:scale-110 transform origin-center rounded-2xl`}
-          key={i}
-        >
-          <div className="absolute bottom-0 w-full h-10 group-hover:bg-blackInter transition-all duration-500 z-20 flex px-6 items-center justify-between">
-            <h2 className="font-extrabold">{data.titulo}</h2>
-            <div className="flex justify-center items-center gap-2 group-hover:opacity-100 opacity-0 transition-all duration-500">
-              <button
-                className="cursor-pointer w-4 flex items-center justify-center"
-                onClick={() => handlePlay(data.video)}
-              >
-                <PlayIcon invertColor={true} />
-              </button>
-            </div>
-          </div>
-          <img
-            className="absolute z-10 size-full object-center object-cover scale-105 group-hover:scale-x-125 top-0 left-0 transition-all duration-500 opacity-100 group-hover:opacity-0"
-            src={data.kv}
-            alt={data.titulo}
-          />
-          <VideoPlayinline data={data} play={play === i} scale={"scale-135"} />
-        </div>
-      ))}
-    </div>
   );
 };

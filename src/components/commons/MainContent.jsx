@@ -27,9 +27,6 @@ export const MainContent = ({ data, handleClick }) => {
         </span>
         Reproducir
       </button>
-      {/* <button onClick={handleClick}>
-        <BotonReproducir />
-      </button> */}
     </div>
   );
 };

@@ -1,0 +1,13 @@
+@import "tailwindcss";
+.slick-track {
+  @apply h-80 flex items-center justify-start;
+}
+.slick-slide {
+  @apply h-full;
+}
+.slick-slide > div {
+  @apply size-full flex items-center justify-start gap-6;
+}
+.slick-disabled {
+  @apply pointer-events-none opacity-0;
+}

@@ -7,6 +7,7 @@ import { MainSection } from "./MainSection";
 import { SectionMakingof } from "./SectionMakingof";
 import { EntregasSection } from "./EntregasSection";
 import { useOutletContext } from "react-router-dom";
+import { useScrollLock } from "../../helpers/ScrollLock";
 
 export const Home = () => {
   const [play, setplay] = useState(false);
@@ -14,6 +15,17 @@ export const Home = () => {
   const slug = "el-origen-de-la-magia";
   const data = Data.find((p) => p.slug === slug);
   const { setNameCampaña } = useOutletContext();
+
+  const { lockScroll, unlockScroll } = useScrollLock();
+  useEffect(() => {
+    if (play) {
+      lockScroll();
+    } else {
+      unlockScroll();
+    }
+
+    return () => unlockScroll();
+  }, [play, lockScroll, unlockScroll]);
 
   useEffect(() => {
     setNameCampaña(data);
@@ -38,17 +50,10 @@ export const Home = () => {
         play={play}
       />
       <SectionMakingof data={data} handlePlay={handlePlay} />
-      <EntregasSection dataList={Data} />
-
-      <p>
-En @colombiamoda_oficial  invitamos a los asistentes a vivir nuestra experiencia con los Guardianes del Páramo, en un estand construido con materiales renovables en donde buscaremos sembrar en todos el amor y cuidado por nuestros páramos. Pongamos de moda la sostenibilidad. 🥰      </p>
-      <p>
-       Ante esto, decidimos donar 2,000 frailejones, de los cuales ya sembramos los primeros 500. Esta acción fue acompañada por Moisés Moreno, quien ha sembrado exitosamente más de 2,400 frailejones, el Doctor en Biología, Fernando Alzate Guarín, docente y experto en Páramos desde hace más de 25 años de la Universidad de Antioquia y un especialista del Instituto Humboldt, estudiaron el suelo y determinaron que cuenta con las condiciones óptimas para que los frailejones crezcan sin problema.
-
-      </p>
-      <p>En esta primera siembra, un hijo de la montaña fue el encargado de pedir permiso al páramo para poder ingresar a estas sagradas tierras, luego, dotó de conocimiento y herramientas a cada uno de los 200 voluntarios a quienes bautizaría como Guardianes del Páramo, para que la siembra sea exitosa.</p>
-      <p>Esta experiencia fue sellada con una moneda, símbolo de que no existe el dinero suficiente para comprar estos ecosistemas únicos que proveen agua a muchos territorios del país.
-      </p>
+      <EntregasSection dataList={Data} handlePlay={handlePlay} />
+<p>Un mejor mundo para nuestras futuras generaciones, esa será nuestra entrega. Para lograrlo decidimos dar el primer paso, llevamos a cientos de pescadores de plástico a las playas de Colombia con la misión de recolectar el plástico que llega hasta allí y recuperar estos ecosistemas.
+Ecosistemas que están siendo alterados y afectados a tal punto que nuestras especies obligadas a adaptarse a estos entornos que se están convirtiendo en una pesadilla para su supervivencia. Por esta razón, estamos invitando a todas las personas a hacer un uso adecuado del plástico, un uso consciente que no ponga en riesgo la vida de nuestras especies, o a usar alternativas que no representen un peligro para los ecosistemas.
+Conoce más sobre esta campaña en mundosinplastico.com </p>
     </>
   );
 };
