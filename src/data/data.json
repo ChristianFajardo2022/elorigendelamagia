@@ -11,7 +11,7 @@
     "kv": "imagenes/kv/lamagiadenuevavenecia.jpg",
     "creditos": "<ul><li><strong>Vp Creativo</strong> Isaac Chaparro</li><li><strong>Gerente Creativo</strong> Edwin Romero</li><li><strong>Director de Cine</strong> Carlos Godoy</li><li><strong>Post Productor</strong> Felipe Chica</li><li><strong>Productora Ejecutiva</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo</strong> Andrés Ramírez</li><li><strong>Foto fija</strong> Camilo Salazar</li><li><strong>Realizador y Drone</strong> Camilo Ospina</li><li><strong>Gráfica Audiovisual</strong> Andrea Pedraza</li><li><strong>Director de Arte</strong> William Martínez</li><li><strong>Diseñador Gráfico</strong> Gabriel González</li><li><strong>Diseñador Gráfico</strong> Juan Garza</li><li><strong>Diseñador Gráfico</strong> Julián Getzamhá</li><li><strong>Creativo</strong> Daniel Garzón</li><li><strong>Relaciones Públicas</strong> Lauri Espinosa</li><li><strong>AD y Director NY</strong> David Bravo</li><li><strong>Director Fotografía</strong> Andrés Vergara (Comanche)</li><li><strong>Gaffer</strong> Julián Bohórquez</li><li><strong>Música Original</strong> Diego Cáceres</li><li><strong>Colorista</strong> Daniel Saavedra</li><li><strong>Director de Vestuario</strong> Tulia Díaz</li><li><strong>Vestuarista</strong> Sam Ruiz</li><li><strong>Actriz Principal</strong> Angie Gómez</li><li><strong>Actor</strong> Roberto Giraldo</li><li><strong>Dir. Arte (Cortometraje)</strong> Rebecca Piñeres</li><li><strong>Extra</strong> Hiber Cabarcas</li></ul>",
     "descripcion": "Una historia mágica nos lleva de Nueva Venecia, Magdalena a EE. UU., tras los pasos de una migrante que conquistó corazones y vuelve a casa, para honrar al verdadero mago de su vida.",
-    "video": "https://www.youtube.com/watch?v=4IjOMqehin8&t=6s",
+    "video": "https://www.youtube.com/watch?v=TvH3Hq3_gbs",
     "makingOf": [
       {
         "titulo": "Del storyboard, a la historia",
@@ -172,6 +172,226 @@
     ],   
     "souvenir": false,
         "making": true
+
+  },
+  {
+    "slug": "maturana",
+    "titulo": "¡Ganémosla de nuevo!",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvmaturana.jpg",
+    "trailer": "/video/trailers/Shorts-Maturana.mp4",
+    "trailerM": "/video/trailers/Shorts-Maturana.mp4",
+    "categoria": "comercial",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvmaturana.jpg",
+    "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Director de Arte:</strong> William Martínez López</li><li><strong>Diseño Gráfico:</strong> Gabriel Eduardo González</li><li><strong>Diseño Gráfico:</strong> Jonathan Bustos Meléndez</li><li><strong>Diseño Gráfico:</strong> Juan David Garza Forero</li><li><strong>Diseño Gráfico:</strong> Julián Getzamhá</li><li><strong>Diseño Gráfico:</strong> Sergio Arturo Castro Carrillo</li><li><strong>Diseño Gráfico:</strong> Paola Andrea Pedraza Casallas</li><li><strong>Equipo Creativo:</strong> Daniel Santiago Garzón Correa</li><li><strong>Equipo Creativo:</strong> Ginna Melo</li><li><strong>Equipo Creativo:</strong> Juliana Escobar</li><li><strong>Equipo Creativo:</strong> Juan Pablo Vega</li><li><strong>Productora:</strong> Inter Rapidísimo</li><li><strong>Dirección Audiovisual:</strong> Charlie Godoy</li><li><strong>Fotografía:</strong> David Camilo Salazar Cubillos</li><li><strong>Colorización y Post:</strong> Andrés Felipe Herreño Chica</li><li><strong>Jefe de Prensa:</strong> Lauri Espinosa</li></ul>",
+    "descripcion": "<p>Han pasado 23 años desde que un grupo de amigos nos dejó una victoria inolvidable, hoy quisimos hacer un homenaje a ellos y a quienes están luchando por traer la segunda. </p><p>Esta entrega es para todos ustedes, porque hemos llorado, nos hemos ilusionado, y nos hemos levantado muchas veces. Queremos que sepan que lo único que no perdemos es la fe. </p><p>¡Vamos muchachos, ganémosla de nuevo!</p><p>Inter Rapidísimo Optimista Colaborador Oficial de la Selección Colombia.</p><p>Un homenaje a: @franciscomaturanaoficial @aristigol09 @oscarcordoba_ @gerardobedoyam @totono_grisales @eulalio_arriaga @oscardiazg_10 @fabianvargas_6 Iván López, Roberto Carlos Cortés, Elkin Murillo, Miguel Calero y Elson Becerra.</p><p>#InterRapidisimo #Maturana #Colombia #SelelccionColombia #CopaAmerica 2024</p>",
+    "video": "https://www.youtube.com/watch?v=uzJmSqZlXmc",
+    "makingOf": [
+      {
+        "titulo": "NOS LEVANTAREMOS",
+        "descripcion": "Volveremos y más fuertes…",
+        "video": "https://www.youtube.com/watch?v=N3tortSNPdQ",
+        "kv": "imagenes/kv/Henrry.jpg",
+        "trailer": "/video/trailers/Shorts-Making-of-los-clasicos.mp4",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": true
+
+  },
+  {
+    "slug": "guardianes-del-paramo-2025",
+    "titulo": "Guardianes del Páramo 2025",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2025.jpg",
+    "trailer": "/video/trailers/Shorts-Guadianes-paramo 2025.mp4",
+    "trailerM": "/video/trailers/Shorts-Guadianes-paramo 2025.mp4",
+    "categoria": "Responsabilidad Social",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvguardianesdelparamo2025.jpg",
+    "creditos": "",
+    "descripcion": "<p>Unidos avanzamos más lejos.</p><p>Unidos conseguimos cosas increíbles.</p><p>Unidos no hay posiciones que nos separen.</p><p>Este año, nos unimos a 23 de las marcas más importantes del país para sembrar 500 nuevos frailejones en el páramo más lindo del mundo.Inter Rapidísimo Optimista Colaborador Oficial de la Selección Colombia.</p><p>Ahora juntos somos #GuardianesDelPáramo y compartimos un propósito que nos unirá por siempre.</p><p>Gracias amigos de: @canalrcn @caracoltv @movistarcolombia @clarocolombia @deprisaoficial @dhllatam @productosramo @pepsicocolombia @taxislibres @picap_col @grupoaval @bancofabella_co @rappicolombia @amazon @piboxcol @bluradio @olimpicastereo @autogermana_bmw @landrovercolombia @jaguar_colombia @citroencolombia @suzuki_colombia @gwm_colombia @columbia_col </p>",
+    "video": "https://www.youtube.com/watch?v=rEWcQNiE5HE",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "guardianes-del-paramo-2024",
+    "titulo": "Guardianes del Páramo 2024",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2024.jpg",
+    "trailer": "/video/trailers/Shorts-Guardianes-del-paramo-2024.mp4",
+    "trailerM": "/video/trailers/Shorts-Guardianes-del-paramo-2024.mp4",
+    "categoria": "Responsabilidad Social",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvguardianesdelparamo2024.jpg",
+    "creditos": "",
+    "descripcion": "<p>En enero del 2024, una ola de calor causó graves incendios en gran parte del territorio nacional, afectando ecosistemas tan valiosos como lo son los páramos.</p><p>Ante esto, decidimos donar 2,000 frailejones, de los cuales ya sembramos los primeros 500. Esta acción fue acompañada por Moisés Moreno, quien ha sembrado exitosamente más de 2,400 frailejones, el Doctor en Biología, Fernando Alzate Guarín, docente y experto en Páramos desde hace más de 25 años de la Universidad de Antioquia y un especialista del Instituto Humboldt, estudiaron el suelo y determinaron que cuenta con las condiciones óptimas para que los frailejones crezcan sin problema.</p><p>En esta primera siembra, un hijo de la montaña fue el encargado de pedir permiso al páramo para poder ingresar a estas sagradas tierras, luego, dotó de conocimiento y herramientas a cada uno de los 200 voluntarios a quienes bautizaría como Guardianes del Páramo, para que la siembra sea exitosa.</p><p>Esta experiencia fue sellada con una moneda, símbolo de que no existe el dinero suficiente para comprar estos ecosistemas únicos que proveen agua a muchos territorios del país.</p>",
+    "video": "https://www.youtube.com/watch?v=rTUZEAqfuHw",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "estand-colombiamoda-2024",
+    "titulo": "Estand Colombiamoda 2024",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2024.jpg",
+    "trailer": "/video/trailers/Shorts-Colombiamoda.mp4",
+    "trailerM": "/video/trailers/Shorts-Colombiamoda.mp4",
+    "categoria": "Responsabilidad Social",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/colombiamoda.jpg",
+    "creditos": "",
+    "descripcion": " <p>En @colombiamoda_oficial  invitamos a los asistentes a vivir nuestra experiencia con los Guardianes del Páramo, en un estand construido con materiales renovables en donde buscaremos sembrar en todos el amor y cuidado por nuestros páramos. Pongamos de moda la sostenibilidad. 🥰</p><p>",
+    "video": "https://www.youtube.com/watch?v=QmzRDzkJ210",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "mundoplastico",
+    "titulo": "Estand Colombiamoda 2024",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2024.jpg",
+    "trailer": "/video/trailers/Shorts-Colombiamoda.mp4",
+    "trailerM": "/video/trailers/Shorts-Colombiamoda.mp4",
+    "categoria": "Responsabilidad Social",
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/colombiamoda.jpg",
+    "creditos": "",
+    "descripcion": " <p>En @colombiamoda_oficial  invitamos a los asistentes a vivir nuestra experiencia con los Guardianes del Páramo, en un estand construido con materiales renovables en donde buscaremos sembrar en todos el amor y cuidado por nuestros páramos. Pongamos de moda la sostenibilidad. 🥰</p><p>",
+    "video": "https://www.youtube.com/watch?v=QmzRDzkJ210",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
 
   }
 

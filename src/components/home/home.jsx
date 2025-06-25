@@ -31,7 +31,6 @@ export const Home = () => {
   console.log(video);
   return (
     <>
-
       <MainSection
         data={data}
         video={video}
@@ -40,6 +39,16 @@ export const Home = () => {
       />
       <SectionMakingof data={data} handlePlay={handlePlay} />
       <EntregasSection dataList={Data} />
+
+      <p>
+En @colombiamoda_oficial  invitamos a los asistentes a vivir nuestra experiencia con los Guardianes del Páramo, en un estand construido con materiales renovables en donde buscaremos sembrar en todos el amor y cuidado por nuestros páramos. Pongamos de moda la sostenibilidad. 🥰      </p>
+      <p>
+       Ante esto, decidimos donar 2,000 frailejones, de los cuales ya sembramos los primeros 500. Esta acción fue acompañada por Moisés Moreno, quien ha sembrado exitosamente más de 2,400 frailejones, el Doctor en Biología, Fernando Alzate Guarín, docente y experto en Páramos desde hace más de 25 años de la Universidad de Antioquia y un especialista del Instituto Humboldt, estudiaron el suelo y determinaron que cuenta con las condiciones óptimas para que los frailejones crezcan sin problema.
+
+      </p>
+      <p>En esta primera siembra, un hijo de la montaña fue el encargado de pedir permiso al páramo para poder ingresar a estas sagradas tierras, luego, dotó de conocimiento y herramientas a cada uno de los 200 voluntarios a quienes bautizaría como Guardianes del Páramo, para que la siembra sea exitosa.</p>
+      <p>Esta experiencia fue sellada con una moneda, símbolo de que no existe el dinero suficiente para comprar estos ecosistemas únicos que proveen agua a muchos territorios del país.
+      </p>
     </>
   );
 };
