@@ -9,16 +9,34 @@ export const CardCampaing = ({
   more,
   handlePlay,
   setSelectedMaking,
+  isCampaingSlide,
 }) => {
   const [play, setPlay] = useState(null);
 
   const handleMouseEnter = (i) => {
-    setSelectedMaking(i);
-    setPlay(i);
+    if (isCampaingSlide) {
+      return;
+    } else {
+      setSelectedMaking(i);
+      setPlay(i);
+    }
   };
 
   const handleMouseLeave = () => {
-    setPlay(null);
+    if (isCampaingSlide) {
+      return;
+    } else {
+      setPlay(null);
+    }
+  };
+
+  const handleFicha = () => {
+    if (isCampaingSlide) {
+      setSelectedMaking(data);
+      setFicha(true);
+    } else {
+      setFicha(true);
+    }
   };
   return (
     <div
@@ -37,7 +55,7 @@ export const CardCampaing = ({
           </button>
           {more && (
             <button
-              onClick={() => setFicha(true)}
+              onClick={handleFicha}
               className="cursor-pointer w-8 h-8 flex items-center justify-center group/icon"
             >
               <i className="w-full inline-block ">

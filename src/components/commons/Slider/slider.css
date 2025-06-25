@@ -11,3 +11,8 @@
 .slick-disabled {
   @apply pointer-events-none opacity-0;
 }
+/* Forzar alineación izquierda del slider cuando hay pocos elementos */
+.slick-track {
+  margin: 0 !important;
+  justify-content: flex-start !important;
+}
