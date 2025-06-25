@@ -14,6 +14,7 @@ export const ContentCampaing = ({
     <div className="h-80 flex items-center justify-start gap-6">
       {data.map((data, i) => (
         <CardCampaing
+          key={i}
           data={data}
           i={i}
           setFicha={setFicha}

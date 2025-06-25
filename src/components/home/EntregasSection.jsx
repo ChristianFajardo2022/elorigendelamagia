@@ -9,7 +9,7 @@ import { VideoPlayinline } from "../commons/VideoPlayinline";
 import { RedesSociales } from "../commons/RedesSociales";
 
 export const EntregasSection = ({ dataList, handlePlay }) => {
-  const [selectedMaking, setSelectedMaking] = useState(0);
+  const [selectedMaking, setSelectedMaking] = useState(null);
   const [ficha, setFicha] = useState(false);
   const { lockScroll, unlockScroll } = useScrollLock();
 
@@ -26,22 +26,42 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
 
   if (!Array.isArray(dataList)) return null; // o puedes retornar un loader
 
-  const groupedData = dataList.reduce((acc, item) => {
-    const category = item.categoria?.trim() || "Otras entregas";
-    if (!acc[category]) acc[category] = [];
-    acc[category].push(item);
-    return acc;
-  }, {});
+  const uniqueGroups = {};
 
+  dataList.forEach((item) => {
+    const categorias = Array.isArray(item.categoria)
+      ? item.categoria
+      : [item.categoria || "Otras entregas"];
+
+    categorias.forEach((categoria) => {
+      const key = categoria?.trim() || "Otras entregas";
+      if (!uniqueGroups[key]) uniqueGroups[key] = new Set();
+      uniqueGroups[key].add(item);
+    });
+  });
+
+  // Convertir sets a arrays
+  const groupedData = Object.entries(uniqueGroups).reduce(
+    (acc, [cat, itemsSet]) => {
+      acc[cat] = Array.from(itemsSet);
+      return acc;
+    },
+    {}
+  );
+
+  console.log(selectedMaking);
+  
   return (
     <section className="w-full px-8 py-12 bg-black text-white space-y-10">
       {Object.entries(groupedData).map(([category, items]) => (
         <div key={category}>
-          <h2 className="text-xl font-bold mb-4 capitalize">{category}</h2>
+          <h2 className="pl-20 text-xl font-bold mb-4 capitalize">
+            {category}
+          </h2>
 
           <SliderCampaing>
             {items.map((item, i) => (
-              <React.Fragment key={i}>
+              <div key={i}>
                 <CardCampaing
                   data={item}
                   i={i}
@@ -49,8 +69,9 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
                   more={true}
                   handlePlay={handlePlay}
                   setSelectedMaking={setSelectedMaking}
+                  isCampaingSlide={true}
                 />
-              </React.Fragment>
+              </div>
             ))}
           </SliderCampaing>
         </div>
@@ -59,10 +80,10 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
         {ficha && (
           <FichaCampaing
             setFicha={setFicha}
-            data={dataList[selectedMaking]}
+            data={selectedMaking}
             handlePlay={handlePlay}
           >
-            <Content data={dataList[selectedMaking]} handlePlay={handlePlay} />
+            <Content data={selectedMaking} handlePlay={handlePlay} />
           </FichaCampaing>
         )}
       </AnimatePresence>
@@ -147,19 +168,17 @@ const Content = ({ data, handlePlay }) => {
         />
         <div className="w-full flex justify-between gap-2">
           {data.makingOf.map((item, i) => (
-            <>
-              <figure className="relative">
-                {item.video !== "" && (
-                  <PlayIcon
-                    handleClick={() => handlePlay(item.video)}
-                    customStyle={
-                      "absolute left-1/2 top-1/2 -translate-1/2 z-10 w-8 h-8 p-2 rounded-full bg-whiteInter hover:opacity-80 cursor-pointer"
-                    }
-                  />
-                )}
-                <img className="rounded-lg" src={item.kv} alt={item.titulo} />
-              </figure>
-            </>
+            <figure key={i} className="relative">
+              {item.video !== "" && (
+                <PlayIcon
+                  handleClick={() => handlePlay(item.video)}
+                  customStyle={
+                    "absolute left-1/2 top-1/2 -translate-1/2 z-10 w-8 h-8 p-2 rounded-full bg-whiteInter hover:opacity-80 cursor-pointer"
+                  }
+                />
+              )}
+              <img className="rounded-lg" src={item.kv} alt={item.titulo} />
+            </figure>
           ))}
         </div>
         <h3 className="font-interB">Conoce más sobre {data.titulo}</h3>

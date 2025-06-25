@@ -15,54 +15,55 @@ export const SliderCampaing = ({ children }) => {
   const isLastSlide = currentSlide >= totalSlides - slidesToShow;
 
   const settings = {
-    dots: false,
-    centerMode: true,
-    infinite: true,
-    centerPadding: "20",
-    speed: 500,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    initialSlide: 0,
-    nextArrow: (
-      <SampleNextArrow
-        onClick={() => sliderRef.current?.slickNext()}
-        disabled={isLastSlide}
-      />
-    ),
-    prevArrow: (
-      <SamplePrevArrow
-        onClick={() => sliderRef.current?.slickPrev()}
-        disabled={isFirstSlide}
-      />
-    ),
-    beforeChange: (oldIndex, newIndex) => {
-      setCurrentSlide(newIndex);
+  dots: false,
+  infinite: totalSlides > slidesToShow,
+  speed: 500,
+  slidesToShow,
+  slidesToScroll: 1,
+  centerMode: false, // forzar izquierda
+  initialSlide: 0,
+  nextArrow: (
+    <SampleNextArrow
+      onClick={() => sliderRef.current?.slickNext()}
+      disabled={isLastSlide}
+    />
+  ),
+  prevArrow: (
+    <SamplePrevArrow
+      onClick={() => sliderRef.current?.slickPrev()}
+      disabled={isFirstSlide}
+    />
+  ),
+  beforeChange: (oldIndex, newIndex) => {
+    setCurrentSlide(newIndex);
+  },
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        infinite: totalSlides > 3,
+        centerMode: false,
+      },
     },
-    responsive: [
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-          infinite: false,
-        },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        infinite: totalSlides > 2,
+        centerMode: false,
       },
-      {
-        breakpoint: 600,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        infinite: false,
+        centerMode: false,
       },
-      {
-        breakpoint: 480,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-    ],
-  };
+    },
+  ],
+};
 
   return (
     <div className="slider-container group/slide px-12 relative">

@@ -6,7 +6,9 @@
     "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
     "trailer": "/video/trailers/origendelamagia.mp4",
     "trailerM": "/video/trailers/origendelamagia.mp4",
-    "categoria": ["Comercial"],
+    "categoria": [
+      "Comercial"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/lamagiadenuevavenecia.jpg",
     "creditos": "<ul><li><strong>Vp Creativo</strong> Isaac Chaparro</li><li><strong>Gerente Creativo</strong> Edwin Romero</li><li><strong>Director de Cine</strong> Carlos Godoy</li><li><strong>Post Productor</strong> Felipe Chica</li><li><strong>Productora Ejecutiva</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo</strong> Andrés Ramírez</li><li><strong>Foto fija</strong> Camilo Salazar</li><li><strong>Realizador y Drone</strong> Camilo Ospina</li><li><strong>Gráfica Audiovisual</strong> Andrea Pedraza</li><li><strong>Director de Arte</strong> William Martínez</li><li><strong>Diseñador Gráfico</strong> Gabriel González</li><li><strong>Diseñador Gráfico</strong> Juan Garza</li><li><strong>Diseñador Gráfico</strong> Julián Getzamhá</li><li><strong>Creativo</strong> Daniel Garzón</li><li><strong>Relaciones Públicas</strong> Lauri Espinosa</li><li><strong>AD y Director NY</strong> David Bravo</li><li><strong>Director Fotografía</strong> Andrés Vergara (Comanche)</li><li><strong>Gaffer</strong> Julián Bohórquez</li><li><strong>Música Original</strong> Diego Cáceres</li><li><strong>Colorista</strong> Daniel Saavedra</li><li><strong>Director de Vestuario</strong> Tulia Díaz</li><li><strong>Vestuarista</strong> Sam Ruiz</li><li><strong>Actriz Principal</strong> Angie Gómez</li><li><strong>Actor</strong> Roberto Giraldo</li><li><strong>Dir. Arte (Cortometraje)</strong> Rebecca Piñeres</li><li><strong>Extra</strong> Hiber Cabarcas</li></ul>",
@@ -37,8 +39,7 @@
         "trailer": "/video/trailers/origendelamagia.mp4",
         "trailerM": "/video/trailers/origendelamagia.mp4"
       }
-    
-    ],   
+    ],
     "souvenir": false,
     "making": true
   },
@@ -49,7 +50,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/ultimamilla.jpg",
     "trailer": "/video/trailers/trailerultimamilla.mp4",
     "trailerM": "/video/trailers/trailerultimamilla.mp4",
-    "categoria": ["Comercial"],
+    "categoria": [
+      "Comercial"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/ultimamilla.jpg",
     "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Equipo Creativo:</strong> Alejandro Camelo - Daniel Garzón</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Foto fija y Realización Audiovisual:</strong> Camilo Salazar</li><li><strong>Postproducción y Color:</strong> Felipe Chica</li><li><strong>Arte y Gráfica:</strong> William Martínez</li><li><strong>Cast:</strong> @julian_velasquez_actor @manolitoramirez03 @davinsonramirez_actorjuvenil</li><li><strong>Director:</strong> Carlos Godoy</li><li><strong>AD:</strong> David Bravo</li><li><strong>Producción de Campo:</strong> Andrés Gómez @fisica_pura</li><li><strong>DP:</strong> Santiago Otoya</li><li><strong>Gaffer:</strong> @elsa_veedra</li><li><strong>Foto Crew:</strong> @xocarrax @pipeberri Camilo Ospina @david.salgadod</li><li><strong>Arte:</strong> @lasagradafamilia.arte</li><li><strong>Vest:</strong> @lineinsb</li><li><strong>Makeup:</strong> @juanita.gomez._</li><li><strong>Sonido directo:</strong> @elmandelsonido</li><li><strong>Diseño de sonido y Música:</strong> @dizeemills</li><li><strong>Vfx:</strong> @theportalmedia @jlmartins @dtrres</li><li><strong>Entrenador de perros:</strong> @maritoverde</li></ul>",
@@ -80,11 +83,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "el-gran-acto",
@@ -93,7 +94,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvelgranacto.jpg",
     "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
-    "categoria": ["Comercial"],
+    "categoria": [
+      "Comercial"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/kvelgranacto.jpg",
     "creditos": "<ul><li><strong>V.P. Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Creativo:</strong> Edwin Romero</li><li><strong>Director de Cine:</strong> Charlie Godoy</li><li><strong>Edición y Color:</strong> Felipe Chica</li><li><strong>Director de Fotografía:</strong> Santiago Otoya</li><li><strong>Asistente de Dirección:</strong> David Bravo</li><li><strong>Director de Arte:</strong> William Martínez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo:</strong> Andrés Ramírez</li><li><strong>Directora de Experiencias:</strong> Lina Botero</li><li><strong>Productor de Campo:</strong> Andrés Gómez</li><li><strong>Productor Musical:</strong> Diego Cáceres</li><li><strong>Compositor:</strong> Mauricio y Palodeagua</li><li><strong>Compositor:</strong> Camilo Godoy</li><li><strong>Creativo:</strong> Daniel Garzón</li><li><strong>Creativo:</strong> Felipe González</li><li><strong>Diseñador Gráfico:</strong> Gabriel González</li><li><strong>Diseñador Gráfico:</strong> Juan Garza</li><li><strong>Diseñador Gráfico:</strong> Sergio Castro</li><li><strong>Diseñador Gráfico:</strong> Jonathan Bustos</li><li><strong>Fotografía:</strong> Camilo Salazar</li><li><strong>Realizador:</strong> Juan Camilo Ospina</li><li><strong>Gráfica Audiovisual:</strong> Andrea Pedraza</li><li><strong>Creadora de Contenido:</strong> Sandra Escobar</li><li><strong>Desarrollador Web:</strong> Jefersson Bautista</li><li><strong>Desarrollador Web:</strong> Christian Fajardo</li><li><strong>Investigador:</strong> Diego Rodríguez</li><li><strong>Experiencias:</strong> Laura León</li><li><strong>Relaciones Públicas:</strong> Lauri Espinosa</li><li><strong>Publicidad:</strong> Diana Velasco</li><li><strong>Mercadeo:</strong> Nicolás Pinzón</li><li><strong>Entrenador de Actores:</strong> Jorge Giraldo</li><li><strong>Productora de Campo:</strong> Carolina Bermúdez</li><li><strong>Coordinación de Producción:</strong> Jaime A. y Leydi G.</li></ul>",
@@ -124,11 +127,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": true
-
+    "making": true
   },
   {
     "slug": "amigos-del-alma",
@@ -137,7 +138,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvamigosdelalma.jpg",
     "trailer": "/video/trailers/TRAILER-15-DE-SEPTIEMBRE-INTER-RAPIDISÍMO.mp4",
     "trailerM": "/video/trailers/TRAILER-15-DE-SEPTIEMBRE-INTER-RAPIDISÍMO.mp4",
-    "categoria": ["Comercial"],
+    "categoria": [
+      "Comercial"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/kvamigosdelalma.jpg",
     "creditos": "<ul><li><strong>V.P. Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Creativo:</strong> Edwin Romero</li><li><strong>Director de Cine:</strong> Charlie Godoy</li><li><strong>Edición y Color:</strong> Felipe Chica</li><li><strong>Director de Fotografía:</strong> Santiago Otoya</li><li><strong>Asistente de Dirección:</strong> David Bravo</li><li><strong>Director de Arte:</strong> William Martínez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo:</strong> Andrés Ramírez</li><li><strong>Directora de Experiencias:</strong> Lina Botero</li><li><strong>Productor de Campo:</strong> Andrés Gómez</li><li><strong>Productor Musical:</strong> Diego Cáceres</li><li><strong>Compositor:</strong> Mauricio y Palodeagua</li><li><strong>Compositor:</strong> Camilo Godoy</li><li><strong>Creativo:</strong> Daniel Garzón</li><li><strong>Creativo:</strong> Felipe González</li><li><strong>Diseñador Gráfico:</strong> Gabriel González</li><li><strong>Diseñador Gráfico:</strong> Juan Garza</li><li><strong>Diseñador Gráfico:</strong> Sergio Castro</li><li><strong>Diseñador Gráfico:</strong> Jonathan Bustos</li><li><strong>Fotografía:</strong> Camilo Salazar</li><li><strong>Realizador:</strong> Juan Camilo Ospina</li><li><strong>Gráfica Audiovisual:</strong> Andrea Pedraza</li><li><strong>Creadora de Contenido:</strong> Sandra Escobar</li><li><strong>Desarrollador Web:</strong> Jefersson Bautista</li><li><strong>Desarrollador Web:</strong> Christian Fajardo</li><li><strong>Investigador:</strong> Diego Rodríguez</li><li><strong>Experiencias:</strong> Laura León</li><li><strong>Relaciones Públicas:</strong> Lauri Espinosa</li><li><strong>Publicidad:</strong> Diana Velasco</li><li><strong>Mercadeo:</strong> Nicolás Pinzón</li><li><strong>Entrenador de Actores:</strong> Jorge Giraldo</li><li><strong>Productora de Campo:</strong> Carolina Bermúdez</li><li><strong>Coordinación de Producción:</strong> Jaime A. y Leydi G.</li></ul",
@@ -168,11 +171,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": true
-
+    "making": true
   },
   {
     "slug": "maturana",
@@ -181,7 +182,10 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvmaturana.jpg",
     "trailer": "/video/trailers/Shorts-Maturana.mp4",
     "trailerM": "/video/trailers/Shorts-Maturana.mp4",
-    "categoria": ["Comercial", "Deportes"],
+    "categoria": [
+      "Comercial",
+      "Deportes"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/kvmaturana.jpg",
     "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Director de Arte:</strong> William Martínez López</li><li><strong>Diseño Gráfico:</strong> Gabriel Eduardo González</li><li><strong>Diseño Gráfico:</strong> Jonathan Bustos Meléndez</li><li><strong>Diseño Gráfico:</strong> Juan David Garza Forero</li><li><strong>Diseño Gráfico:</strong> Julián Getzamhá</li><li><strong>Diseño Gráfico:</strong> Sergio Arturo Castro Carrillo</li><li><strong>Diseño Gráfico:</strong> Paola Andrea Pedraza Casallas</li><li><strong>Equipo Creativo:</strong> Daniel Santiago Garzón Correa</li><li><strong>Equipo Creativo:</strong> Ginna Melo</li><li><strong>Equipo Creativo:</strong> Juliana Escobar</li><li><strong>Equipo Creativo:</strong> Juan Pablo Vega</li><li><strong>Productora:</strong> Inter Rapidísimo</li><li><strong>Dirección Audiovisual:</strong> Charlie Godoy</li><li><strong>Fotografía:</strong> David Camilo Salazar Cubillos</li><li><strong>Colorización y Post:</strong> Andrés Felipe Herreño Chica</li><li><strong>Jefe de Prensa:</strong> Lauri Espinosa</li></ul>",
@@ -212,11 +216,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": true
-
+    "making": true
   },
   {
     "slug": "guardianes-del-paramo-2025",
@@ -225,7 +227,10 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2025.jpg",
     "trailer": "/video/trailers/Shorts-Guadianes-paramo 2025.mp4",
     "trailerM": "/video/trailers/Shorts-Guadianes-paramo 2025.mp4",
-    "categoria": ["Comercial", "Responsabilidad Social"],
+    "categoria": [
+      "Comercial",
+      "Responsabilidad Social"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/kvguardianesdelparamo2025.jpg",
     "creditos": "",
@@ -256,11 +261,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "guardianes-del-paramo-2024",
@@ -269,7 +272,10 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2024.jpg",
     "trailer": "/video/trailers/Shorts-Guardianes-del-paramo-2024.mp4",
     "trailerM": "/video/trailers/Shorts-Guardianes-del-paramo-2024.mp4",
-    "categoria": ["Comercial", "Responsabilidad Social"],
+    "categoria": [
+      "Comercial",
+      "Responsabilidad Social"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/kvguardianesdelparamo2024.jpg",
     "creditos": "",
@@ -300,11 +306,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "estand-colombiamoda-2024",
@@ -313,7 +317,10 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2024.jpg",
     "trailer": "/video/trailers/Shorts-Colombiamoda.mp4",
     "trailerM": "/video/trailers/Shorts-Colombiamoda.mp4",
-    "categoria": ["Comercial", "Responsabilidad Social"],
+    "categoria": [
+      "Comercial",
+      "Responsabilidad Social"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/colombiamoda.jpg",
     "creditos": "",
@@ -344,11 +351,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "mundoplastico",
@@ -357,7 +362,10 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvmundoplastico.jpg",
     "trailer": "/video/trailers/Shorts-Mundo-plastico.mp4",
     "trailerM": "/video/trailers/Shorts-Mundo-plastico.mp4",
-    "categoria": ["Comercial", "Responsabilidad Social"],
+    "categoria": [
+      "Comercial",
+      "Responsabilidad Social"
+    ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/kvmundoplastico.jpg",
     "creditos": "<ul><li><strong>Anunciante:</strong> Inter Rapidísimo.</li><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez (Estratégico Creativo).</li><li><strong>Gerente Publicidad:</strong> Edwin Romero.</li><li><strong>Director Creativo:</strong> Alejandro Camelo.</li><li><strong>Director de Arte:</strong> William Martínez López.</li><li><strong>Diseñadores Gráficos:</strong> Gabriel Eduardo González, Javier Alexander Pachón Santana, Jonathan Bustos Melendez, Julián Getzamha.</li><li><strong>Copywriter:</strong> Daniel Santiago Garzón Correa.</li><li><strong>Productora:</strong> BRAVE FILMS.</li><li><strong>Audiovisuales:</strong> David Camilo Salazar Cubillos, Luis Felipe Correal Anchique.</li><li><strong>Web Master:</strong> Christian Camilo Fajardo Hernandez, Jefersson Andres Bautista Vega.</li><li><strong>País:</strong> Colombia.</li><li><strong>Año:</strong> 2023.</li></ul>",
@@ -388,8 +396,7 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
         "making": false
 
@@ -571,18 +578,18 @@
 
   },
   {
-    "slug": "inter-rapidísimo-orgulloso-patrocinador-oficial-sudamericano-catar-2022™",
-    "titulo": "Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™",
+    "slug": "¡solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!",
+    "titulo": "¡Solo pasamos a recordarles que esta entrega ya empezó! 🔥",
     "tituloImg": "",
-    "imgBackgroundMakingOf": "/imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
-    "trailer": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
-    "trailerM": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvsolopasamosarecordarles.jpg",
+    "trailer": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
+    "trailerM": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
     "categoria": ["Deportes"],
     "fecha": "Abril de 2025",
-    "kv": "imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "kv": "imagenes/kv/kvsolopasamosarecordarles.jpg",
     "creditos": "",
-    "descripcion": "<p>¡Solo pasamos a recordarles que esta entrega ya empezó!</p><p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™ y de nuestras valientes guerreras.</p>",
-    "video": "https://www.youtube.com/watch?v=50k2SxAd4XU",
+    "descripcion": "<p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022 y de nuestras valientes guerreras 💙.</p>",
+    "video": "https://www.youtube.com/watch?v=SQBz4T-4UOs",
     "makingOf": [
       {
         "titulo": "",
@@ -614,5 +621,4 @@
         "making": false
 
   }
-
 ]

@@ -40,7 +40,7 @@ export const Home = () => {
       setplay(true);
     }
   };
-  console.log(video);
+
   return (
     <>
       <MainSection
@@ -51,9 +51,6 @@ export const Home = () => {
       />
       <SectionMakingof data={data} handlePlay={handlePlay} />
       <EntregasSection dataList={Data} handlePlay={handlePlay} />
-    <p>¡Solo pasamos a recordarles que esta entrega ya empezó!</p>
-    <p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™ y de nuestras valientes guerreras.</p>
-    
     </>
   );
 };
