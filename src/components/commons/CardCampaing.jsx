@@ -15,7 +15,7 @@ export const CardCampaing = ({
 
   const handleMouseEnter = (i) => {
     if (isCampaingSlide) {
-      return;
+      setPlay(i);
     } else {
       setSelectedMaking(i);
       setPlay(i);
@@ -42,11 +42,11 @@ export const CardCampaing = ({
     <div
       onMouseEnter={() => handleMouseEnter(i)}
       onMouseLeave={handleMouseLeave}
-      className={`group relative transition-all delay-150 overflow-hidden aspect-video hover:h-full h-62 w-96   transform origin-center rounded-2xl`}
+      className={`group/card relative transition-all delay-150 overflow-hidden aspect-video hover:h-full h-62 w-96 transform origin-center rounded-2xl`}
     >
-      <div className="absolute bottom-0 w-full h-14 group-hover:bg-blackInter transition-all duration-500 z-20 flex px-6 items-center justify-between">
+      <div className="absolute bottom-0 w-full h-14 group-hover/card:bg-blackInter transition-all duration-500 z-20 flex px-6 items-center justify-between">
         <h2 className="font-extrabold">{data.titulo}</h2>
-        <div className="flex justify-center items-center gap-2 group-hover:opacity-100 opacity-0 transition-all duration-500">
+        <div className="flex justify-center items-center gap-2 group-hover/card:opacity-100 opacity-0 transition-all duration-500">
           <button
             className="cursor-pointer hover:opacity-70 w-8 h-8 inline-block flex items-center justify-center bg-whiteInter rounded-full p-2"
             onClick={() => handlePlay(data.video)}
@@ -60,7 +60,7 @@ export const CardCampaing = ({
             >
               <i className="w-full inline-block ">
                 <img
-                  className="size-full object-contain group-hover/icon:opacity-70"
+                  className="size-full object-contain group-hover/card/icon:opacity-70"
                   src="/iconos/more.svg"
                   alt="Ver más"
                 />
@@ -70,7 +70,7 @@ export const CardCampaing = ({
         </div>
       </div>
       <img
-        className="absolute z-10 size-full object-center object-cover scale-105 group-hover:scale-x-125 top-0 left-0 transition-all duration-500 opacity-100 group-hover:opacity-0"
+        className="absolute z-10 size-full object-center object-cover scale-105 group-hover/card:scale-x-125 top-0 left-0 transition-all duration-500 opacity-100 group-hover/card:opacity-0"
         src={data.kv}
         alt={data.titulo}
       />

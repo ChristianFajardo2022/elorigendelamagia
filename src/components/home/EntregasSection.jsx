@@ -50,7 +50,7 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
   );
 
   console.log(selectedMaking);
-  
+
   return (
     <section className="w-full px-8 py-12 bg-black text-white space-y-10">
       {Object.entries(groupedData).map(([category, items]) => (
@@ -61,7 +61,7 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
 
           <SliderCampaing>
             {items.map((item, i) => (
-              <div key={i}>
+              <div className="customSlide justify-center items-center h-full">
                 <CardCampaing
                   data={item}
                   i={i}

@@ -16,3 +16,6 @@
   margin: 0 !important;
   justify-content: flex-start !important;
 }
+.customSlide{
+  display: flex !important;
+}
