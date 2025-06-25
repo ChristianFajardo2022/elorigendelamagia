@@ -352,7 +352,7 @@
   },
   {
     "slug": "mundoplastico",
-    "titulo": "Estand Colombiamoda 2024",
+    "titulo": "Mundo Plastico",
     "tituloImg": "",
     "imgBackgroundMakingOf": "/imagenes/kv/kvmundoplastico.jpg",
     "trailer": "/video/trailers/Shorts-Mundo-plastico.mp4",
@@ -363,6 +363,226 @@
     "creditos": "<ul><li><strong>Anunciante:</strong> Inter Rapidísimo.</li><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez (Estratégico Creativo).</li><li><strong>Gerente Publicidad:</strong> Edwin Romero.</li><li><strong>Director Creativo:</strong> Alejandro Camelo.</li><li><strong>Director de Arte:</strong> William Martínez López.</li><li><strong>Diseñadores Gráficos:</strong> Gabriel Eduardo González, Javier Alexander Pachón Santana, Jonathan Bustos Melendez, Julián Getzamha.</li><li><strong>Copywriter:</strong> Daniel Santiago Garzón Correa.</li><li><strong>Productora:</strong> BRAVE FILMS.</li><li><strong>Audiovisuales:</strong> David Camilo Salazar Cubillos, Luis Felipe Correal Anchique.</li><li><strong>Web Master:</strong> Christian Camilo Fajardo Hernandez, Jefersson Andres Bautista Vega.</li><li><strong>País:</strong> Colombia.</li><li><strong>Año:</strong> 2023.</li></ul>",
     "descripcion": "<p>Un mejor mundo para nuestras futuras generaciones, esa será nuestra entrega. Para lograrlo decidimos dar el primer paso, llevamos a cientos de pescadores de plástico a las playas de Colombia con la misión de recolectar el plástico que llega hasta allí y recuperar estos ecosistemas. Ecosistemas que están siendo alterados y afectados a tal punto que nuestras especies obligadas a adaptarse a estos entornos que se están convirtiendo en una pesadilla para su supervivencia. Por esta razón, estamos invitando a todas las personas a hacer un uso adecuado del plástico, un uso consciente que no ponga en riesgo la vida de nuestras especies, o a usar alternativas que no representen un peligro para los ecosistemas. Conoce más sobre esta campaña en mundosinplastico.com </p>",
     "video": "https://www.youtube.com/watch?v=bk2tQC3PhXs",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "pez-mariposa-plastificada",
+    "titulo": "Pez Mariposa Plastificada ",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvpez.jpg",
+    "trailer": "/video/trailers/Shorts-pez-mariposa.mp4",
+    "trailerM": "/video/trailers/Shorts-pez-mariposa.mp4",
+    "categoria": ["Responsabilidad Social"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvpez.jpg",
+    "creditos": "",
+    "descripcion": "<p>Décadas de darle un mal uso al plástico está trayendo consigo estas nuevas especies descubiertas en Colombia; en Inter Rapidísimo usaremos una Bolsa sin plástico para extinguir un mundo lleno de plástico que quiere acabar con nuestras especies. </p>",
+    "video": "https://www.youtube.com/watch?v=hse3tJImEQo",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "caballito-de-mar-en-bolsa-plástica",
+    "titulo": "Caballito de Mar en Bolsa Plástica",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvcaballito.jpg",
+    "trailer": "/video/trailers/Shorts-Caballo-de-mar.mp4",
+    "trailerM": "/video/trailers/Shorts-Caballo-de-mar.mp4",
+    "categoria": ["Responsabilidad Social"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvcaballito.jpg",
+    "creditos": "",
+    "descripcion": "<p>Décadas de darle un mal uso al plástico está trayendo consigo estas nuevas especies descubiertas en Colombia; en Inter Rapidísimo usaremos una Bolsa sin plástico para extinguir un mundo lleno de plástico que quiere acabar con nuestras especies. </p>",
+    "video": "https://www.youtube.com/watch?v=TswhHa7AKQ4",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "nos-levantaremos",
+    "titulo": "Nos Levantaremos",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvnoslevantaremos.jpg",
+    "trailer": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
+    "trailerM": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
+    "categoria": ["Deportes"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvnoslevantaremos.jpg",
+    "creditos": "",
+    "descripcion": "<p>Volveremos y más fuertes…",
+    "video": "https://www.youtube.com/watch?v=N3tortSNPdQ",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "inter-rapidísimo-orgulloso-patrocinador-oficial-sudamericano-catar-2022™",
+    "titulo": "Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "trailer": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "trailerM": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "categoria": ["Deportes"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "creditos": "",
+    "descripcion": "<p>¡Solo pasamos a recordarles que esta entrega ya empezó!</p><p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™ y de nuestras valientes guerreras.</p>",
+    "video": "https://www.youtube.com/watch?v=50k2SxAd4XU",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "inter-rapidísimo-orgulloso-patrocinador-oficial-sudamericano-catar-2022™",
+    "titulo": "Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "trailer": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "trailerM": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "categoria": ["Deportes"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "creditos": "",
+    "descripcion": "<p>¡Solo pasamos a recordarles que esta entrega ya empezó!</p><p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™ y de nuestras valientes guerreras.</p>",
+    "video": "https://www.youtube.com/watch?v=50k2SxAd4XU",
     "makingOf": [
       {
         "titulo": "",
