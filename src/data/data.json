@@ -398,6 +398,227 @@
       }
     ],
     "souvenir": false,
-    "making": false
+        "making": false
+
+  },
+  {
+    "slug": "pez-mariposa-plastificada",
+    "titulo": "Pez Mariposa Plastificada ",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvpez.jpg",
+    "trailer": "/video/trailers/Shorts-pez-mariposa.mp4",
+    "trailerM": "/video/trailers/Shorts-pez-mariposa.mp4",
+    "categoria": ["Responsabilidad Social"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvpez.jpg",
+    "creditos": "",
+    "descripcion": "<p>Décadas de darle un mal uso al plástico está trayendo consigo estas nuevas especies descubiertas en Colombia; en Inter Rapidísimo usaremos una Bolsa sin plástico para extinguir un mundo lleno de plástico que quiere acabar con nuestras especies. </p>",
+    "video": "https://www.youtube.com/watch?v=hse3tJImEQo",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "caballito-de-mar-en-bolsa-plástica",
+    "titulo": "Caballito de Mar en Bolsa Plástica",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvcaballito.jpg",
+    "trailer": "/video/trailers/Shorts-Caballo-de-mar.mp4",
+    "trailerM": "/video/trailers/Shorts-Caballo-de-mar.mp4",
+    "categoria": ["Responsabilidad Social"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvcaballito.jpg",
+    "creditos": "",
+    "descripcion": "<p>Décadas de darle un mal uso al plástico está trayendo consigo estas nuevas especies descubiertas en Colombia; en Inter Rapidísimo usaremos una Bolsa sin plástico para extinguir un mundo lleno de plástico que quiere acabar con nuestras especies. </p>",
+    "video": "https://www.youtube.com/watch?v=TswhHa7AKQ4",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "nos-levantaremos",
+    "titulo": "Nos Levantaremos",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvnoslevantaremos.jpg",
+    "trailer": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
+    "trailerM": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
+    "categoria": ["Deportes"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvnoslevantaremos.jpg",
+    "creditos": "",
+    "descripcion": "<p>Volveremos y más fuertes…",
+    "video": "https://www.youtube.com/watch?v=N3tortSNPdQ",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "inter-rapidísimo-orgulloso-patrocinador-oficial-sudamericano-catar-2022™",
+    "titulo": "Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "trailer": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "trailerM": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
+    "categoria": ["Deportes"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
+    "creditos": "",
+    "descripcion": "<p>¡Solo pasamos a recordarles que esta entrega ya empezó!</p><p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™ y de nuestras valientes guerreras.</p>",
+    "video": "https://www.youtube.com/watch?v=50k2SxAd4XU",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
+  },
+  {
+    "slug": "¡solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!",
+    "titulo": "¡Solo pasamos a recordarles que esta entrega ya empezó! 🔥",
+    "tituloImg": "",
+    "imgBackgroundMakingOf": "/imagenes/kv/kvsolopasamosarecordarles.jpg",
+    "trailer": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
+    "trailerM": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
+    "categoria": ["Deportes"],
+    "fecha": "Abril de 2025",
+    "kv": "imagenes/kv/kvsolopasamosarecordarles.jpg",
+    "creditos": "",
+    "descripcion": "<p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022 y de nuestras valientes guerreras 💙.</p>",
+    "video": "https://www.youtube.com/watch?v=SQBz4T-4UOs",
+    "makingOf": [
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      },
+      {
+        "titulo": "",
+        "descripcion": "",
+        "video": "",
+        "kv": "",
+        "trailer": "",
+        "trailerM": ""
+      }
+    
+    ],   
+    "souvenir": false,
+        "making": false
+
   }
 ]
