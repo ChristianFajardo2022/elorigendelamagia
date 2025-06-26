@@ -8,7 +8,7 @@ const RouteApp = () => {
     <Routes>
       <Route element={<LayoutGlobal />}>
         <Route index element={<HomePage />} />
-        <Route path="/:slug" element={<Campañas />} />
+        {/* <Route path="/:slug" element={<Campañas />} /> */}
       </Route>
     </Routes>
   );

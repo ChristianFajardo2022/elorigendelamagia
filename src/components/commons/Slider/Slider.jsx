@@ -15,60 +15,61 @@ export const SliderCampaing = ({ children }) => {
   const isLastSlide = currentSlide >= totalSlides - slidesToShow;
 
   const settings = {
-  dots: false,
-  infinite: totalSlides > slidesToShow,
-  speed: 500,
-  slidesToShow,
-  slidesToScroll: 1,
-  centerMode: false, // forzar izquierda
-  initialSlide: 0,
-  nextArrow: (
-    <SampleNextArrow
-      onClick={() => sliderRef.current?.slickNext()}
-      disabled={isLastSlide}
-    />
-  ),
-  prevArrow: (
-    <SamplePrevArrow
-      onClick={() => sliderRef.current?.slickPrev()}
-      disabled={isFirstSlide}
-    />
-  ),
-  beforeChange: (oldIndex, newIndex) => {
-    setCurrentSlide(newIndex);
-  },
-  responsive: [
-    {
-      breakpoint: 1024,
-      settings: {
-        slidesToShow: 3,
-        infinite: totalSlides > 3,
-        centerMode: false,
-      },
+    dots: false,
+    infinite: totalSlides > slidesToShow,
+    speed: 500,
+
+    slidesToShow,
+    slidesToScroll: 1,
+    centerMode: false, // forzar izquierda
+    initialSlide: 0,
+    nextArrow: (
+      <SampleNextArrow
+        onClick={() => sliderRef.current?.slickNext()}
+        disabled={isLastSlide}
+      />
+    ),
+    prevArrow: (
+      <SamplePrevArrow
+        onClick={() => sliderRef.current?.slickPrev()}
+        disabled={isFirstSlide}
+      />
+    ),
+    beforeChange: (oldIndex, newIndex) => {
+      setCurrentSlide(newIndex);
     },
-    {
-      breakpoint: 600,
-      settings: {
-        slidesToShow: 2,
-        infinite: totalSlides > 2,
-        centerMode: false,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          infinite: totalSlides > 3,
+          centerMode: false,
+        },
       },
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        slidesToShow: 1,
-        infinite: false,
-        centerMode: false,
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          infinite: totalSlides > 2,
+          centerMode: false,
+        },
       },
-    },
-  ],
-};
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 2,
+          infinite: false,
+          centerMode: false,
+        },
+      },
+    ],
+  };
 
   return (
-    <div className="slider-container group/slide px-12 relative">
+    <div className="slider-container group/slide lg:px-12 max-lg:px-4 relative">
       {/* <div className="absolute w-30 h-full left-0 bg-gradient-to-l to-black to-65% z-9" /> */}
-      <div className="absolute w-30 h-full right-0 bg-gradient-to-r to-black to-65% z-9" />
+      <div className="absolute max-lg:w-20 lg:w-30 h-full right-0 bg-gradient-to-r to-blackInter/80 to-65% z-9 pointer-events-none" />
       <Slider {...settings} ref={sliderRef}>
         {children}
       </Slider>
@@ -81,7 +82,7 @@ const SampleNextArrow = ({ onClick, disabled }) => {
   if (disabled) return null;
   return (
     <div
-      className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 z-10 group-hover/slide:opacity-100 group-hover/slide:scale-100 scale-0 transition-all ease-in-out"
+      className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 z-10 lg:group-hover/slide:opacity-100 lg:group-hover/slide:scale-100 lg:scale-0 transition-all ease-in-out"
       onClick={onClick}
     >
       siguiente
@@ -93,7 +94,7 @@ const SamplePrevArrow = ({ onClick, disabled }) => {
   if (disabled) return null;
   return (
     <div
-      className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 z-10 group-hover/slide:opacity-100 group-hover/slide:scale-100 scale-0 transition-all ease-in-out"
+      className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 z-10 lg:group-hover/slide:opacity-100 lg:group-hover/slide:scale-100 lg:scale-0 transition-all ease-in-out"
       onClick={onClick}
     >
       atrás

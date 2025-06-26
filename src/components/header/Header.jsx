@@ -22,7 +22,7 @@ export const Header = ({ nameCampaña }) => {
   }, [activeMenu, lockScroll, unlockScroll]);
   return (
     <>
-      <header className="fixed bg-blackInter top-0 left-0 w-full flex justify-between items-center z-100 py-4 px-20">
+      <header className="fixed bg-blackInter top-0 left-0 w-full flex justify-between items-center z-100 py-4 lg:px-20 max-lg:px-4">
         <Logo />
         <NavBar activeMenu={activeMenu} setActiveMenu={setActiveMenu} />
       </header>
@@ -37,7 +37,7 @@ export const Header = ({ nameCampaña }) => {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              className="size-full z-99 flex justify-center items-center px-20 h-dvh"
+              className="size-full z-99 flex justify-center items-center lg:px-20 max-lg:px-4 h-dvh"
             >
               <Content nameCampaña={nameCampaña} />
             </motion.div>
@@ -55,12 +55,12 @@ const Content = ({ nameCampaña }) => {
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.5 }}
-        className="max-w-7xl size-full z-99 flex justify-center items-center h-full"
+        className="max-w-7xl size-full z-99 flex max-lg:flex-col-reverse justify-center items-center h-full"
       >
-        <div className="h-1/2 flex-1 flex justify-between flex-col items-start border-r border-b border-whiteInter/30">
-          <div className="h-full flex justify-between flex-col items-start pr-12">
+        <div className="lg:h-1/2 max-lg:w-full lg:flex-1 flex justify-between flex-col items-start lg:border-r border-b border-whiteInter/30">
+          <div className="h-full flex justify-between flex-col items-start lg:pr-12">
             <div className="w-full pt-12">
-              <h1 className="w-180 text-6xl font-interB mt-2 mb-4">
+              <h1 className="lg:w-180 lg:text-6xl max-lg:text-3xl font-interB mt-2 mb-4">
                 {!nameCampaña.tituloImg == "" ? (
                   <figure className="size-full">
                     <img
@@ -77,7 +77,7 @@ const Content = ({ nameCampaña }) => {
             </div>
             <p>Visítanos en:</p>
           </div>
-          <div className="w-full flex justify-between items-center pr-12 pb-6">
+          <div className="w-full flex justify-between lg:items-center max-lg:items-start pr-12 pb-6 max-lg:flex-col">
             <RedesSociales />
             <Link
               to={"https://www.interrapidisimo.com/"}
@@ -88,15 +88,17 @@ const Content = ({ nameCampaña }) => {
               interrapidisimo.com
             </Link>
           </div>
-          <div className="w-full flex justify-between items-center border-t border-whiteInter/30 h-24 pr-12">
-            <span className="inline-block">interrapidisimoplay.com</span>
-            <span className="inline-block">
+          <div className="w-full flex justify-between items-center border-t border-whiteInter/30 h-24 lg:pr-12">
+            <span className="inline-block text-xs">
+              interrapidisimoplay.com
+            </span>
+            <span className="inline-block text-xs">
               Copyright ⓒ 2025 Inter Rapidísimo S.A.
             </span>
           </div>
         </div>
-        <div className="flex-1 h-1/2 flex justify-center items-center pt-12 pb-3">
-          <ul className="h-full flex flex-col justify-between text-5xl">
+        <div className="lg:h-1/2 max-lg:w-full lg:flex-1 flex justify-center items-center max-lg:justify-start lg:pt-12 lg:pb-3">
+          <ul className="h-full flex flex-col justify-between text-5xl gap-10">
             <li>Última historia</li>
             <li>Making of</li>
             <li>Otras historias</li>
@@ -106,5 +108,3 @@ const Content = ({ nameCampaña }) => {
     </>
   );
 };
-
-

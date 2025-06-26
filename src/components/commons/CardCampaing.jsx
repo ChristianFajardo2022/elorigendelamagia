@@ -42,13 +42,13 @@ export const CardCampaing = ({
     <div
       onMouseEnter={() => handleMouseEnter(i)}
       onMouseLeave={handleMouseLeave}
-      className={`group/card relative transition-all delay-150 overflow-hidden aspect-video hover:h-full h-62 w-96 transform origin-center rounded-2xl`}
+      className={`group/card relative transition-all delay-150 overflow-hidden aspect-video lg:hover:h-full lg:h-62 max-lg:h-50 w-96 transform origin-center rounded-2xl max-lg:mx-2`}
     >
-      <div className="absolute bottom-0 w-full h-14 group-hover/card:bg-blackInter transition-all duration-500 z-20 flex px-6 items-center justify-between">
-        <h2 className="font-extrabold">{data.titulo}</h2>
-        <div className="flex justify-center items-center gap-2 group-hover/card:opacity-100 opacity-0 transition-all duration-500">
+      <div className="absolute bottom-0 w-full h-14 group-hover/card:bg-blackInter transition-all duration-500 z-20 flex lg:px-6 max-lg:px-2 items-center justify-between">
+        <h2 className="font-extrabold text-xs">{data.titulo}</h2>
+        <div className="flex justify-center items-center gap-2 lg:group-hover/card:opacity-100 lg:opacity-0 max-lg:opacity-100 transition-all duration-500">
           <button
-            className="cursor-pointer hover:opacity-70 w-8 h-8 inline-block flex items-center justify-center bg-whiteInter rounded-full p-2"
+            className="cursor-pointer hover:opacity-70 lg:w-8 max-lg:w-5 lg:h-8 max-lg:h-5 flex items-center justify-center bg-whiteInter rounded-full p-1.5"
             onClick={() => handlePlay(data.video)}
           >
             <PlayIcon />

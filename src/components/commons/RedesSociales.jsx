@@ -13,7 +13,7 @@ export const RedesSociales = () => {
   ];
   const redes = Object.entries(redesSociales[0]);
   return (
-    <div className="flex w-86 h-full justify-between gap-12">
+    <div className="flex lg:w-86 h-full justify-between gap-12">
       {redes.map(([titulo, url], i) => (
         <Link
           key={i}

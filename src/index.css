@@ -15,6 +15,7 @@
   --font-inter: var(--font-inter);
   --font-interB: var(--font-inter-bold);
 }
+
 :root {
   --font-inter: "InterFont";
   --font-inter-bold: "InterFont Bold";
@@ -25,7 +26,7 @@
   box-sizing: border-box;
 }
 html {
-  @apply overflow-x-hidden xl:text-[0.8333339vw] max-sm:text-[4vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black;
+  @apply overflow-x-hidden xl:text-[0.8333339vw] max-sm:text-[3.5vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black;
   /* @apply overflow-x-hidden xl:text-[16px] max-sm:text-[4vw] sm:text-[1.5vw] lg:text-[1vw] scroll-smooth bg-black; */
 }
 body {
@@ -36,8 +37,12 @@ body,
   @apply w-full h-full;
 }
 .btn {
-  @apply flex items-center justify-center gap-4 px-6 cursor-pointer text-2xl hover:bg-whiteInter/60 bg-whiteInter text-blackInter min-w-60 min-h-14 rounded-full ease-in-out transition-all duration-300;
+  @apply flex items-center justify-center gap-4 px-6 cursor-pointer lg:text-2xl max-lg:text-lg hover:bg-whiteInter/60 bg-whiteInter text-blackInter min-w-60 min-h-14 rounded-full ease-in-out transition-all duration-300;
 }
 /* p {
   @apply text-lg;
 } */
+
+.centerMode {
+  @apply absolute left-1/2 top-1/2 -translate-y-1/2 -translate-x-1/2;
+}

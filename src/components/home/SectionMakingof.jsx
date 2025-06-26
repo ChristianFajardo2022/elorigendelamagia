@@ -38,13 +38,15 @@ const BackGround = ({ data, children, selectedMaking }) => {
         />
       </AnimatePresence>
       <div
-        className={`relative flex flex-col justify-end items-start size-full z-[22] px-20 pb-20`}
+        className={`relative flex flex-col justify-end items-start size-full z-[22] lg:px-20 max-lg:px-4 pb-20`}
       >
         <div className="w-full pb-10">
-          <h2 className="font-interB text-6xl">
+          <h2 className="font-interB lg:text-6xl max-lg:text-4xl">
             {data[selectedMaking].titulo}
           </h2>
-          <p className="w-1/2 mt-4">{data[selectedMaking].descripcion}</p>
+          <p className="lg:w-1/2 max-lg:w-full mt-4">
+            {data[selectedMaking].descripcion}
+          </p>
         </div>
         {children}
       </div>

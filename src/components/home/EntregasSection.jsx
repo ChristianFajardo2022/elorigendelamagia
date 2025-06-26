@@ -52,10 +52,10 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
   console.log(selectedMaking);
 
   return (
-    <section className="w-full px-8 py-12 bg-black text-white space-y-10">
+    <section className="w-full lg:px-8 py-12 bg-black text-white space-y-10">
       {Object.entries(groupedData).map(([category, items]) => (
         <div key={category}>
-          <h2 className="pl-20 text-xl font-bold mb-4 capitalize">
+          <h2 className="lg:pl-20 max-lg:pl-4 text-xl font-bold mb-4 capitalize">
             {category}
           </h2>
 
@@ -98,7 +98,7 @@ const FichaCampaing = ({ setFicha, data, children }) => {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
       transition={{ duration: 0.5 }}
-      className="fixed z-101 w-full h-dvh left-0 top-0 bg-blackInter/80 flex justify-center overflow-hidden pt-32"
+      className="fixed z-101 w-full h-dvh left-0 top-0 bg-blackInter/80 flex justify-center overflow-hidden lg:pt-32"
     >
       <div
         onClick={() => setFicha(false)}
@@ -109,8 +109,15 @@ const FichaCampaing = ({ setFicha, data, children }) => {
         animate={{ opacity: 1, y: 0 }}
         exit={{ opacity: 0, y: 100 }}
         transition={{ duration: 0.5 }}
-        className="w-full max-w-3xl bg-blackInter rounded-t-2xl overflow-auto max-h-[calc(100vh-8rem)]"
+        className="relative w-full max-w-3xl bg-blackInter lgrounded-t-2xl overflow-auto lg:max-h-[calc(100vh-8rem)] max-lg:max-h-screen"
       >
+        <i onClick={() => setFicha(false)} className="cursor-pointer w-8 h-8 inline-block absolute right-4 top-4 z-10 bg-blackInter/30 rounded-full p-2">
+          <img
+            className="w-full h-full object-contain"
+            src="/iconos/close.svg"
+            alt=""
+          />
+        </i>
         <div className="size-full relative">
           <div
             style={{ backgroundImage: `url(${data.imgBackgroundMakingOf})` }}
@@ -128,10 +135,10 @@ const FichaCampaing = ({ setFicha, data, children }) => {
 const Content = ({ data, handlePlay }) => {
   return (
     <>
-      <div className="relative size-full flex flex-col justify-end items-start z-50 gap-6 translate-y-16 px-12">
+      <div className="relative size-full flex flex-col justify-end items-start z-50 gap-6 translate-y-16 lg:px-12 max-lg:px-4">
         <div className="w-5/6">
           <h3 className="font-bold">Una producción de Inter Rapidísimo</h3>
-          <h1 className="size-full h-auto text-6xl font-interB mt-2">
+          <h1 className="size-full h-auto lg:text-6xl max-lg:text-4xl font-interB mt-2">
             {!data.tituloImg == "" ? (
               <figure className="size-full">
                 <img
@@ -155,7 +162,7 @@ const Content = ({ data, handlePlay }) => {
           Reproducir video
         </button>
       </div>
-      <div className="translate-y-16 px-12 pt-14 flex flex-col gap-6">
+      <div className="translate-y-16 lg:px-12 max-lg:px-4 pt-14 flex flex-col gap-6">
         <h2 className="capitalize font-interB text-2xl">
           {data.categoria} | InterRapidísimo
           <span className="w-full text-start text-xs inline-block">
@@ -166,9 +173,9 @@ const Content = ({ data, handlePlay }) => {
           className="text-justify"
           dangerouslySetInnerHTML={{ __html: data.descripcion }}
         />
-        <div className="w-full flex justify-between gap-2">
+        <div className="w-full h-36 flex justify-between gap-2">
           {data.makingOf.map((item, i) => (
-            <figure key={i} className="relative">
+            <figure key={i} className="relative size-full inline-block">
               {item.video !== "" && (
                 <PlayIcon
                   handleClick={() => handlePlay(item.video)}
@@ -177,7 +184,7 @@ const Content = ({ data, handlePlay }) => {
                   }
                 />
               )}
-              <img className="rounded-lg" src={item.kv} alt={item.titulo} />
+              <img className="rounded-lg size-full object-cover" src={item.kv} alt={item.titulo} />
             </figure>
           ))}
         </div>

@@ -11,7 +11,7 @@ export const ContentCampaing = ({
   setFicha,
 }) => {
   return (
-    <div className="h-80 flex items-center justify-start gap-6">
+    <div className="lg:h-80 max-lg:h-62 max-lg:w-full flex items-center justify-start lg:gap-6 ">
       {data.map((data, i) => (
         <CardCampaing
           key={i}
