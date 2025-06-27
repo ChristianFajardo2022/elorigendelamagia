@@ -21,6 +21,7 @@
         "descripcion": "Cada línea, cada trazo y cada plano en esta mágica historia estuvo pensado para que emocionara a las personas, tanto como nos emocionó a nosotros, esperamos que disfruten de este proceso, tanto como lo hicimos nosotros.",
         "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
         "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-1.jpg",
+        "kvMobile": "/imagenes/bg-making-el-origen-de-la-magia-kv-1M.jpg",
         "trailer": "/video/trailers/origendelamagia.mp4",
         "trailerM": "/video/trailers/origendelamagia.mp4"
       },
@@ -29,6 +30,7 @@
         "descripcion": "Estas son las palabras de los que vieron a la gran maga Juanita en acción, y quienes viven en este mágico lugar, que parece sacado de libros de ficción, un pueblo que emerge de entre las aguas de la ciénaga convirtiéndose en un paraíso en medio del Magdalena.",
         "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
         "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-2.jpg",
+        "kvMobile": "/imagenes/bg-making-el-origen-de-la-magia-kv-2M.jpg",
         "trailer": "/video/trailers/origendelamagia.mp4",
         "trailerM": "/video/trailers/origendelamagia.mp4"
       },
@@ -37,6 +39,7 @@
         "descripcion": "Al rendir homenaje a quienes sostienen a sus familias con casi nada, descubrimos a otros magos: los que, entre cifras y debates, desafían el clima y cruzan fronteras con la esperanza de algún día retornar a su tierra trunfadores.",
         "video": "https://www.youtube.com/watch?v=c02q6fefv1c",
         "kv": "/imagenes/bg-making-el-origen-de-la-magia-kv-3.jpg",
+        "kvMobile": "/imagenes/bg-making-el-origen-de-la-magia-kv-3M.jpg",
         "trailer": "/video/trailers/origendelamagia.mp4",
         "trailerM": "/video/trailers/origendelamagia.mp4"
       }
@@ -399,8 +402,7 @@
       }
     ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "pez-mariposa-plastificada",
@@ -409,7 +411,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvpez.jpg",
     "trailer": "/video/trailers/Shorts-pez-mariposa.mp4",
     "trailerM": "/video/trailers/Shorts-pez-mariposa.mp4",
-    "categoria": ["Responsabilidad Social"],
+    "categoria": [
+      "Responsabilidad Social"
+    ],
     "fecha": "Marzo de 20253",
     "kv": "imagenes/kv/kvpez.jpg",
     "creditos": "",
@@ -440,11 +444,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "caballito-de-mar-en-bolsa-plástica",
@@ -453,7 +455,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvcaballito.jpg",
     "trailer": "/video/trailers/Shorts-Caballo-de-mar.mp4",
     "trailerM": "/video/trailers/Shorts-Caballo-de-mar.mp4",
-    "categoria": ["Responsabilidad Social"],
+    "categoria": [
+      "Responsabilidad Social"
+    ],
     "fecha": "Marzo de 2023",
     "kv": "imagenes/kv/kvcaballito.jpg",
     "creditos": "",
@@ -484,11 +488,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "nos-levantaremos",
@@ -497,7 +499,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvnoslevantaremos.jpg",
     "trailer": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
     "trailerM": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
-    "categoria": ["Deportes"],
+    "categoria": [
+      "Deportes"
+    ],
     "fecha": "Julio de 2024",
     "kv": "imagenes/kv/kvnoslevantaremos.jpg",
     "creditos": "",
@@ -528,11 +532,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "inter-rapidísimo-orgulloso-patrocinador-oficial-sudamericano-catar-2022™",
@@ -541,7 +543,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
     "trailer": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
     "trailerM": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
-    "categoria": ["Deportes"],
+    "categoria": [
+      "Deportes"
+    ],
     "fecha": "Noviembre de 2022",
     "kv": "imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
     "creditos": "",
@@ -572,11 +576,9 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   },
   {
     "slug": "¡solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!",
@@ -585,7 +587,9 @@
     "imgBackgroundMakingOf": "/imagenes/kv/kvsolopasamosarecordarles.jpg",
     "trailer": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
     "trailerM": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
-    "categoria": ["Deportes"],
+    "categoria": [
+      "Deportes"
+    ],
     "fecha": "Noviembre de 2022",
     "kv": "imagenes/kv/kvsolopasamosarecordarles.jpg",
     "creditos": "",
@@ -616,10 +620,8 @@
         "trailer": "",
         "trailerM": ""
       }
-    
-    ],   
+    ],
     "souvenir": false,
-        "making": false
-
+    "making": false
   }
 ]

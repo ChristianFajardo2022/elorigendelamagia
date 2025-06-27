@@ -2,6 +2,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import { OverLay } from "../commons/OverLay";
 import { ContentCampaing } from "../commons/ContentCampaing";
+import { mobile } from "../../helpers/medidas";
 
 export const SectionMakingof = ({ data, handlePlay }) => {
   const [selectedMaking, setSelectedMaking] = useState(0);
@@ -21,6 +22,8 @@ export const SectionMakingof = ({ data, handlePlay }) => {
 
 /* Background dinamico */
 const BackGround = ({ data, children, selectedMaking }) => {
+  const destokKv = data[selectedMaking].kv;
+  const mobileKv = data[selectedMaking].kvMobile;
   return (
     <>
       <OverLay top={true} radial={true} />
@@ -32,15 +35,15 @@ const BackGround = ({ data, children, selectedMaking }) => {
           exit={{ opacity: 0, scale: 1.1 }}
           transition={{ duration: 0.6, ease: "easeInOut" }}
           style={{
-            backgroundImage: `url(${data[selectedMaking].kv})`,
+            backgroundImage: `url(${mobile ? mobileKv : destokKv})`,
           }}
-          className="absolute size-full bg-top bg-no-repeat bg-cover z-[9]"
+          className="absolute size-full bg-top bg-no-repeat lg:bg-cover max-lg:bg-contain z-[9]"
         />
       </AnimatePresence>
       <div
-        className={`relative flex flex-col justify-end items-start size-full z-[22] lg:px-20 max-lg:px-4 pb-20`}
+        className={`relative flex flex-col justify-end items-start size-full z-[22] lg:px-20 max-lg:px-4 max-lg:pb-8 lg:pb-20`}
       >
-        <div className="w-full pb-10">
+        <div className="w-full pb-6">
           <h2 className="font-interB lg:text-6xl max-lg:text-4xl">
             {data[selectedMaking].titulo}
           </h2>

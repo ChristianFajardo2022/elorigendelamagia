@@ -9,7 +9,7 @@ export const SliderCampaing = ({ children }) => {
   const sliderRef = useRef();
 
   const totalSlides = React.Children.count(children);
-  const slidesToShow = 4; // podrías hacerlo dinámico según `responsive`
+  const slidesToShow = 2; // podrías hacerlo dinámico según `responsive`
 
   const isFirstSlide = currentSlide === 0;
   const isLastSlide = currentSlide >= totalSlides - slidesToShow;
