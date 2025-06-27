@@ -85,7 +85,7 @@ const SampleNextArrow = ({ onClick, disabled }) => {
       className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 z-10 lg:group-hover/slide:opacity-100 lg:group-hover/slide:scale-100 lg:scale-0 transition-all ease-in-out"
       onClick={onClick}
     >
-      <i className="w-12 h-12 inline-block">
+      <i className="lg:w-12 max-lg:w-8 lg:h-12 max-lg:h-8 inline-block">
         <img
           className="size-full object-contain"
           src="/iconos/next.svg"
@@ -103,7 +103,7 @@ const SamplePrevArrow = ({ onClick, disabled }) => {
       className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 z-10 lg:group-hover/slide:opacity-100 lg:group-hover/slide:scale-100 lg:scale-0 transition-all ease-in-out"
       onClick={onClick}
     >
-      <i className="w-12 h-12 inline-block rotate-180">
+      <i className="lg:w-12 max-lg:w-8 lg:h-12 max-lg:h-8 inline-block rotate-180">
         <img
           className="size-full object-contain"
           src="/iconos/next.svg"
