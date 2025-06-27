@@ -27,7 +27,7 @@ export const BackgroundTrailer = ({ data, play }) => {
             <div className="size-full lg:hidden">
               <img
                 className="size-full object-cover"
-                src={data.imgBackgroundMakingOf}
+                src="/imagenes/kv/background-lamagia.jpg"
                 alt={data.titulo}
               />
             </div>
