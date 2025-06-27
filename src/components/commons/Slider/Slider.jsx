@@ -3,13 +3,14 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./slider.css";
+import { mobile } from "../../../helpers/medidas";
 
 export const SliderCampaing = ({ children }) => {
   const [currentSlide, setCurrentSlide] = useState(0);
   const sliderRef = useRef();
 
   const totalSlides = React.Children.count(children);
-  const slidesToShow = 2; // podrías hacerlo dinámico según `responsive`
+  const slidesToShow = mobile ? 2 : 4; // podrías hacerlo dinámico según `responsive`
 
   const isFirstSlide = currentSlide === 0;
   const isLastSlide = currentSlide >= totalSlides - slidesToShow;
