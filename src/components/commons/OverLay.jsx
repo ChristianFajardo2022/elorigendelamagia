@@ -8,7 +8,7 @@ export const OverLay = ({ top, bottom, radial }) => {
         <div className="absolute top-0 left-0 bg-radial to-80% to-blackInter/70 size-full z-10" />
       )}
       {bottom && (
-        <div className="absolute top-0 left-0 bg-gradient-to-b to-blackInter from-80% size-full z-20" />
+        <div className="absolute top-0 left-0 bg-gradient-to-b to-blackInter lg:from-80% max-lg:from-8% size-full z-20" />
       )}
     </div>
   );

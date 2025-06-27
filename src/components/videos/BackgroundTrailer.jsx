@@ -16,7 +16,21 @@ export const BackgroundTrailer = ({ data, play }) => {
             transition={{ duration: 1, ease: "easeOut" }}
           >
             <OverLay top={true} bottom={true} />
-            <VideoPlayinline data={data} autoPlay={true} scale={"scale-135"} />
+
+            <div className="size-full max-lg:hidden">
+              <VideoPlayinline
+                data={data}
+                autoPlay={true}
+                scale={"scale-135"}
+              />
+            </div>
+            <div className="size-full lg:hidden">
+              <img
+                className="size-full object-cover"
+                src={data.imgBackgroundMakingOf}
+                alt={data.titulo}
+              />
+            </div>
           </motion.div>
         )}
       </AnimatePresence>
