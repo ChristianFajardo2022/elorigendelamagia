@@ -2,18 +2,19 @@
   {
     "slug": "el-origen-de-la-magia",
     "titulo": "La Magia de Nueva Venecia",
-    "tituloImg": "",
-    "imgBackgroundMakingOf": "/imagenes/bg-making-el-origen-de-la-magia.jpg",
+    "tituloImg": "/imagenes/el-origen-de-la-magia.svg",
+    "tituloImgMobile": "/imagenes/el-origen-de-la-magiaMobile.svg",
+    "imgBackgroundMakingOf": "/imagenes/kv/lamagiadenuevavenecia.jpg",
     "trailer": "/video/trailers/origendelamagia.mp4",
     "trailerM": "/video/trailers/origendelamagia.mp4",
     "categoria": [
       "Comercial"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Junio de 2025",
     "kv": "imagenes/kv/lamagiadenuevavenecia.jpg",
-    "creditos": "<ul><li><strong>Vp Creativo</strong> Isaac Chaparro</li><li><strong>Gerente Creativo</strong> Edwin Romero</li><li><strong>Director de Cine</strong> Carlos Godoy</li><li><strong>Post Productor</strong> Felipe Chica</li><li><strong>Productora Ejecutiva</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo</strong> Andrés Ramírez</li><li><strong>Foto fija</strong> Camilo Salazar</li><li><strong>Realizador y Drone</strong> Camilo Ospina</li><li><strong>Gráfica Audiovisual</strong> Andrea Pedraza</li><li><strong>Director de Arte</strong> William Martínez</li><li><strong>Diseñador Gráfico</strong> Gabriel González</li><li><strong>Diseñador Gráfico</strong> Juan Garza</li><li><strong>Diseñador Gráfico</strong> Julián Getzamhá</li><li><strong>Creativo</strong> Daniel Garzón</li><li><strong>Relaciones Públicas</strong> Lauri Espinosa</li><li><strong>AD y Director NY</strong> David Bravo</li><li><strong>Director Fotografía</strong> Andrés Vergara (Comanche)</li><li><strong>Gaffer</strong> Julián Bohórquez</li><li><strong>Música Original</strong> Diego Cáceres</li><li><strong>Colorista</strong> Daniel Saavedra</li><li><strong>Director de Vestuario</strong> Tulia Díaz</li><li><strong>Vestuarista</strong> Sam Ruiz</li><li><strong>Actriz Principal</strong> Angie Gómez</li><li><strong>Actor</strong> Roberto Giraldo</li><li><strong>Dir. Arte (Cortometraje)</strong> Rebecca Piñeres</li><li><strong>Extra</strong> Hiber Cabarcas</li></ul>",
-    "descripcion": "Una historia mágica nos lleva de Nueva Venecia, Magdalena a EE. UU., tras los pasos de una migrante que conquistó corazones y vuelve a casa, para honrar al verdadero mago de su vida.",
-    "video": "https://www.youtube.com/watch?v=TvH3Hq3_gbs",
+    "creditos": "<ul><li><strong>VP Creativo</strong></li><li><strong>Gerente Publicidad</strong></li><li><strong>Director Creativo</strong></li><li><strong>Director de Arte</strong></li><li><strong>Diseñadores Gráficos</strong></li><li><strong>Copywriter</strong></li><li><strong>Productora</strong></li><li><strong>Audiovisuales</strong></li><li><strong>Web Master</strong></li><li><strong>País</strong></li><li><strong>Año</strong></li></ul><ul><li>Isaac Chaparro Mendez (Estratégico Creativo)</li><li>Edwin Romero</li><li>Alejandro Camelo</li><li>William Martínez López</li><li>Gabriel Eduardo González, Javier Alexander Pachón Santana, Jonathan Bustos Melendez, Julián Getzamha</li><li>Daniel Santiago Garzón Correa</li><li>BRAVE FILMS</li><li>David Camilo Salazar Cubillos, Luis Felipe Correal Anchique</li><li>Christian Camilo Fajardo Hernandez, Jefersson Andres Bautista Vega</li><li>Colombia</li><li>2023</li></ul>",
+    "descripcion": "Este es un querido homenaje a todos esos padres que han hecho magia por sacar a sus hijos adelante. Feliz día 👨🧙‍♂️",
+    "video": "https://www.youtube.com/watch?v=4227QqBm5ws",
     "makingOf": [
       {
         "titulo": "Del storyboard, a la historia",
@@ -55,7 +56,7 @@
     ],
     "fecha": "Abril de 2025",
     "kv": "imagenes/kv/ultimamilla.jpg",
-    "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Equipo Creativo:</strong> Alejandro Camelo - Daniel Garzón</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Foto fija y Realización Audiovisual:</strong> Camilo Salazar</li><li><strong>Postproducción y Color:</strong> Felipe Chica</li><li><strong>Arte y Gráfica:</strong> William Martínez</li><li><strong>Cast:</strong> @julian_velasquez_actor @manolitoramirez03 @davinsonramirez_actorjuvenil</li><li><strong>Director:</strong> Carlos Godoy</li><li><strong>AD:</strong> David Bravo</li><li><strong>Producción de Campo:</strong> Andrés Gómez @fisica_pura</li><li><strong>DP:</strong> Santiago Otoya</li><li><strong>Gaffer:</strong> @elsa_veedra</li><li><strong>Foto Crew:</strong> @xocarrax @pipeberri Camilo Ospina @david.salgadod</li><li><strong>Arte:</strong> @lasagradafamilia.arte</li><li><strong>Vest:</strong> @lineinsb</li><li><strong>Makeup:</strong> @juanita.gomez._</li><li><strong>Sonido directo:</strong> @elmandelsonido</li><li><strong>Diseño de sonido y Música:</strong> @dizeemills</li><li><strong>Vfx:</strong> @theportalmedia @jlmartins @dtrres</li><li><strong>Entrenador de perros:</strong> @maritoverde</li></ul>",
+    "creditos": "<ul><li><strong>VP Creativo</strong></li><li><strong>Gerente Publicidad</strong></li><li><strong>Gerente Mercadeo</strong></li><li><strong>Equipo Creativo</strong></li><li><strong>Productora Ejecutiva</strong></li><li><strong>Foto fija y Realización Audiovisual</strong></li><li><strong>Postproducción y Color</strong></li><li><strong>Arte y Gráfica</strong></li><li><strong>Cast</strong></li><li><strong>Director</strong></li><li><strong>AD</strong></li><li><strong>Producción de Campo</strong></li><li><strong>DP</strong></li><li><strong>Gaffer</strong></li><li><strong>Foto Crew</strong></li><li><strong>Arte</strong></li><li><strong>Vest</strong></li><li><strong>Makeup</strong></li><li><strong>Sonido directo</strong></li><li><strong>Diseño de sonido y Música</strong></li><li><strong>Vfx</strong></li><li><strong>Entrenador de perros</strong></li></ul><ul><li>Isaac Chaparro</li><li>Edwin Romero</li><li>Andrés Ramírez</li><li>Alejandro Camelo - Daniel Garzón</li><li>Sara Alfonso</li><li>Camilo Salazar</li><li>Felipe Chica</li><li>William Martínez</li><li>@julian_velasquez_actor @manolitoramirez03 @davinsonramirez_actorjuvenil</li><li>Carlos Godoy</li><li>David Bravo</li><li>Andrés Gómez @fisica_pura</li><li>Santiago Otoya</li><li>@elsa_veedra</li><li>@xocarrax @pipeberri Camilo Ospina @david.salgadod</li><li>@lasagradafamilia.arte</li><li>@lineinsb</li><li>@juanita.gomez._</li><li>@elmandelsonido</li><li>@dizeemills</li><li>@theportalmedia @jlmartins @dtrres</li><li>@maritoverde</li></ul>",
     "descripcion": "Un día fuimos al espacio infinidades de veces, ganamos la copa mundial en cada encuentro, incluso, subíamos siempre a lo más alto del podio porque fuimos niños. Pero, ¿saben algo? Siempre es un buen día para ser niños.",
     "video": "https://www.youtube.com/watch?v=8VIcwCRwr5g",
     "makingOf": [
@@ -90,16 +91,16 @@
   {
     "slug": "el-gran-acto",
     "titulo": "El Gran Acto",
-    "tituloImg": "",
+    "tituloImg": "/imagenes/TEXTOS-granacto.png",
     "imgBackgroundMakingOf": "/imagenes/kv/kvelgranacto.jpg",
     "trailer": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "trailerM": "/video/trailers/TRÁILER-CAMPAÑA-DE-NAVIDAD.mp4",
     "categoria": [
       "Comercial"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Diciembre de 2024",
     "kv": "imagenes/kv/kvelgranacto.jpg",
-    "creditos": "<ul><li><strong>V.P. Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Creativo:</strong> Edwin Romero</li><li><strong>Director de Cine:</strong> Charlie Godoy</li><li><strong>Edición y Color:</strong> Felipe Chica</li><li><strong>Director de Fotografía:</strong> Santiago Otoya</li><li><strong>Asistente de Dirección:</strong> David Bravo</li><li><strong>Director de Arte:</strong> William Martínez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo:</strong> Andrés Ramírez</li><li><strong>Directora de Experiencias:</strong> Lina Botero</li><li><strong>Productor de Campo:</strong> Andrés Gómez</li><li><strong>Productor Musical:</strong> Diego Cáceres</li><li><strong>Compositor:</strong> Mauricio y Palodeagua</li><li><strong>Compositor:</strong> Camilo Godoy</li><li><strong>Creativo:</strong> Daniel Garzón</li><li><strong>Creativo:</strong> Felipe González</li><li><strong>Diseñador Gráfico:</strong> Gabriel González</li><li><strong>Diseñador Gráfico:</strong> Juan Garza</li><li><strong>Diseñador Gráfico:</strong> Sergio Castro</li><li><strong>Diseñador Gráfico:</strong> Jonathan Bustos</li><li><strong>Fotografía:</strong> Camilo Salazar</li><li><strong>Realizador:</strong> Juan Camilo Ospina</li><li><strong>Gráfica Audiovisual:</strong> Andrea Pedraza</li><li><strong>Creadora de Contenido:</strong> Sandra Escobar</li><li><strong>Desarrollador Web:</strong> Jefersson Bautista</li><li><strong>Desarrollador Web:</strong> Christian Fajardo</li><li><strong>Investigador:</strong> Diego Rodríguez</li><li><strong>Experiencias:</strong> Laura León</li><li><strong>Relaciones Públicas:</strong> Lauri Espinosa</li><li><strong>Publicidad:</strong> Diana Velasco</li><li><strong>Mercadeo:</strong> Nicolás Pinzón</li><li><strong>Entrenador de Actores:</strong> Jorge Giraldo</li><li><strong>Productora de Campo:</strong> Carolina Bermúdez</li><li><strong>Coordinación de Producción:</strong> Jaime A. y Leydi G.</li></ul>",
+    "creditos": "<ul><li><strong>V.P. Creativo</strong></li><li><strong>Gerente Creativo</strong></li><li><strong>Director de Cine</strong></li><li><strong>Edición y Color</strong></li><li><strong>Director de Fotografía</strong></li><li><strong>Asistente de Dirección</strong></li><li><strong>Director de Arte</strong></li><li><strong>Director Creativo</strong></li><li><strong>Productora Ejecutiva</strong></li><li><strong>Gerente de Mercadeo</strong></li><li><strong>Directora de Experiencias</strong></li><li><strong>Productor de Campo</strong></li><li><strong>Productor Musical</strong></li><li><strong>Compositor</strong></li><li><strong>Compositor</strong></li><li><strong>Creativo</strong></li><li><strong>Creativo</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Fotografía</strong></li><li><strong>Realizador</strong></li><li><strong>Gráfica Audiovisual</strong></li><li><strong>Creadora de Contenido</strong></li><li><strong>Desarrollador Web</strong></li><li><strong>Desarrollador Web</strong></li><li><strong>Investigador</strong></li><li><strong>Experiencias</strong></li><li><strong>Relaciones Públicas</strong></li><li><strong>Publicidad</strong></li><li><strong>Mercadeo</strong></li><li><strong>Entrenador de Actores</strong></li><li><strong>Productora de Campo</strong></li><li><strong>Coordinación de Producción</strong></li></ul><ul><li>Isaac Chaparro</li><li>Edwin Romero</li><li>Charlie Godoy</li><li>Felipe Chica</li><li>Santiago Otoya</li><li>David Bravo</li><li>William Martínez</li><li>Alejandro Camelo</li><li>Sara Alfonso</li><li>Andrés Ramírez</li><li>Lina Botero</li><li>Andrés Gómez</li><li>Diego Cáceres</li><li>Mauricio y Palodeagua</li><li>Camilo Godoy</li><li>Daniel Garzón</li><li>Felipe González</li><li>Gabriel González</li><li>Juan Garza</li><li>Sergio Castro</li><li>Jonathan Bustos</li><li>Camilo Salazar</li><li>Juan Camilo Ospina</li><li>Andrea Pedraza</li><li>Sandra Escobar</li><li>Jefersson Bautista</li><li>Christian Fajardo</li><li>Diego Rodríguez</li><li>Laura León</li><li>Lauri Espinosa</li><li>Diana Velasco</li><li>Nicolás Pinzón</li><li>Jorge Giraldo</li><li>Carolina Bermúdez</li><li>Jaime A. y Leydi G.</li></ul>",
     "descripcion": "Esta entrega es más que un simple mensaje; es una ventana a una realidad que a menudo ignoramos. Por eso este año decidimos hacer un homenaje a  quienes pasan estas fechas en silencio, invisibles para muchos, pero profundamente humanos en su necesidad de ser recordados, valorados y amados. Este gran acto hagámoslo por ellos, y entenderán porque entregar, es mejor que recibir. FELIZ NAVIDAD.",
     "video": "https://www.youtube.com/watch?v=yV3bIwC3y1g",
     "makingOf": [
@@ -141,9 +142,9 @@
     "categoria": [
       "Comercial"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Septiembre de 2024",
     "kv": "imagenes/kv/kvamigosdelalma.jpg",
-    "creditos": "<ul><li><strong>V.P. Creativo:</strong> Isaac Chaparro</li><li><strong>Gerente Creativo:</strong> Edwin Romero</li><li><strong>Director de Cine:</strong> Charlie Godoy</li><li><strong>Edición y Color:</strong> Felipe Chica</li><li><strong>Director de Fotografía:</strong> Santiago Otoya</li><li><strong>Asistente de Dirección:</strong> David Bravo</li><li><strong>Director de Arte:</strong> William Martínez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Productora Ejecutiva:</strong> Sara Alfonso</li><li><strong>Gerente de Mercadeo:</strong> Andrés Ramírez</li><li><strong>Directora de Experiencias:</strong> Lina Botero</li><li><strong>Productor de Campo:</strong> Andrés Gómez</li><li><strong>Productor Musical:</strong> Diego Cáceres</li><li><strong>Compositor:</strong> Mauricio y Palodeagua</li><li><strong>Compositor:</strong> Camilo Godoy</li><li><strong>Creativo:</strong> Daniel Garzón</li><li><strong>Creativo:</strong> Felipe González</li><li><strong>Diseñador Gráfico:</strong> Gabriel González</li><li><strong>Diseñador Gráfico:</strong> Juan Garza</li><li><strong>Diseñador Gráfico:</strong> Sergio Castro</li><li><strong>Diseñador Gráfico:</strong> Jonathan Bustos</li><li><strong>Fotografía:</strong> Camilo Salazar</li><li><strong>Realizador:</strong> Juan Camilo Ospina</li><li><strong>Gráfica Audiovisual:</strong> Andrea Pedraza</li><li><strong>Creadora de Contenido:</strong> Sandra Escobar</li><li><strong>Desarrollador Web:</strong> Jefersson Bautista</li><li><strong>Desarrollador Web:</strong> Christian Fajardo</li><li><strong>Investigador:</strong> Diego Rodríguez</li><li><strong>Experiencias:</strong> Laura León</li><li><strong>Relaciones Públicas:</strong> Lauri Espinosa</li><li><strong>Publicidad:</strong> Diana Velasco</li><li><strong>Mercadeo:</strong> Nicolás Pinzón</li><li><strong>Entrenador de Actores:</strong> Jorge Giraldo</li><li><strong>Productora de Campo:</strong> Carolina Bermúdez</li><li><strong>Coordinación de Producción:</strong> Jaime A. y Leydi G.</li></ul",
+    "creditos": "<ul><li><strong>V.P. Creativo</strong></li><li><strong>Gerente Creativo</strong></li><li><strong>Director de Cine</strong></li><li><strong>Edición y Color</strong></li><li><strong>Director de Fotografía</strong></li><li><strong>Asistente de Dirección</strong></li><li><strong>Director de Arte</strong></li><li><strong>Director Creativo</strong></li><li><strong>Productora Ejecutiva</strong></li><li><strong>Gerente de Mercadeo</strong></li><li><strong>Directora de Experiencias</strong></li><li><strong>Productor de Campo</strong></li><li><strong>Productor Musical</strong></li><li><strong>Compositor</strong></li><li><strong>Compositor</strong></li><li><strong>Creativo</strong></li><li><strong>Creativo</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Diseñador Gráfico</strong></li><li><strong>Fotografía</strong></li><li><strong>Realizador</strong></li><li><strong>Gráfica Audiovisual</strong></li><li><strong>Creadora de Contenido</strong></li><li><strong>Desarrollador Web</strong></li><li><strong>Desarrollador Web</strong></li><li><strong>Investigador</strong></li><li><strong>Experiencias</strong></li><li><strong>Relaciones Públicas</strong></li><li><strong>Publicidad</strong></li><li><strong>Mercadeo</strong></li><li><strong>Entrenador de Actores</strong></li><li><strong>Productora de Campo</strong></li><li><strong>Coordinación de Producción</strong></li></ul><ul><li>Isaac Chaparro</li><li>Edwin Romero</li><li>Charlie Godoy</li><li>Felipe Chica</li><li>Santiago Otoya</li><li>David Bravo</li><li>William Martínez</li><li>Alejandro Camelo</li><li>Sara Alfonso</li><li>Andrés Ramírez</li><li>Lina Botero</li><li>Andrés Gómez</li><li>Diego Cáceres</li><li>Mauricio y Palodeagua</li><li>Camilo Godoy</li><li>Daniel Garzón</li><li>Felipe González</li><li>Gabriel González</li><li>Juan Garza</li><li>Sergio Castro</li><li>Jonathan Bustos</li><li>Camilo Salazar</li><li>Juan Camilo Ospina</li><li>Andrea Pedraza</li><li>Sandra Escobar</li><li>Jefersson Bautista</li><li>Christian Fajardo</li><li>Diego Rodríguez</li><li>Laura León</li><li>Lauri Espinosa</li><li>Diana Velasco</li><li>Nicolás Pinzón</li><li>Jorge Giraldo</li><li>Carolina Bermúdez</li><li>Jaime A. y Leydi G.</li></ul>",
     "descripcion": "Con esta entrega buscamos hacer un homenaje a todos aquellos que siempre están ahí. Para esto quisimos contar la historia de Alejo y Toño dos amigos que llevan toda la vida juntos y quienes nos sirvieron de inspiración para celebrar la amistad más fiel que existe. En amigodelalma.com puedes conseguir una replica exacta del collar de Toño y podrás personalizarlo con una foto tuya junto a tu amigo del alma. ",
     "video": "https://www.youtube.com/watch?v=4IjOMqehin8",
     "makingOf": [
@@ -186,9 +187,9 @@
       "Comercial",
       "Deportes"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Junio de 2024",
     "kv": "imagenes/kv/kvmaturana.jpg",
-    "creditos": "<ul><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez</li><li><strong>Gerente Publicidad:</strong> Edwin Romero</li><li><strong>Gerente Mercadeo:</strong> Andrés Ramírez</li><li><strong>Director Creativo:</strong> Alejandro Camelo</li><li><strong>Director de Arte:</strong> William Martínez López</li><li><strong>Diseño Gráfico:</strong> Gabriel Eduardo González</li><li><strong>Diseño Gráfico:</strong> Jonathan Bustos Meléndez</li><li><strong>Diseño Gráfico:</strong> Juan David Garza Forero</li><li><strong>Diseño Gráfico:</strong> Julián Getzamhá</li><li><strong>Diseño Gráfico:</strong> Sergio Arturo Castro Carrillo</li><li><strong>Diseño Gráfico:</strong> Paola Andrea Pedraza Casallas</li><li><strong>Equipo Creativo:</strong> Daniel Santiago Garzón Correa</li><li><strong>Equipo Creativo:</strong> Ginna Melo</li><li><strong>Equipo Creativo:</strong> Juliana Escobar</li><li><strong>Equipo Creativo:</strong> Juan Pablo Vega</li><li><strong>Productora:</strong> Inter Rapidísimo</li><li><strong>Dirección Audiovisual:</strong> Charlie Godoy</li><li><strong>Fotografía:</strong> David Camilo Salazar Cubillos</li><li><strong>Colorización y Post:</strong> Andrés Felipe Herreño Chica</li><li><strong>Jefe de Prensa:</strong> Lauri Espinosa</li></ul>",
+    "creditos": "<ul><li><strong>VP Creativo</strong></li><li><strong>Gerente Publicidad</strong></li><li><strong>Gerente Mercadeo</strong></li><li><strong>Director Creativo</strong></li><li><strong>Director de Arte</strong></li><li><strong>Diseño Gráfico</strong></li><li><strong>Diseño Gráfico</strong></li><li><strong>Diseño Gráfico</strong></li><li><strong>Diseño Gráfico</strong></li><li><strong>Diseño Gráfico</strong></li><li><strong>Diseño Gráfico</strong></li><li><strong>Equipo Creativo</strong></li><li><strong>Equipo Creativo</strong></li><li><strong>Equipo Creativo</strong></li><li><strong>Equipo Creativo</strong></li><li><strong>Productora</strong></li><li><strong>Dirección Audiovisual</strong></li><li><strong>Fotografía</strong></li><li><strong>Colorización y Post</strong></li><li><strong>Jefe de Prensa</strong></li></ul><ul><li>Isaac Chaparro Mendez</li><li>Edwin Romero</li><li>Andrés Ramírez</li><li>Alejandro Camelo</li><li>William Martínez López</li><li>Gabriel Eduardo González</li><li>Jonathan Bustos Meléndez</li><li>Juan David Garza Forero</li><li>Julián Getzamhá</li><li>Sergio Arturo Castro Carrillo</li><li>Paola Andrea Pedraza Casallas</li><li>Daniel Santiago Garzón Correa</li><li>Ginna Melo</li><li>Juliana Escobar</li><li>Juan Pablo Vega</li><li>Inter Rapidísimo</li><li>Charlie Godoy</li><li>David Camilo Salazar Cubillos</li><li>Andrés Felipe Herreño Chica</li><li>Lauri Espinosa</li></ul>",
     "descripcion": "<p>Han pasado 23 años desde que un grupo de amigos nos dejó una victoria inolvidable, hoy quisimos hacer un homenaje a ellos y a quienes están luchando por traer la segunda. </p><p>Esta entrega es para todos ustedes, porque hemos llorado, nos hemos ilusionado, y nos hemos levantado muchas veces. Queremos que sepan que lo único que no perdemos es la fe. </p><p>¡Vamos muchachos, ganémosla de nuevo!</p><p>Inter Rapidísimo Optimista Colaborador Oficial de la Selección Colombia.</p><p>Un homenaje a: @franciscomaturanaoficial @aristigol09 @oscarcordoba_ @gerardobedoyam @totono_grisales @eulalio_arriaga @oscardiazg_10 @fabianvargas_6 Iván López, Roberto Carlos Cortés, Elkin Murillo, Miguel Calero y Elson Becerra.</p><p>#InterRapidisimo #Maturana #Colombia #SelelccionColombia #CopaAmerica 2024</p>",
     "video": "https://www.youtube.com/watch?v=uzJmSqZlXmc",
     "makingOf": [
@@ -231,7 +232,7 @@
       "Comercial",
       "Responsabilidad Social"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Marzo de 2025",
     "kv": "imagenes/kv/kvguardianesdelparamo2025.jpg",
     "creditos": "",
     "descripcion": "<p>Unidos avanzamos más lejos.</p><p>Unidos conseguimos cosas increíbles.</p><p>Unidos no hay posiciones que nos separen.</p><p>Este año, nos unimos a 23 de las marcas más importantes del país para sembrar 500 nuevos frailejones en el páramo más lindo del mundo.Inter Rapidísimo Optimista Colaborador Oficial de la Selección Colombia.</p><p>Ahora juntos somos #GuardianesDelPáramo y compartimos un propósito que nos unirá por siempre.</p><p>Gracias amigos de: @canalrcn @caracoltv @movistarcolombia @clarocolombia @deprisaoficial @dhllatam @productosramo @pepsicocolombia @taxislibres @picap_col @grupoaval @bancofabella_co @rappicolombia @amazon @piboxcol @bluradio @olimpicastereo @autogermana_bmw @landrovercolombia @jaguar_colombia @citroencolombia @suzuki_colombia @gwm_colombia @columbia_col </p>",
@@ -276,7 +277,7 @@
       "Comercial",
       "Responsabilidad Social"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Marzo de 2024",
     "kv": "imagenes/kv/kvguardianesdelparamo2024.jpg",
     "creditos": "",
     "descripcion": "<p>En enero del 2024, una ola de calor causó graves incendios en gran parte del territorio nacional, afectando ecosistemas tan valiosos como lo son los páramos.</p><p>Ante esto, decidimos donar 2,000 frailejones, de los cuales ya sembramos los primeros 500. Esta acción fue acompañada por Moisés Moreno, quien ha sembrado exitosamente más de 2,400 frailejones, el Doctor en Biología, Fernando Alzate Guarín, docente y experto en Páramos desde hace más de 25 años de la Universidad de Antioquia y un especialista del Instituto Humboldt, estudiaron el suelo y determinaron que cuenta con las condiciones óptimas para que los frailejones crezcan sin problema.</p><p>En esta primera siembra, un hijo de la montaña fue el encargado de pedir permiso al páramo para poder ingresar a estas sagradas tierras, luego, dotó de conocimiento y herramientas a cada uno de los 200 voluntarios a quienes bautizaría como Guardianes del Páramo, para que la siembra sea exitosa.</p><p>Esta experiencia fue sellada con una moneda, símbolo de que no existe el dinero suficiente para comprar estos ecosistemas únicos que proveen agua a muchos territorios del país.</p>",
@@ -314,14 +315,14 @@
     "slug": "estand-colombiamoda-2024",
     "titulo": "Estand Colombiamoda 2024",
     "tituloImg": "",
-    "imgBackgroundMakingOf": "/imagenes/kv/kvguardianesdelparamo2024.jpg",
+    "imgBackgroundMakingOf": "/imagenes/kv/colombiamoda.jpg",
     "trailer": "/video/trailers/Shorts-Colombiamoda.mp4",
     "trailerM": "/video/trailers/Shorts-Colombiamoda.mp4",
     "categoria": [
       "Comercial",
       "Responsabilidad Social"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Julio de 2024",
     "kv": "imagenes/kv/colombiamoda.jpg",
     "creditos": "",
     "descripcion": " <p>En @colombiamoda_oficial  invitamos a los asistentes a vivir nuestra experiencia con los Guardianes del Páramo, en un estand construido con materiales renovables en donde buscaremos sembrar en todos el amor y cuidado por nuestros páramos. Pongamos de moda la sostenibilidad. 🥰</p><p>",
@@ -366,9 +367,9 @@
       "Comercial",
       "Responsabilidad Social"
     ],
-    "fecha": "Abril de 2025",
+    "fecha": "Marzo de 2023",
     "kv": "imagenes/kv/kvmundoplastico.jpg",
-    "creditos": "<ul><li><strong>Anunciante:</strong> Inter Rapidísimo.</li><li><strong>VP Creativo:</strong> Isaac Chaparro Mendez (Estratégico Creativo).</li><li><strong>Gerente Publicidad:</strong> Edwin Romero.</li><li><strong>Director Creativo:</strong> Alejandro Camelo.</li><li><strong>Director de Arte:</strong> William Martínez López.</li><li><strong>Diseñadores Gráficos:</strong> Gabriel Eduardo González, Javier Alexander Pachón Santana, Jonathan Bustos Melendez, Julián Getzamha.</li><li><strong>Copywriter:</strong> Daniel Santiago Garzón Correa.</li><li><strong>Productora:</strong> BRAVE FILMS.</li><li><strong>Audiovisuales:</strong> David Camilo Salazar Cubillos, Luis Felipe Correal Anchique.</li><li><strong>Web Master:</strong> Christian Camilo Fajardo Hernandez, Jefersson Andres Bautista Vega.</li><li><strong>País:</strong> Colombia.</li><li><strong>Año:</strong> 2023.</li></ul>",
+    "creditos": "<ul><li><strong>Anunciante</strong></li><li><strong>VP Creativo</strong></li><li><strong>Gerente Publicidad</strong></li><li><strong>Director Creativo</strong></li><li><strong>Director de Arte</strong></li><li><strong>Diseñadores Gráficos</strong></li><li><strong>Copywriter</strong></li><li><strong>Productora</strong></li><li><strong>Audiovisuales</strong></li><li><strong>Web Master</strong></li><li><strong>País</strong></li><li><strong>Año</strong></li></ul><ul><li>Inter Rapidísimo</li><li>Isaac Chaparro Mendez (Estratégico Creativo)</li><li>Edwin Romero</li><li>Alejandro Camelo</li><li>William Martínez López</li><li>Gabriel Eduardo González, Javier Alexander Pachón Santana, Jonathan Bustos Melendez, Julián Getzamha</li><li>Daniel Santiago Garzón Correa</li><li>BRAVE FILMS</li><li>David Camilo Salazar Cubillos, Luis Felipe Correal Anchique</li><li>Christian Camilo Fajardo Hernandez, Jefersson Andres Bautista Vega</li><li>Colombia</li><li>2023</li></ul>",
     "descripcion": "<p>Un mejor mundo para nuestras futuras generaciones, esa será nuestra entrega. Para lograrlo decidimos dar el primer paso, llevamos a cientos de pescadores de plástico a las playas de Colombia con la misión de recolectar el plástico que llega hasta allí y recuperar estos ecosistemas. Ecosistemas que están siendo alterados y afectados a tal punto que nuestras especies obligadas a adaptarse a estos entornos que se están convirtiendo en una pesadilla para su supervivencia. Por esta razón, estamos invitando a todas las personas a hacer un uso adecuado del plástico, un uso consciente que no ponga en riesgo la vida de nuestras especies, o a usar alternativas que no representen un peligro para los ecosistemas. Conoce más sobre esta campaña en mundosinplastico.com </p>",
     "video": "https://www.youtube.com/watch?v=bk2tQC3PhXs",
     "makingOf": [
@@ -409,7 +410,7 @@
     "trailer": "/video/trailers/Shorts-pez-mariposa.mp4",
     "trailerM": "/video/trailers/Shorts-pez-mariposa.mp4",
     "categoria": ["Responsabilidad Social"],
-    "fecha": "Abril de 2025",
+    "fecha": "Marzo de 20253",
     "kv": "imagenes/kv/kvpez.jpg",
     "creditos": "",
     "descripcion": "<p>Décadas de darle un mal uso al plástico está trayendo consigo estas nuevas especies descubiertas en Colombia; en Inter Rapidísimo usaremos una Bolsa sin plástico para extinguir un mundo lleno de plástico que quiere acabar con nuestras especies. </p>",
@@ -453,7 +454,7 @@
     "trailer": "/video/trailers/Shorts-Caballo-de-mar.mp4",
     "trailerM": "/video/trailers/Shorts-Caballo-de-mar.mp4",
     "categoria": ["Responsabilidad Social"],
-    "fecha": "Abril de 2025",
+    "fecha": "Marzo de 2023",
     "kv": "imagenes/kv/kvcaballito.jpg",
     "creditos": "",
     "descripcion": "<p>Décadas de darle un mal uso al plástico está trayendo consigo estas nuevas especies descubiertas en Colombia; en Inter Rapidísimo usaremos una Bolsa sin plástico para extinguir un mundo lleno de plástico que quiere acabar con nuestras especies. </p>",
@@ -497,7 +498,7 @@
     "trailer": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
     "trailerM": "/video/trailers/Shorts-la-levantaremos-de-nuevo.mp4",
     "categoria": ["Deportes"],
-    "fecha": "Abril de 2025",
+    "fecha": "Julio de 2024",
     "kv": "imagenes/kv/kvnoslevantaremos.jpg",
     "creditos": "",
     "descripcion": "<p>Volveremos y más fuertes…",
@@ -541,7 +542,7 @@
     "trailer": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
     "trailerM": "/video/trailers/Shorts-Orgulloso-patrocinador-oficial1.mp4",
     "categoria": ["Deportes"],
-    "fecha": "Abril de 2025",
+    "fecha": "Noviembre de 2022",
     "kv": "imagenes/kv/kvorgullosopatrocinadorcatar.jpg",
     "creditos": "",
     "descripcion": "<p>¡Solo pasamos a recordarles que esta entrega ya empezó!</p><p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022™ y de nuestras valientes guerreras.</p>",
@@ -585,7 +586,7 @@
     "trailer": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
     "trailerM": "/video/trailers/Shorts-Solo-pasamos-a-recordarles-que-esta-entrega-ya-empezó!.mp4",
     "categoria": ["Deportes"],
-    "fecha": "Abril de 2025",
+    "fecha": "Noviembre de 2022",
     "kv": "imagenes/kv/kvsolopasamosarecordarles.jpg",
     "creditos": "",
     "descripcion": "<p>Inter Rapidísimo. Orgulloso Patrocinador Oficial Sudamericano Catar 2022 y de nuestras valientes guerreras 💙.</p>",

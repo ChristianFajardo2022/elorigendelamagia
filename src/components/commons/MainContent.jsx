@@ -1,6 +1,10 @@
+import { mobile } from "../../helpers/medidas";
 import { PlayIcon } from "./PlayIcon";
 
 export const MainContent = ({ data, handleClick }) => {
+
+ 
+  
   return (
     <div className="lg:w-4/7 max-lg:w-full absolute lg:bottom-44 max-lg:bottom-12 px-4 lg:left-20 max-lg:lef0 z-10 flex flex-col justify-items-start items-start gap-4 z-50">
       <div className="size-full">
@@ -10,7 +14,7 @@ export const MainContent = ({ data, handleClick }) => {
             <figure className="size-full">
               <img
                 className="size-full object-contain"
-                src={data.tituloImg}
+                src={mobile ? data.tituloImgMobile: data.tituloImg}
                 alt={`Logo de ${data.titulo}`}
               />
             </figure>

@@ -49,8 +49,6 @@ export const EntregasSection = ({ dataList, handlePlay }) => {
     {}
   );
 
-  console.log(selectedMaking);
-
   return (
     <section className="w-full lg:px-8 py-12 bg-black text-white space-y-10">
       {Object.entries(groupedData).map(([category, items]) => (
@@ -111,7 +109,10 @@ const FichaCampaing = ({ setFicha, data, children }) => {
         transition={{ duration: 0.5 }}
         className="relative w-full max-w-3xl bg-blackInter lgrounded-t-2xl overflow-auto lg:max-h-[calc(100vh-8rem)] max-lg:max-h-screen"
       >
-        <i onClick={() => setFicha(false)} className="cursor-pointer w-8 h-8 inline-block absolute right-4 top-4 z-10 bg-blackInter/30 rounded-full p-2">
+        <i
+          onClick={() => setFicha(false)}
+          className="cursor-pointer w-8 h-8 inline-block absolute right-4 top-4 z-10 bg-blackInter/30 rounded-full p-2"
+        >
           <img
             className="w-full h-full object-contain"
             src="/iconos/close.svg"
@@ -184,7 +185,11 @@ const Content = ({ data, handlePlay }) => {
                   }
                 />
               )}
-              <img className="rounded-lg size-full object-cover" src={item.kv} alt={item.titulo} />
+              <img
+                className="rounded-lg size-full object-cover"
+                src={item.kv}
+                alt={item.titulo}
+              />
             </figure>
           ))}
         </div>
