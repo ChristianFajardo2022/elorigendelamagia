@@ -68,7 +68,7 @@ export const SliderCampaing = ({ children }) => {
 
   return (
     <div className="slider-container group/slide lg:px-12 max-lg:px-4 relative">
-      {/* <div className="absolute w-30 h-full left-0 bg-gradient-to-l to-black to-65% z-9" /> */}
+      <div className="absolute max-lg:w-20 lg:w-30 h-full left-0 bg-gradient-to-l to-blackInter/80 to-65% z-9 pointer-events-none" />
       <div className="absolute max-lg:w-20 lg:w-30 h-full right-0 bg-gradient-to-r to-blackInter/80 to-65% z-9 pointer-events-none" />
       <Slider {...settings} ref={sliderRef}>
         {children}
@@ -85,7 +85,13 @@ const SampleNextArrow = ({ onClick, disabled }) => {
       className="cursor-pointer absolute right-0 top-1/2 -translate-y-1/2 z-10 lg:group-hover/slide:opacity-100 lg:group-hover/slide:scale-100 lg:scale-0 transition-all ease-in-out"
       onClick={onClick}
     >
-      siguiente
+      <i className="w-12 h-12 inline-block">
+        <img
+          className="size-full object-contain"
+          src="/iconos/next.svg"
+          alt=""
+        />
+      </i>
     </div>
   );
 };
@@ -97,7 +103,13 @@ const SamplePrevArrow = ({ onClick, disabled }) => {
       className="cursor-pointer absolute left-0 top-1/2 -translate-y-1/2 z-10 lg:group-hover/slide:opacity-100 lg:group-hover/slide:scale-100 lg:scale-0 transition-all ease-in-out"
       onClick={onClick}
     >
-      atrás
+      <i className="w-12 h-12 inline-block rotate-180">
+        <img
+          className="size-full object-contain"
+          src="/iconos/next.svg"
+          alt=""
+        />
+      </i>
     </div>
   );
 };

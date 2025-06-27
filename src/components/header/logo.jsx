@@ -1,3 +1,15 @@
+import { Link } from "react-router-dom";
+
 export const Logo = () => {
-  return <div>logo</div>;
+  return (
+    <Link to={"/"}>
+      <i className="w-6 h-6 inline-block">
+        <img
+          className="size-full object-contain"
+          src="/iconos/prospero.svg"
+          alt=""
+        />
+      </i>
+    </Link>
+  );
 };
