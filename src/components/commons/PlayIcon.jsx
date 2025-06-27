@@ -2,7 +2,7 @@ export const PlayIcon = ({ invertColor, customStyle, handleClick }) => {
   return (
     <i
       onClick={handleClick ? handleClick : null}
-      className={`size-full pl-1 inline-block ${invertColor ? "invert" : ""} ${
+      className={`size-full pl-0.5 inline-block ${invertColor ? "invert" : ""} ${
         customStyle ? customStyle : ""
       }`}
     >

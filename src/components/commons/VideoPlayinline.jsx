@@ -28,7 +28,7 @@ export const VideoPlayinline = ({ data, autoPlay, play, scale }) => {
       className={`video size-full object-cover ${
         scale ? scale : ""
       } object-center pointer-events-none`}
-      autoPlay={autoPlay && !play ? true : false}
+      autoPlay
       muted
       loop
       playsInline

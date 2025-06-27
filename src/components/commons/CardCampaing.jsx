@@ -48,7 +48,7 @@ export const CardCampaing = ({
         <h2 className="font-extrabold text-xs">{data.titulo}</h2>
         <div className="flex justify-center items-center gap-2 lg:group-hover/card:opacity-100 lg:opacity-0 max-lg:opacity-100 transition-all duration-500">
           <button
-            className="cursor-pointer hover:opacity-70 lg:w-8 max-lg:w-5 lg:h-8 max-lg:h-5 flex items-center justify-center bg-whiteInter rounded-full p-1.5"
+            className="cursor-pointer hover:opacity-70 w-7 h-7  flex items-center justify-center bg-whiteInter rounded-full p-2"
             onClick={() => handlePlay(data.video)}
           >
             <PlayIcon />
