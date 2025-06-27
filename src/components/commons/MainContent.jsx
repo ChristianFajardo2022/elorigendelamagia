@@ -1,4 +1,3 @@
-import { BotonReproducir } from "../BotonReproducir";
 import { PlayIcon } from "./PlayIcon";
 
 export const MainContent = ({ data, handleClick }) => {
